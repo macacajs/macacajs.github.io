@@ -1,0 +1,117 @@
+---
+layout: default
+permalink: /
+---
+
+<section class="hello-world container text-center">
+  <div class="container">
+    {% include_relative assets/icons/macaca.svg %}
+
+    <h1>
+      {% translate global.slogan %}
+      {% include_relative assets/icons/heart.svg %}
+      {% include_relative assets/icons/heart.svg %}
+    </h1>
+
+    <a href="./getting-started.html" class="getting-started">
+      <paper-ripple class="maroon"></paper-ripple>
+      {% translate home_page.get_start %}
+    </a>
+  </div>
+</section>
+
+<section class="command">
+  <div class="container">
+    <p class="text-center">{% translate home_page.description %}</p>
+    {% if site.lang == "en" %}
+      {% highlight shell %}
+      $ npm i -g macaca-cli macaca-ios # Install Tools And Driver
+      $ macaca run                     # Run. That's All
+      {% endhighlight %}
+    {% elsif site.lang == "zh" %}
+      {% highlight shell %}
+      $ npm i -g macaca-cli macaca-ios # 安装命令行工具和驱动模块
+      $ macaca run                     # 运行即可，点击按钮播放视频
+      {% endhighlight %}
+    {% endif %}
+  </div>
+
+  <button id="play" class="play" title="Watch Video">
+    <paper-ripple class="maroon"></paper-ripple>
+  </button>
+</section>
+
+<section class="sample clearfix">
+  <div class="container">
+  {% include video.html id="sample-video" url="https://os.alipayobjects.com/rmsportal/rEgPjSRIJBwfbMq.mp4" %}
+  </div>
+</section>
+
+<section class="features clearfix">
+  <div class="container">
+    <div class="feature-item">
+      <h3>{% translate home_page.cross_platforms %}</h3>
+      {% if site.lang == "en" %}
+      <p>Both <strong>Mobile</strong>, Desktop Platforms Supported</p>
+      {% elsif site.lang == "zh" %}
+      <p>面向多用户端，支持<strong>移动端</strong>和PC端</p>
+      {% endif %}
+    </div>
+
+    <div class="feature-item">
+      <h3>{% translate home_page.real_devices %}</h3>
+      {% if site.lang == "en" %}
+      <p>Native, Hybrid and Mobile Web, Multi-applications Supported</p>
+      {% elsif site.lang == "zh" %}
+      <p>支持Native, Hybrid, 移动端WEB等多种应用类型</p>
+      {% endif %}
+    </div>
+
+    <div class="feature-item">
+      <h3>{% translate home_page.easy_test %}</h3>
+      {% if site.lang == "en" %}
+      <p>Multi-lang Supported, Test case debug more easier</p>
+      {% elsif site.lang == "zh" %}
+      <p>支持多种语言编写脚本，提供单步调试，元素查看器，录制回放等周边工具</p>
+      {% endif %}
+    </div>
+
+    <div class="feature-item">
+      <h3>{% translate home_page.distributed_ci %}</h3>
+      {% if site.lang == "en" %}
+      <p>Privately deployed continuous integration service</p>
+      {% elsif site.lang == "zh" %}
+      <p>提供持续集成方案及持续集成平台的私有部署方案</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<script>
+  (function() {
+    var sampleVideo = document.getElementById('sample-video');
+    var videoContainer = sampleVideo.parentNode.parentNode;
+    var playBtn = document.getElementById('play');
+
+    playBtn.addEventListener('click', function() {
+      videoContainer.style.display = 'block';
+      sampleVideo.play();
+    }, false);
+
+    var lang_button = document.getElementById('lang-button');
+    lang_button.addEventListener('click', swichLang, false);
+    var current_lang = document.getElementById('lang').value;
+
+    function swichLang(e) {
+      e.preventDefault()
+      var dist = location.protocol + '//' + location.host;
+
+      if (current_lang === 'en') {
+        dist += '/zh' + location.pathname;
+      } else {
+        dist += location.pathname.replace('/zh', '');
+      }
+      location.href = dist;
+    }
+  })();
+</script>

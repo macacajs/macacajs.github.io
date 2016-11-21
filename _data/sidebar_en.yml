@@ -1,0 +1,29 @@
+- title: Quick Start
+  docs:
+    - [getting-started, Getting Started]
+    - [environment-setup, Environment Setup]
+    - [desired-caps, Desired Capabilities]
+    - [cli-usage, Macaca CLI Usage]
+
+- title: Tools
+  docs:
+    - [debugging, Debugging]
+    - [inspector, Inspector]
+    - [recorder, Recorder]
+
+- title: API
+  docs:
+    - [javascript, JavaScript]
+    - [java, Java]
+    - [python, Python]
+
+- title: CI Service
+  docs:
+    - [master-deployment, Reliable Master]
+    - [slave-deployment, Reliable Slave]
+    - [using-with-ci, Integration with CI Server]
+
+- title: Other
+  docs:
+    - [changelog, Change Log]
+    - [faq, FAQ]

@@ -1,0 +1,29 @@
+- title: 快速上手
+  docs:
+    - [getting-started, 上手指南]
+    - [environment-setup, 环境配置]
+    - [desired-caps, 脚本初始化参数]
+    - [cli-usage, 命令行工具]
+
+- title: 周边工具
+  docs:
+    - [debugging, 单步调试器]
+    - [inspector, 元素查看器]
+    - [recorder, 录制回放器]
+
+- title: API
+  docs:
+    - [javascript, JavaScript版]
+    - [java, Java版]
+    - [python, Python版]
+
+- title: CI服务
+  docs:
+    - [master-deployment, Reliable Master部署]
+    - [slave-deployment, Reliable Slave部署]
+    - [using-with-ci, 使用其他CI服务]
+
+- title: 其它
+  docs:
+    - [changelog, 更新日志]
+    - [faq, 常见问题]

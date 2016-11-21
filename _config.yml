@@ -1,0 +1,33 @@
+name: Macaca
+
+collections:
+  docs:
+    output: true
+    permalink: /:path.html
+
+defaults:
+  -
+    scope:
+      path: "_docs"
+    values:
+      layout: docs
+
+timezone: Asia/Shanghai
+
+#Exclude from Build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-multiple-languages-plugin
+  - README.md
+  - LICENSE
+
+sass:
+  # style: expanded
+  style: compressed
+
+gems:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "zh"]
+exclude_from_localizations: ["assets", "redirects"]

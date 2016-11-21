@@ -1,0 +1,40 @@
+<header class="clearfix">
+  <div class="container">
+    <a href="{% if site.lang == "zh" %}/zh{% endif %}/" class="brand">{{ site.name }}</a>
+
+    <nav id="nav">
+      <a href="{% if site.lang == "zh" %}/zh{% endif %}/"{% if page.path == "index.html" %} class="current"{% endif %}>
+        <paper-ripple class="peach"></paper-ripple>
+        {% translate global.home %}
+      </a>
+      <a href="{% if site.lang == "zh" %}/zh{% endif %}/getting-started"{% if page.path contains "_docs/" and page.path != "_docs/support.md" %} class="current"{% endif %}>
+        <paper-ripple class="peach"></paper-ripple>
+        {% translate global.guide %}
+      </a>
+      <a href="{% if site.lang == "zh" %}/zh{% endif %}/support"{% if page.path == "_docs/support.md" %} class="current"{% endif %}>
+        <paper-ripple class="peach"></paper-ripple>
+        {% translate global.support %}
+      </a>
+      <a href="//github.com/alibaba/macaca/issues?utf8=%E2%9C%93&q=" target="_blank">
+        <paper-ripple class="peach"></paper-ripple>
+        GitHub
+      </a>
+      <a href="javascript:void(0)" id="lang-button">
+        {% translate global.lang %}
+      </a>
+    </nav>
+    <button id="menu" class="menu"></button>
+  </div>
+</header>
+<script>
+  (function() {
+    var menu = document.getElementById('menu');
+    var nav = document.getElementById('nav');
+    var hidden = true;
+
+    menu.addEventListener('click', function() {
+      nav.style.display = hidden ? 'block' : 'none';
+      hidden = !hidden;
+    }, false);
+  })();
+</script>
