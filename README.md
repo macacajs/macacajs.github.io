@@ -4,15 +4,32 @@
 
 Start a dev server at `localhost:4000`:
 
+### install jekyll
+
 ```shell
-$ gem install jekyll
-$ gem install bundler
-$ bundle install
+$ sudo gem install jekyll
 ```
+
+### install bundler
+
+```shell
+$ sudo gem install bundler
+```
+
+### bundle install
+
+```shell
+$ bundle install 
+```
+
+###  start server
 
 ```shell
 $ jekyll server
 ```
+
+then you can open to see this website: [http://localhost:4000/](http://localhost:4000/) 
+
 
 ## Build Site
 
