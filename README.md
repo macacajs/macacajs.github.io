@@ -23,11 +23,12 @@ $ bundle install
 ```
 
 ###  start server
+
 ```shell
 $ jekyll server
 ```
 
-then you can open to see target website: [http://localhost:4000/](http://localhost:4000/) 
+then you can open to see this website: [http://localhost:4000/](http://localhost:4000/) 
 
 
 ## Build Site
@@ -35,3 +36,9 @@ then you can open to see target website: [http://localhost:4000/](http://localho
 ```shell
 $ jekyll build
 ```
+
+## Public
+
+default branch: develop
+
+public branch: master
