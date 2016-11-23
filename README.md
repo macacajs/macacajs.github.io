@@ -6,6 +6,11 @@ Start a dev server at `localhost:4000`:
 
 ```shell
 $ gem install jekyll
+$ gem install bundler
+$ bundle install
+```
+
+```shell
 $ jekyll server
 ```
 
@@ -14,3 +19,9 @@ $ jekyll server
 ```shell
 $ jekyll build
 ```
+
+## Public
+
+default branch: develop
+
+public branch: master
