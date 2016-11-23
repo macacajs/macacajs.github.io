@@ -15,6 +15,8 @@ $ brew install usbmuxd
 $ brew install ios-webkit-debug-proxy
 ```
 
+Homebrew 一款常用的 MacOS 的包管理器
+
 ## 安卓
 
 0. [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
