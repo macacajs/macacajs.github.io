@@ -1,6 +1,6 @@
 # Python 版
 
-## Usage
+## 用法示例
 
 ```python
 
@@ -47,8 +47,8 @@ if __name__ == '__main__':
 
 ```
 
-## Links
+## 相关链接
 
-- [API doc](//macacajs.github.io/wd.py)
-- [source code](//github.com/macacajs/wd.py)
-- [sample](//github.com/macacajs/macaca-test-sample-python)
+- [API 文档](//github.com/macacajs/wd.py)
+- [示例](//github.com/macacajs/macaca-test-sample-python)
+- [源代码](//github.com/macacajs/wd.py)

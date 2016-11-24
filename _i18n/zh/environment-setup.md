@@ -8,49 +8,41 @@
 
 0. 请安装 Xcode8 或者更高版本
 0. 需要安装 [usbmuxd](//github.com/libimobiledevice/usbmuxd) 以便于通过 USB 通道测试 iOS 真机，不需要测试真机则不用安装
-	
-	```shell
-	$ brew install usbmuxd
-	```
+
+```shell
+$ brew install usbmuxd
+```
 
 0. 应用中如含有 WebView，请安装 [ios-webkit-debug-proxy](//github.com/google/ios-webkit-debug-proxy)
 
-	```shell
-	$ brew install ios-webkit-debug-proxy
-	```
+```shell
+$ brew install ios-webkit-debug-proxy
+```
 
-	备注：使用brew命令需要安装[Homebrew](http://brew.sh/index_zh-cn.html)（一款常用的 MacOS 的包管理器）,简易安装命令如下： 
-	
-	```shell
-		$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-	```
+备注：使用brew命令需要安装[Homebrew](http://brew.sh/index_zh-cn.html)（一款常用的 MacOS 的包管理器），请按照官网提示安装。
 
 ## 安卓
 
 0. [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 0. 配置JAVA_HOME,根据你所使用的shell工具修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
-	
-	```shell
-	 export JAVA_HOME=path/to/your/Java/Home
-	```
+
+```shell
+export JAVA_HOME=path/to/your/Java/Home
+```
 
 0. 安装安卓 SDK，运行 `brew install android-sdk`，然后安装18-23版本中的任一SDK
 0.  shell 环境设置 `ANDROID_HOME`
 	根据你所使用的Terminal修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
-	
-	```shell
-	
-	### 如果是通过homebrew安装的android-sdk，则路径如下	
-	export ANDROID_HOME = /usr/local/opt/android-sdk
-	
 
-	### 如果通过其他方式安装的sdk，路径设置为对应的android sdk的路径
-	
-	export ANDROID_HOME = path/to/your/Android/sdk
-	
-	```
+```shell
+# 如果是通过homebrew安装的android-sdk，则路径如下
+export ANDROID_HOME = /usr/local/opt/android-sdk
 
+# 如果通过其他方式安装的sdk，路径设置为对应的android sdk的路径
+export ANDROID_HOME = path/to/your/Android/sdk
+
+```
 
 ## 命令行工具
 
@@ -68,8 +60,6 @@ $ npm i -g macaca-cli
 如果看到如下可爱的🐒，那恭喜你安装成功啦！重新安装则会覆盖更新。
 
 ![](https://os.alipayobjects.com/rmsportal/zSmLbyWUarTabaP.png)
-
-
 
 ### 安装驱动（不同驱动适应不同平台的支持）
 

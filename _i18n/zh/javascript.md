@@ -1,6 +1,6 @@
 # JavaScript 版
 
-## Usage
+## 用法示例
 
 ```javascript
 var wd = require('macaca-wd');
@@ -35,14 +35,14 @@ it('#1 should', function() {
 ...
 ```
 
-## Extend
+## 扩展 API
 
 ```javascript
 wd.addPromiseChainMethod(name, method);
 ```
 
-## Links
+## 相关链接
 
-- [API doc](//macacajs.github.io/macaca-wd)
-- [source code](//github.com/macacajs/macaca-wd)
-- [sample](//github.com/macacajs/macaca-test-sample)
+- [API 文档](//macacajs.github.io/macaca-wd)
+- [源代码](//github.com/macacajs/macaca-wd)
+- [示例仓库](//github.com/macacajs/macaca-test-sample)

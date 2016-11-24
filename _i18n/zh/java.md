@@ -2,7 +2,7 @@
 
 [![Download](https://api.bintray.com/packages/xudafeng/maven/macacaclient/images/download.svg)](https://bintray.com/xudafeng/maven/macacaclient/_latestVersion)
 
-## Usage
+## 用法示例
 
 ```java
 package macaca.client;
@@ -66,8 +66,8 @@ public class SampleTest {
 }
 ```
 
-## Links
+## 相关链接
 
-- [API doc](//macacajs.github.io/wd.java)
-- [source code](//github.com/macacajs/wd.java)
-- [sample](//github.com/macacajs/macaca-test-sample-java)
+- [API 文档](//macacajs.github.io/wd.java)
+- [源代码](//github.com/macacajs/wd.java)
+- [示例](//github.com/macacajs/macaca-test-sample-java)
