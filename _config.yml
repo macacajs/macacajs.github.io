@@ -21,6 +21,7 @@ exclude:
   - jekyll-multiple-languages-plugin
   - README.md
   - LICENSE
+  - Makefile
 
 sass:
   # style: expanded
