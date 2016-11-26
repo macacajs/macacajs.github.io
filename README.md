@@ -19,7 +19,7 @@ $ sudo gem install bundler
 ### bundle install
 
 ```shell
-$ bundle install 
+$ bundle install
 ```
 
 ###  start server
@@ -28,8 +28,7 @@ $ bundle install
 $ jekyll server
 ```
 
-then you can open to see this website: [http://localhost:4000/](http://localhost:4000/) 
-
+then you can open to see this website: [http://localhost:4000/](http://localhost:4000/)
 
 ## Build Site
 

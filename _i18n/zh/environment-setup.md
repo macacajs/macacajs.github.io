@@ -25,14 +25,14 @@ $ brew install ios-webkit-debug-proxy
 
 0. [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-0. 配置JAVA_HOME,根据你所使用的shell工具修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
+0. 配置 JAVA_HOME，根据你所使用的 shell 工具修改不同的文件，比如 ~/.bashrc, ~/.bash_profile, ~/.zshrc
 
-```shell
-export JAVA_HOME=path/to/your/Java/Home
-```
+  ```shell
+  export JAVA_HOME=path/to/your/Java/Home
+  ```
 
-0. 安装安卓 SDK，运行 `brew install android-sdk`，然后安装18-23版本中的任一SDK
-0.  shell 环境设置 `ANDROID_HOME`
+0. 安装安卓 SDK，运行 `brew install android-sdk`，然后安装`18-24`版本中的任一 SDK
+0. shell 环境设置 `ANDROID_HOME`
 	根据你所使用的Terminal修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
 
 ```shell

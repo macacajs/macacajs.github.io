@@ -6,7 +6,7 @@
 # run test in current cwd
 $ macaca run --verbose
 
-# 指定测试文件目录及测试框架
+# 指定测试文件目录及测试框架，此功能只支持 Node.js 版
 # 目前支持 mocha, jasmine, tman 和 ava。
 $ macaca run -d ./test -f mocha
 
