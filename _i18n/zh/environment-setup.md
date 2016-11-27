@@ -2,7 +2,7 @@
 
 ## 安装 Node.js
 
-请安装 [Node.js](https://nodejs.org/) v4.0 或者更高版本。
+请安装 [Node.js](https://nodejs.org/) v4.0 或者更高版本，装好 `Node.js` 后命令行里就已经集成了 `npm` 工具，为了提高安装模块的速度，请使用国内的 `cnpm`。
 
 ## iOS 环境
 

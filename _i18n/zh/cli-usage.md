@@ -20,10 +20,12 @@ $ macaca run --no-window
 $ CUSTOM_DIR=path/to/screenshot macaca run -d ./test --reporter macaca-simple-reportor
 ```
 
+`macaca-simple-reportor` 是自定义报告器的一个示例，可以作为参考。
+
 ### 只启动服务器
 
 ```shell
-# 普通用法
+# 普通用法，添加了 --verbose 可以看到详细的信息
 $ macaca server --verbose
 
 # 设置端口号
