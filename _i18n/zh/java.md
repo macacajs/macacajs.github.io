@@ -1,5 +1,7 @@
 # Java 版
 
+请使用如下最新版本
+
 [![Download](https://api.bintray.com/packages/xudafeng/maven/macacaclient/images/download.svg)](https://bintray.com/xudafeng/maven/macacaclient/_latestVersion)
 
 ## 用法示例
