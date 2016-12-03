@@ -21,6 +21,8 @@ $ brew install ios-webkit-debug-proxy
 
 备注：使用brew命令需要安装[Homebrew](http://brew.sh/index_zh-cn.html)（一款常用的 MacOS 的包管理器），请按照官网提示安装。
 
+* 准备 App 包：如需要测试 iOS 应用，请使用 Scheme 设置为 debug 的 `.app` 包。
+
 ## 安卓
 
 0. [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
@@ -43,6 +45,8 @@ export ANDROID_HOME = /usr/local/opt/android-sdk
 export ANDROID_HOME = path/to/your/Android/sdk
 
 ```
+
+* 准备 App 包：如需要测试 Android 应用，请使用 `.apk` 格式的包。
 
 ## 命令行工具
 
