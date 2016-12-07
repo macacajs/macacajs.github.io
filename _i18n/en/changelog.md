@@ -1,5 +1,9 @@
 # Change Log
 
+## 2016.12.07
+
+- optimize cli tool
+
 ## 2016.11.07
 
 - connection via USB for iOS
