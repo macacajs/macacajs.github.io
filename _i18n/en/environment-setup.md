@@ -49,7 +49,7 @@ $ npm i -g macaca-cli
 
 If you saw the picture below, congratulations! Macaca has been installed successfully!
 
-![](https://os.alipayobjects.com/rmsportal/zSmLbyWUarTabaP.png)
+![](http://ww4.sinaimg.cn/large/6d308bd9gw1faie2w55hnj20rs0ov4fu.jpg)
 
 ### Local Installation
 
