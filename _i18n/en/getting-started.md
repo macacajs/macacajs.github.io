@@ -18,11 +18,11 @@ Further options could be found in [this document](./cli-usage.html).
 
 ## Examples
 
-Check out the sample located in this repo([macaca-test-sample](//github.com/macacajs/macaca-test-sample)), and enjoy it.
+Check out the sample located in this repo([macaca-test-sample-nodejs](//github.com/macaca-sample/macaca-test-sample-nodejs)), and enjoy it, [more sample](//github.com/macaca-sample).
 
 ```shell
-$ git clone https://github.com/macacajs/macaca-test-sample.git --depth=1
-$ cd macaca-test-sample
+$ git clone https://github.com/macaca-sample/macaca-test-sample-nodejs.git --depth=1
+$ cd macaca-test-sample-nodejs
 $ npm i
 $ macaca run --verbose
 ```

@@ -45,4 +45,4 @@ wd.addPromiseChainMethod(name, method);
 
 - [API doc](//macacajs.github.io/macaca-wd)
 - [source code](//github.com/macacajs/macaca-wd)
-- [sample](//github.com/macacajs/macaca-test-sample)
+- [sample](//github.com/macaca-sample/macaca-test-sample-nodejs)

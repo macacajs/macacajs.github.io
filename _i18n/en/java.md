@@ -70,4 +70,4 @@ public class SampleTest {
 
 - [API doc](//macacajs.github.io/wd.java)
 - [source code](//github.com/macacajs/wd.java)
-- [sample](//github.com/macacajs/macaca-test-sample-java)
+- [sample](//github.com/macaca-sample/macaca-test-sample-java)

@@ -2,11 +2,11 @@
 
 ## 运行官方示例
 
-将官方示例([macaca-test-sample](//github.com/macacajs/macaca-test-sample))克隆到本地。
+将官方示例([macaca-test-sample-nodejs](//github.com/macaca-sample/macaca-test-sample-nodejs))克隆到本地，更多的示例请访问[macaca-sample](//github.com/macaca-sample)。
 
 ```shell
-$ git clone https://github.com/macacajs/macaca-test-sample.git --depth=1
-$ cd macaca-test-sample
+$ git clone https://github.com/macaca-sample/macaca-test-sample-nodejs.git --depth=1
+$ cd macaca-test-sample-nodejs
 $ npm i
 # 更多运行方式见Makefile
 $ macaca run --verbose

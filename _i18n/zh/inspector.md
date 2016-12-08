@@ -27,4 +27,4 @@ $ app-inspector -u xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 $ app-inspector -h
 ```
 
-[更多关于 Inspector](//github.com/xudafeng/app-inspector)
+[更多关于 Inspector](//github.com/macacajs/app-inspector)

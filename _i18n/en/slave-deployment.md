@@ -1,6 +1,6 @@
 After run the `reliable-master` server, we could use command to deploy `reliable-macaca-slave`.
 
-![Reliable Macaca Slave](//os.alipayobjects.com/rmsportal/JRidRgCDdbweaEH.png)
+![Reliable Macaca Slave](http://ww2.sinaimg.cn/large/6d308bd9gw1fajd8rayohj20qc0j0tbw.jpg)
 
 ## Requirements
 
