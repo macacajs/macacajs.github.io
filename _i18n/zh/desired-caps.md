@@ -25,7 +25,7 @@ driver.init(desiredCaps);
 | 键     | 类型                                  | 描述    |
 | ---------- | ---------------------------------------- | --------- |
 | platformName | String | 当前用例运行的平台 { iOS / Android / Desktop } |
-| browerName | String | 当前测试的浏览器名称 { iOS: Safari } { Android: Chrome } { Desktop: Chrome / Electron } |
+| browserName | String | 当前测试的浏览器名称 { iOS: Safari } { Android: Chrome } { Desktop: Chrome / Electron } |
 
 ## App 相关参数
 

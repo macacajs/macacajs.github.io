@@ -25,7 +25,7 @@ driver.init(desiredCaps);
 | Key     | Type                                  | Description    |
 | ---------- | ---------------------------------------- | --------- |
 | platformName | String | Which platform the app/browser should be running on. { iOS / Android / Desktop } |
-| browerName | String | The name of the browser being used. { iOS: Safari } { Android: Chrome } { Desktop: Chrome / Electron } |
+| browserName | String | The name of the browser being used. { iOS: Safari } { Android: Chrome } { Desktop: Chrome / Electron } |
 
 ## App Capabilities
 
