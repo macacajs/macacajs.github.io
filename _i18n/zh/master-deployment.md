@@ -86,7 +86,7 @@ redis:
 
 `relibale` 的默认配置在 [config.js](//github.com/reliablejs/reliable-master/blob/master/common/config.js){:target="_blank"} 中，你可以用一个命名为 `*.reliable.config.js` 的文件覆盖默认配置，以下是一些可配置点：
 
-> 友情提示: 不要试图更改 mongodb 和 redis 的配置项，因为 docker-compose 需要这些。 如果确实需要更改，请修改 [docker-compose.yml](//github.com/reliablejs/reliable-macaca-docker-compose/blob/master/docker-compose.yml){:target="_blank"}。
+> 注意: 不要试图更改 mongodb 和 redis 的配置项，因为 docker-compose 需要这些。 如果确实需要更改，请修改 [docker-compose.yml](//github.com/reliablejs/reliable-macaca-docker-compose/blob/master/docker-compose.yml){:target="_blank"}。
 
 - 服务端
   服务端设置，如端口等。
