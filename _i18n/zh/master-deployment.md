@@ -1,26 +1,24 @@
 # Reliable Master 部署
 
-[Reliable](//reliablejs.github.io/){:target="_blank"} is a distributed reliable continuous delivery service.
+[Reliable](//reliablejs.github.io/){:target="_blank"} 是一个可靠（reliable）的持续集成服务。
 
-In order to build and run the master server quickly, without considering about redis, mongodb, and other third-party tools.
-
-Docker is the default and recommended way to deploy master.
+为了快速上手 Reliable，我们推荐你使用 Docker 进行部署，这样就无需考虑 redis， mongodb 等第三方工具。
 
 ![Macaca-Docker](http://ww2.sinaimg.cn/large/6d308bd9gw1f5scrp1p4rj20rs0gatbj.jpg)
 
-## General Requirements
+## 环境要求
 
 - [git](http://git-scm.com/){:target="_blank"} >= 2.0
 - [docker](//www.docker.com/){:target="_blank"} >= 1.9.1
 - [docker compose](//www.docker.com/products/docker-compose){:target="_blank"} >= 1.5.2
 
-> Note: some requirements, like nodejs, mongodb, redis, can use docker to pull and run. With docker, you don't need to care.
+> Note: 若采用 Docker 部署，则无需考虑 nodejs，redis 及 mongodb 版本
 
-## Basic Usage
+## 基本用法
 
-Get the source code, then you can use docker and docker-compose to setup `reliable`, just like:
+git clone 下源代码后，你可以使用 docker 和 docker-compose 来部署 `reliable`，步骤如下：
 
-Prepare basic docker image:
+1) build `reliable-docker-base` 镜像：
 
 ```shell
 $ git clone https://github.com/reliablejs/reliable-docker-base --depth=1
@@ -28,9 +26,9 @@ $ cd reliable-docker-base
 $ docker build -t="reliable-docker-base" .
 ```
 
-Run `docker images`, you could find image named `reliable-docker-base`.
+运行 `docker images`，你可以看到 `reliable-docker-base` 镜像。
 
-Prepare master `reliable-master` image:
+2) build `reliable-master` 镜像:
 
 ```shell
 $ git clone https://github.com/reliablejs/reliable-master --depth=1
@@ -38,9 +36,9 @@ $ cd reliable-master
 $ docker build -t="reliable-master" .
 ```
 
-Run `docker images`, you could find image named `reliable-master`.
+运行 `docker images`，你可以看到 `reliable-master` 镜像。
 
-Launch from compose file:
+3) 使用 docker-compose 启动:
 
 ```shell
 $ git clone https://github.com/reliablejs/reliable-macaca-docker-compose.git --depth=1
@@ -48,7 +46,7 @@ $ cd reliable-macaca-docker-compose
 $ make start
 ```
 
-Edit `docker-compose.yml` like this, in ordrer to config your master and slave.
+编辑 `docker-compose.yml` 来配置你的 master。
 
 ```yml
 reliable-master:
@@ -84,65 +82,67 @@ redis:
     - /etc/localtime:/etc/localtime:ro
 ```
 
-## Configuring
+## 配置
 
-`relibale` default configuration is in [config.js](//github.com/reliablejs/reliable-master/blob/master/common/config.js){:target="_blank"}, you could override it by add config file in root directory which need named `*.reliable.config.js`.
+`relibale` 的默认配置在 [config.js](//github.com/reliablejs/reliable-master/blob/master/common/config.js){:target="_blank"} 中，你可以用一个命名为 `*.reliable.config.js` 的文件覆盖默认配置，以下是一些可配置点：
 
-There is the relevant description:
+> 友情提示: 不要试图更改 mongodb 和 redis 的配置项，因为 docker-compose 需要这些。 如果确实需要更改，请修改 [docker-compose.yml](//github.com/reliablejs/reliable-macaca-docker-compose/blob/master/docker-compose.yml){:target="_blank"}。
 
-> It's a good idea not to change configuration of MongoDB & Redis, because docker-compose will take care of them. If you need to change, please update [docker-compose.yml](//github.com/reliablejs/reliable-macaca-docker-compose/blob/master/docker-compose.yml){:target="_blank"} to satisfy.
+- 服务端
+  服务端设置，如端口等。
+- 网站
+  一些个性化配置，如 title， baseurl 等。
+- 登录
+  配置第三方 token，如 [Github](//github.com/){:target="_blank"}，[Gitlab](//gitlab.com){:target="_blank"}。
+- 邮件
+  邮件服务配置，可参考 [Nodemailer](//github.com/nodemailer/nodemailer){:target="_blank"}。
 
-- server
-  Settings for Http server, like port.
-- site
-  Some preferences for your site, like title, baseurl, and so on.
-- auth
-  Third part token configuration, like [Github](//github.com/){:target="_blank"}, [Gitlab](//gitlab.com){:target="_blank"}.
-- mail
-  Mail service configuration, see [Nodemailer](//github.com/nodemailer/nodemailer){:target="_blank"}.
+##### 小提示
 
->##### Notice
+Reliable 启动需要一些时间，请稍作等待。
 
-Please allow a couple of minutes for the Reliable application to start.
+### 添加管理员
 
-### Add Administrator
+在 reliable-master 中使用 `make adduser` 命令添加管理员用户（对于 docker container 可以使用 `docker exec -it make adduser`，下同）。
 
-Using `make adduser` in reliable-master container to add administrator for initialization.
+### 运行状态
 
-### Running status
+在 reliable-slave 中使用 `make status` 获取 slave 运行状态。
 
-Using `make status` in reliable-slave container to get docker containers' running status.
+### 数据备份
 
-### Data Backup
+在 reliable-master 中使用 `make dump` 以从 MongoDB 中 dump 数据。
 
-Using `make dump` in reliable-master container to dump data from MongoDB containers.
+在 reliable-master 中使用 `make restore` 将数据重新存储至 MongoDB。
 
-Using `make restore` in reliable-master container to restore data into MongoDB containers.
-
-You can use `crontab` to backup data. See [scripts/cron.sh](//github.com/reliablejs/reliable-master/blob/master/scripts/cron.sh){:target="_blank"}, edit it for customization, and add it to your crontab script. Like:
+你也可以使用 `crontab` 备份数据。参考 [scripts/cron.sh](//github.com/reliablejs/reliable-master/blob/master/scripts/cron.sh){:target="_blank"}，自行配置后，添加到 crontab script 中。 如:
 
 ```shell
 $ crontab -e
 ```
 
-Configuration:
+可配置项:
 
-- home - System user home path where you put repo.
-- repo - Path of `reliable` source code folder.
-- url - Url to get slaves info, `http://<hostname>:<port>/slaves`, like `http://localhost:3333/slaves`
+- home - 当前用户 home 目录。
+- repo - `reliable` 项目文件夹。
+- url - 获取 slave 信息的链接，`http://<hostname>:<port>/slaves`，如 `http://localhost:3333/slaves`。
 
-## Integration With Service
+## 服务集成
 
-Want to integration with other service like Gitlab-CI or Jenkins?
+想要集成其它的服务如 Gitlab-CI 或 Jenkins？
 
-POST `macaca-host/api/task/create/gitlab-push.json` to submit a task.
+POST `macaca-host/api/task/create/gitlab-push.json` 来创建任务。
 
-More about the data schema, please check Gitlab documents.
+更多信息，请查看 gitlab 文档。
 
-## Screenshots
+## 截图
 
 ![reliable-1](http://ww1.sinaimg.cn/large/6d308bd9gw1f1ygp19gllj20xl0oldna.jpg)
 
 ![reliable-2](http://ww3.sinaimg.cn/large/6d308bd9gw1f1ygp26ocej20wr0j2tcz.jpg)
 
 ![reliable-3](http://ww4.sinaimg.cn/large/6d308bd9gw1f1yr1jy4ohj20qj0jzgn4.jpg)
+
+## 下一步
+
+部署 [slave](/zh/slave-deployment)
