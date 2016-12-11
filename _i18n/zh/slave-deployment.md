@@ -34,7 +34,7 @@ $ npm install reliable-macaca-slave -g
 
 ## 部署
 
-在部署 reliable-slave 之前，我们应该先让 reliable-master 运行起来，如果没有的话，你应该先部署 [reliable-master](／master-deployment) 。reliable-master 运行起来后, 执行命令来部署 reliable-slave。
+在部署 reliable-slave 之前，我们应该先让 reliable-master 运行起来，如果没有的话，你应该先部署 [reliable-master](/zh/master-deployment) 。reliable-master 运行起来后, 执行命令来部署 reliable-slave。
 
 ```shell
 $ reliable server -m <reliable-master:port> --verbose
