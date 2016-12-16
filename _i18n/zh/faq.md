@@ -9,7 +9,7 @@
 - [Android SDK版本引起的安装失败](//github.com/alibaba/macaca/issues/7)
 - [iOS 包编译问题导致无法运行](//github.com/alibaba/macaca/issues/4)
 - [iOS 真机证书问题](//github.com/alibaba/macaca/issues/42)
+- [移动端手势相关](//github.com/alibaba/macaca/issues/366)
 - [截图结果相关问题](//github.com/alibaba/macaca/issues/85)
 - [多任务测试](//github.com/alibaba/macaca/issues/105)
 - [多设备测试](//github.com/alibaba/macaca/issues/77)
-- [scrollTo的实现](//github.com/alibaba/macaca/issues/167)
