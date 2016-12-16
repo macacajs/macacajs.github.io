@@ -13,7 +13,7 @@
 
 - title: API
   docs:
-    - [javascript, JavaScript版]
+    - [nodejs, Node.js版]
     - [java, Java版]
     - [python, Python版]
 

@@ -1,4 +1,4 @@
-# JavaScript 版
+# Node.js 版
 
 ## 用法示例
 
@@ -45,4 +45,4 @@ wd.addPromiseChainMethod(name, method);
 
 - [API 文档](//macacajs.github.io/macaca-wd)
 - [源代码](//github.com/macacajs/macaca-wd)
-- [示例仓库](//github.com/macaca-sample/macaca-test-sample-nodejs)
+- [示例仓库](//github.com/macaca-sample/mobile-app-sample)
