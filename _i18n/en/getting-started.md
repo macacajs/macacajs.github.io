@@ -18,11 +18,11 @@ Further options could be found in [this document](./cli-usage.html).
 
 ## Examples
 
-Check out the sample located in this repo([mobile-app-sample](//github.com/macaca-sample/mobile-app-sample)), and enjoy it, [more sample](//github.com/macaca-sample).
+Check out the sample located in this repo([mobile-app-sample-nodejs](//github.com/macaca-sample/mobile-app-sample-nodejs)), and enjoy it, [more sample](//github.com/macaca-sample).
 
 ```shell
-$ git clone https://github.com/macaca-sample/mobile-app-sample.git --depth=1
-$ cd mobile-app-sample
+$ git clone https://github.com/macaca-sample/mobile-app-sample-nodejs.git --depth=1
+$ cd mobile-app-sample-nodejs
 $ npm i
 $ macaca run --verbose
 ```

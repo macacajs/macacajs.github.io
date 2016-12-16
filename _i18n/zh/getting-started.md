@@ -2,11 +2,11 @@
 
 ## 运行官方示例
 
-将官方示例([mobile-app-sample](//github.com/macaca-sample/mobile-app-sample))克隆到本地，更多的示例请访问[macaca-sample](//github.com/macaca-sample)。
+将官方示例([mobile-app-sample-nodejs](//github.com/macaca-sample/mobile-app-sample-nodejs))克隆到本地，更多的示例请访问[macaca-sample](//github.com/macaca-sample)。
 
 ```shell
-$ git clone https://github.com/macaca-sample/mobile-app-sample.git --depth=1
-$ cd mobile-app-sample
+$ git clone https://github.com/macaca-sample/mobile-app-sample-nodejs.git --depth=1
+$ cd mobile-app-sample-nodejs
 $ npm i
 # 更多运行方式见Makefile
 $ macaca run --verbose

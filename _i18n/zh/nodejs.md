@@ -45,4 +45,4 @@ wd.addPromiseChainMethod(name, method);
 
 - [API 文档](//macacajs.github.io/macaca-wd)
 - [源代码](//github.com/macacajs/macaca-wd)
-- [示例仓库](//github.com/macaca-sample/mobile-app-sample)
+- [示例仓库](//github.com/macaca-sample/mobile-app-sample-nodejs)
