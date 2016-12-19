@@ -1,6 +1,6 @@
 # Change Log
 
-## 2016.01.19
+## 2016.12.19
 
 - `gesture actions` supported
 
