@@ -1,5 +1,9 @@
 # Change Log
 
+## 2016.01.19
+
+- `gesture actions` supported
+
 ## 2016.12.07
 
 - optimize cli tool
