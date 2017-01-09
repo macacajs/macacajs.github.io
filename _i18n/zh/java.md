@@ -31,7 +31,6 @@ public class SampleTest {
 		porps.put("autoAcceptAlerts", true);
 		porps.put("browserName", "electron");
 		porps.put("platformName", "desktop"); // android or ios
-		porps.put("version", "");
 		porps.put("javascriptEnabled", true);
 		porps.put("platform", "ANY");
 		//porps.put("app", "path/to/app");
