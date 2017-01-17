@@ -40,8 +40,9 @@ driver.init(desiredCaps);
 | 键     | 类型                                  | 描述    |
 | ---------- | ---------------------------------------- | --------- |
 | reuse | Number | 0: 启动并安装 app。1 (默认): 卸载并重装 app。 2: 仅重装 app。3: 在测试结束后保持 app 状态。|
-| package | String | Android app 的 package name。 |
+| package | String | Android app 的 package name。|
 | activity | String | 启动时的 Activity name。|
+| androidProcess | String | 使用 chromedriver 测试 webview 时需要的自定义的进程名。|
 
 ## iOS 的参数介绍
 

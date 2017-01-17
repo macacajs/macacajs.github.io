@@ -42,6 +42,7 @@ driver.init(desiredCaps);
 | reuse | Number | 0: Launch the simulator and install the app. 1 (default): Uninstall the app and reinstall the app. 2: Only reinstall the app. 3: Keep the simulator and app after testing. |
 | package | String | Java package of the Android app you want to run. |
 | activity | String | Activity name for the Android activity you want to launch from your package. |
+| androidProcess | String | Process name for the chromedriver binding when test webview |
 
 ## iOS-only Capabilities
 
