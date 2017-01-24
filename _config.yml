@@ -22,6 +22,8 @@ exclude:
   - README.md
   - LICENSE
   - Makefile
+  - package.json
+  - node_modules
 
 sass:
   # style: expanded
