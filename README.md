@@ -19,7 +19,7 @@ $ sudo gem install bundler
 ### Scripts
 
 ```shell
-# open to see this website: [http://localhost:4000/](http://localhost:4000/)
+# open to see this website: http://localhost:4000/
 $ npm run server
 $ npm run build
 ```
