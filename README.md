@@ -16,28 +16,20 @@ $ sudo gem install jekyll
 $ sudo gem install bundler
 ```
 
-### bundle install
+### Scripts
 
 ```shell
-$ bundle install
+# open to see this website: [http://localhost:4000/](http://localhost:4000/)
+$ npm run server
+$ npm run build
 ```
 
-###  start server
-
-```shell
-$ jekyll server
-```
-
-then you can open to see this website: [http://localhost:4000/](http://localhost:4000/)
-
-## Build Site
-
-```shell
-$ jekyll build
-```
-
-## Public
+## Publish
 
 default branch: develop
 
-public branch: master
+Publish branch: master
+
+```shell
+$ npm run update
+```
