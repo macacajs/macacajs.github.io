@@ -24,6 +24,7 @@ exclude:
   - Makefile
   - package.json
   - node_modules
+  - npm-debug.log
 
 sass:
   # style: expanded
