@@ -1,6 +1,7 @@
-- title: Quick Start
+- title: Guides
   docs:
-    - [getting-started, Getting Started]
+    - [introduction, Introduction]
+    - [quick-start, Quick Start]
     - [environment-setup, Environment Setup]
     - [desired-caps, Desired Capabilities]
     - [cli-usage, Macaca CLI Usage]

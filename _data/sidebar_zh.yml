@@ -1,6 +1,7 @@
-- title: 快速上手
+- title: 使用指南
   docs:
-    - [getting-started, 上手指南]
+    - [introduction, 简要介绍]
+    - [quick-start, 快速上手]
     - [environment-setup, 环境配置]
     - [desired-caps, 脚本初始化参数]
     - [cli-usage, 命令行工具]
