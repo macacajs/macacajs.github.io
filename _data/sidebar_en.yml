@@ -7,25 +7,22 @@
     - [cli-usage, Macaca CLI Usage]
     - [versioning, Versioning]
 
-- title: Tools
-  docs:
-    - [debugging, Debugging]
-    - [inspector, Inspector]
-    - [recorder, Recorder]
-
 - title: API
   docs:
     - [nodejs, Node.js]
     - [java, Java]
     - [python, Python]
 
-- title: CI Service
+- title: Advanced
   docs:
+    - [debugging, Debugging]
+    - [inspector, Inspector]
+    - [recorder, Recorder]
     - [master-deployment, Reliable Master]
     - [slave-deployment, Reliable Slave]
     - [using-with-ci, Integration with CI Server]
 
 - title: Other
   docs:
-    - [changelog, Change Log]
+    - [changelog, RoadMap]
     - [faq, FAQ]

@@ -1,6 +1,8 @@
+**注：** 本方案适合有 Node.js 二次开发能力的用户实践
+
 # Reliable Master 部署
 
-[Reliable](//reliablejs.github.io/){:target="_blank"} 是一个可靠（reliable）的持续集成服务。
+[Reliable](//reliablejs.github.io/){:target="_blank"} 是 Node.js 实现的分布式持续集成服务。
 
 为了快速上手 Reliable，我们推荐你使用 Docker 进行部署，这样就无需考虑 redis， mongodb 等第三方工具。
 

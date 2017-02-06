@@ -7,25 +7,22 @@
     - [cli-usage, 命令行工具]
     - [versioning, 版本说明]
 
-- title: 周边工具
-  docs:
-    - [debugging, 单步调试器]
-    - [inspector, 元素查看器]
-    - [recorder, 录制回放器]
-
 - title: API
   docs:
     - [nodejs, Node.js版]
     - [java, Java版]
-    - [python, Python版]
+    - [python, Python版] 
 
-- title: CI服务
+- title: 高级进阶
   docs:
+    - [debugging, 单步调试器]
+    - [inspector, 元素查看器]
+    - [recorder, 录制回放器]
     - [master-deployment, Reliable Master部署]
     - [slave-deployment, Reliable Slave部署]
     - [using-with-ci, 使用其他CI服务]
 
 - title: 其它
   docs:
-    - [changelog, 更新日志]
-    - [faq, 常见问题]
+    - [changelog, 重要里程碑]
+    - [faq, 常见问题汇总]

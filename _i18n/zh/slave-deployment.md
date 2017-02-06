@@ -1,3 +1,5 @@
+**注：** 本方案适合有 Node.js 二次开发能力的用户实践
+
 # Reliable Slave 部署
 
 启动成功 `reliable-master` 后，我们接着来部署 `reliable-slave`。

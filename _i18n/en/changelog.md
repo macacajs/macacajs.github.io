@@ -4,10 +4,6 @@
 
 - `gesture actions` supported
 
-## 2016.12.07
-
-- optimize cli tool
-
 ## 2016.11.07
 
 - connection via USB for iOS
@@ -19,7 +15,6 @@
 ## 2016.07.05
 
 - Android support unicode input
-- iOS & Android support swipe
 
 ## 2016.05.22
 
@@ -30,10 +25,6 @@
 
 - Added `macaca-chrome` & `macaca-electron`
 - Released `macaca-wd` and webdriver documents
-
-## 2016.03.28
-
-- Added support for `Xcode 7.3`
 
 ## 2016.03.16
 
