@@ -1,6 +1,6 @@
 # Debugging
 
-## launch server only
+## Launch server only
 
 ```shell
 $ macaca server --verbose

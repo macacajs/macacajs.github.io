@@ -5,6 +5,7 @@
     - [environment-setup, Environment Setup]
     - [desired-caps, Desired Capabilities]
     - [cli-usage, Macaca CLI Usage]
+    - [versioning, Versioning]
 
 - title: Tools
   docs:
