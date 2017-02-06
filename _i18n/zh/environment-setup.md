@@ -79,8 +79,3 @@ $ macaca doctor
 如下图所示则表示环境均配置正常，如果有标红提示，则需要对应处理。
 
 ![macaca-doctor](http://ww1.sinaimg.cn/large/6b65a607jw1fa3cqjexk2j21c20padqa.jpg)
-
-## 大功告成！
-
-运行个[例子](./getting-started.html)试试吧，若在环境配置过程中遇到问题，请查看常见问题列表寻找解决办法，或提
-issue。

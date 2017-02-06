@@ -73,7 +73,3 @@ $ macaca -v
 # verify environment
 $ macaca doctor
 ```
-
-## Try it now!
-
-Are you ready to enter into the Macaca world? [Let's have a try!](./getting-started.html)
