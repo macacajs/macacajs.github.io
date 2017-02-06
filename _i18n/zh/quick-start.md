@@ -9,7 +9,7 @@ $ git clone https://github.com/macaca-sample/mobile-app-sample-nodejs.git --dept
 $ cd mobile-app-sample-nodejs
 $ npm i
 # 更多运行方式见Makefile
-$ macaca run --verbose
+# macaca run --verbose
 ```
 
 ## 运行命令行工具
@@ -18,7 +18,7 @@ $ macaca run --verbose
 $ macaca run
 ```
 
-更多的命令行用法请见[命令行文档](./cli-usage.html).
+更多的命令行用法请见[命令行文档](./cli-usage).
 
 ## 准备移动端App
 
