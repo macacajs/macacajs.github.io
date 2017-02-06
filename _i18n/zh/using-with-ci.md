@@ -1,9 +1,5 @@
 # 使用其他 CI 服务
 
-## Reliable
-
-> Docs coming soon ...
-
 ## Travis-CI
 
 | Platform   | Status                                          |  Repo              |

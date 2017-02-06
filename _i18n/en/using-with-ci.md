@@ -1,7 +1,3 @@
-## Reliable
-
-> Docs coming soon ...
-
 ## Travis-CI
 
 | Platform   | Status                                          |  Repo              |

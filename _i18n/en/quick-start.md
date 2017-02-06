@@ -14,7 +14,7 @@ Desktop: All web application could be run with initial url.
 $ macaca run
 ```
 
-Further options could be found in [this document](./cli-usage.html).
+Further options could be found in [this document](./cli-usage).
 
 ## Examples
 
