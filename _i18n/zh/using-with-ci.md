@@ -4,7 +4,7 @@
 
 | Platform   | Status                                          |  Repo              |
 | ---------- | ----------------------------------------------- | ------------------ |
-| Desktop PC | [![build status][travis-image-0]][travis-url-0] | [macaca-test-sample](//github.com/macaca-sample/macaca-test-sample-nodejs)                   |
+| Desktop PC | [![build status][travis-image-0]][travis-url-0] | [desktop-browser-sample-nodejs](//github.com/macaca-sample/desktop-browser-sample-nodejs)                   |
 | iOS        | [![build status][travis-image-1]][travis-url-1] | [macaca-test-sample-ios-ci](//github.com/macaca-sample/macaca-test-sample-ios-ci)         |
 | Android    | [![build status][travis-image-2]][travis-url-2] | [macaca-test-sample-android-ci](//github.com/macaca-sample/macaca-test-sample-android-ci) |
 
