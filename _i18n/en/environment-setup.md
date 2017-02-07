@@ -34,6 +34,16 @@ export ANDROID_HOME = /usr/local/opt/android-sdk
 export ANDROID_HOME = path/to/your/Android/sdk
 ```
 
+## Prepare application
+
+iOS: An valid iOS application package suffixed with `.app`.
+
+Android: An valid Android application package suffixed with `.apk`.
+
+Desktop: All web application could be run with initial url.
+
+Further options could be found in [this document](./cli-usage).
+
 ## Macaca Cli
 
 ### Global Installation

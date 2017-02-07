@@ -9,6 +9,7 @@
 
 - title: API
   docs:
+    - [multi-lang, Multi Lang]
     - [nodejs, Node.js]
     - [java, Java]
     - [python, Python]

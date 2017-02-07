@@ -48,6 +48,15 @@ export ANDROID_HOME = path/to/your/Android/sdk
 
 * 准备 App 包：如需要测试 Android 应用，请使用 `.apk` 格式的包。
 
+
+## 准备移动端App
+
+iOS: 支持 `.app` 格式的包。
+
+Android: 支持 `.apk` 格式的包。
+
+Desktop: 支持任意浏览器网页。
+
 ## 命令行工具
 
 ### 全局安装
