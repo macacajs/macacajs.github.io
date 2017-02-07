@@ -8,8 +8,8 @@
 | iOS        | [![build status][travis-image-1]][travis-url-1] | [macaca-test-sample-ios-ci](//github.com/macaca-sample/macaca-test-sample-ios-ci)         |
 | Android    | [![build status][travis-image-2]][travis-url-2] | [macaca-test-sample-android-ci](//github.com/macaca-sample/macaca-test-sample-android-ci) |
 
-[travis-image-0]: https://img.shields.io/travis/macaca-sample/macaca-test-sample-nodejs.svg?style=flat-square
-[travis-url-0]: https://travis-ci.org/macaca-sample/macaca-test-sample
+[travis-image-0]: https://img.shields.io/travis/macaca-sample/desktop-browser-sample-nodejs.svg?style=flat-square
+[travis-url-0]: https://travis-ci.org/macaca-sample/desktop-browser-sample-nodejs
 [travis-image-1]: https://img.shields.io/travis/macaca-sample/macaca-ci-sample-ios-travis.svg?style=flat-square
 [travis-url-1]: https://travis-ci.org/macaca-sample/macaca-ci-sample-ios-travis
 [travis-image-2]: https://img.shields.io/travis/macaca-sample/macaca-ci-sample-android-travis.svg?style=flat-square
