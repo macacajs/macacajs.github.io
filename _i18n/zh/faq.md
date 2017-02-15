@@ -1,5 +1,6 @@
 # 常见问题汇总
 
+- [iOS中的Webview链接不上](//github.com/alibaba/macaca/issues/79)
 - [Promise 编写异步测试用例](//github.com/alibaba/macaca/issues/26)
 - [导出测试报告失败](//github.com/alibaba/macaca/issues/13)
 - [权限问题导致的无法运行](//github.com/alibaba/macaca/issues/8)
