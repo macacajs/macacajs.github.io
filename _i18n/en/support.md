@@ -16,7 +16,7 @@ Team members can be found in [here](//github.com/orgs/macacajs/people).
 
 ## Stack Overflow
 
-Use Stack Overflow to ask questions. Read through the [existing questions](http://stackoverflow.com/questions/tagged/macaca) tagged with `Macaca` or [ask your own](http://stackoverflow.com/questions/ask)!
+Use Stack Overflow to ask questions. Read through the [existing questions](http://stackoverflow.com/search?q=macaca) tagged with `Macaca` or [ask your own](http://stackoverflow.com/questions/ask)!
 
 ## Community
 
