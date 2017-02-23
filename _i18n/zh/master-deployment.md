@@ -18,7 +18,7 @@
 
 ## 基本用法
 
-git clone 下源代码后，你可以使用 docker 和 docker-compose 来部署 `reliable`，步骤如下：
+git clone 下源代码后(windows系统建议直接下载压缩包格式或者在git clone之前执行git config --global core.autocrlf false,环境搭建完成后记得改回去)，你可以使用 docker 和 docker-compose 来部署 `reliable`，步骤如下：
 
 1) build `reliable-docker-base` 镜像：
 

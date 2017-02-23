@@ -16,7 +16,7 @@ Docker is the default and recommended way to deploy master.
 
 ## Basic Usage
 
-Get the source code, then you can use docker and docker-compose to setup `reliable`, just like:
+Get the source code(if your system is windows，please exec 'git config --global core.autocrlf false' and remember to change back after erverthing is ok or download the code from the zip type), then you can use docker and docker-compose to setup `reliable`, just like:
 
 Prepare basic docker image:
 
