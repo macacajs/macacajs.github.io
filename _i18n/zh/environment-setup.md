@@ -9,13 +9,13 @@
 0. 请安装 Xcode8 或者更高版本
 0. 需要安装 [usbmuxd](//github.com/libimobiledevice/usbmuxd) 以便于通过 USB 通道测试 iOS 真机，不需要测试真机则不用安装
 
-```shell
+``` bash
 $ brew install usbmuxd
 ```
 
 0. 应用中如含有 WebView，请安装 [ios-webkit-debug-proxy](//github.com/google/ios-webkit-debug-proxy)
 
-```shell
+``` bash
 $ brew install ios-webkit-debug-proxy
 ```
 
@@ -29,25 +29,23 @@ $ brew install ios-webkit-debug-proxy
 
 0. 配置 JAVA_HOME，根据你所使用的 shell 工具修改不同的文件，比如 ~/.bashrc, ~/.bash_profile, ~/.zshrc
 
-  ```shell
-  export JAVA_HOME=path/to/your/Java/Home
-  ```
+```shell
+$ export JAVA_HOME=path/to/your/Java/Home
+```
 
 0. 安装安卓 SDK，运行 `brew install android-sdk`，然后安装`18-24`版本中的任一 SDK
 0. shell 环境设置 `ANDROID_HOME`
 	根据你所使用的Terminal修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
 
-```shell
+``` bash
 # 如果是通过homebrew安装的android-sdk，则路径如下
-export ANDROID_HOME = /usr/local/opt/android-sdk
+$ export ANDROID_HOME = /usr/local/opt/android-sdk
 
 # 如果通过其他方式安装的sdk，路径设置为对应的android sdk的路径
-export ANDROID_HOME = path/to/your/Android/sdk
-
+$ export ANDROID_HOME = path/to/your/Android/sdk
 ```
 
 * 准备 App 包：如需要测试 Android 应用，请使用 `.apk` 格式的包。
-
 
 ## 准备移动端App
 
@@ -61,7 +59,7 @@ Desktop: 支持任意浏览器网页。
 
 ### 全局安装
 
-```shell
+``` bash
 $ npm i -g macaca-cli
 ```
 
@@ -73,7 +71,7 @@ $ npm i -g macaca-cli
 
 上述驱动可以按照自身需要选择性的安装，比如只需要测试 iOS平台用例，就执行iOS的安装命令：
 
-```shell
+``` bash
 $ npm i macaca-ios -g
 ```
 
@@ -81,10 +79,27 @@ $ npm i macaca-ios -g
 
 通过 `macaca doctor` 可以检查环境是否配置成功
 
-```shell
+``` bash
 $ macaca doctor
 ```
 
 如下图所示则表示环境均配置正常，如果有标红提示，则需要对应处理。
 
 ![macaca-doctor](http://ww1.sinaimg.cn/large/6b65a607jw1fa3cqjexk2j21c20padqa.jpg)
+
+## 一些开源镜像
+
+> 由于网络原因导致的安装失败可以通过指定软件的镜像来解决
+
+Chromedriver 和 Electron 可以使用如下镜像：
+
+``` shell
+$ export CHROMEDRIVER_CDNURL=http://npm.taobao.org/mirrors/chromedriver/
+$ export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
+```
+
+Homebrew 可以使用如下镜像：
+
+``` shell
+HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles brew install ios-webkit-debug-proxy
+```
