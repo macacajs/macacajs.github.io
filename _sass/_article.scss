@@ -80,3 +80,25 @@ article {
     }
   }
 }
+#who-use-list {
+  list-style: none;
+  clear: left;
+  margin: 0;
+}
+
+#who-use-list li {
+  float: left;
+  text-align: center;
+  padding: 10px 30px;
+  margin: 0;
+}
+
+#who-use-list img {
+  width: 60px;
+}
+
+#who-use-list p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
