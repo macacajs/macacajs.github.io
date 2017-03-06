@@ -1,8 +1,14 @@
-# Java 版
+# 使用 Java 语言
 
 请使用如下最新版本
 
 [![Download](https://api.bintray.com/packages/xudafeng/maven/macacaclient/images/download.svg)](https://bintray.com/xudafeng/maven/macacaclient/_latestVersion)
+
+## 示例集合
+
+- [各端Java用例写法示例](//github.com/macaca-sample/macaca-test-sample-java)
+- [架构合理并封装大量实用功能的示例](//github.com/macaca-sample/macaca-java-biz-sample)
+- [架构合理并封装大量实用功能的示例](//github.com/macaca-sample/macaca-java-biz-sample)
 
 ## 用法示例
 
@@ -67,8 +73,6 @@ public class SampleTest {
 }
 ```
 
-## 相关链接
+## API 文档
 
-- [API 文档](//macacajs.github.io/wd.java)
-- [源代码](//github.com/macacajs/wd.java)
-- [示例](//github.com/macaca-sample/macaca-test-sample-java)
+API文档请见[文档链接](//macacajs.github.io/wd.java)
