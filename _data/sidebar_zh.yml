@@ -10,9 +10,9 @@
 - title: API
   docs:
     - [multi-lang, 多语言栈支持]
-    - [nodejs, Node.js版]
-    - [java, Java版]
-    - [python, Python版] 
+    - [nodejs, Node.js]
+    - [java, Java]
+    - [python, Python]
 
 - title: 高级进阶
   docs:
