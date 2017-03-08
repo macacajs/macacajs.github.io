@@ -1,14 +1,20 @@
 # Recorder
 
+## Demo
+
+![](http://wx1.sinaimg.cn/mw1024/7f3afc78gy1fdf5gass5rg20sg0g0kjo.gif)
+
+![](http://wx2.sinaimg.cn/mw1024/7f3afc78gy1fdf5hb8anig20sg0g0u12.gif)
+
 ## Installation
 
-```shell
+``` bash
 $ npm i uirecorder -g
 ```
 
 ## Usage
 
-```shell
+``` bash
 # start macaca server
 $ macaca server --port 4444 --verbose
 # start recorder
@@ -16,7 +22,5 @@ $ uirecorder start --mobile
 # macaca run
 $ macaca run -p 4444 -d test.spec.js --verbose
 ```
-
-![](http://ww2.sinaimg.cn/large/6d308bd9gw1f95rxivtetg211y0iqu19.gif)
 
 inspired by [uirecorder](https://github.com/alibaba/uirecorder)
