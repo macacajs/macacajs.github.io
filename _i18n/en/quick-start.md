@@ -2,13 +2,13 @@
 
 ## Examples
 
-Check out the sample located in this repo([mobile-app-sample-nodejs](//github.com/macaca-sample/mobile-app-sample-nodejs)), and enjoy it, [more sample](//github.com/macaca-sample).
+Check out the sample located in this repo([mobile-app-sample-nodejs](//github.com/macaca-sample/sample-nodejs)), and enjoy it, [more sample](//github.com/macaca-sample).
 
 ```shell
-$ git clone https://github.com/macaca-sample/mobile-app-sample-nodejs.git --depth=1
-$ cd mobile-app-sample-nodejs
+$ git clone https://github.com/macaca-sample/sample-nodejs.git --depth=1
+$ cd sample-nodejs
 $ npm i
-$ macaca run --verbose
+$ make
 ```
 
 ## Sample Video

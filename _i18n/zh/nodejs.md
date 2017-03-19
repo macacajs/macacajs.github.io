@@ -14,9 +14,7 @@ $ git clone git@github.com:macaca-sample/macaca-nodejs-boilerplate.git
 
 ## 示例合集
 
-- [移动端App示例](//github.com/macaca-sample/mobile-app-sample-nodejs)
-- [桌面端浏览器示例](//github.com/macaca-sample/desktop-browser-sample-nodejs)
-- [移动端端浏览器示例](//github.com/macaca-sample/mobile-browser-sample-nodejs)
+[示例仓库](//github.com/macaca-sample/sample-nodejs)中包含iOS, Android的App测试示例，手机系统浏览器的测试示例以及PC端浏览器的测试示例。
 
 ## 用法示例
 

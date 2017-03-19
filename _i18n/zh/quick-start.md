@@ -2,13 +2,13 @@
 
 ## 运行官方示例
 
-将官方示例([mobile-app-sample-nodejs](//github.com/macaca-sample/mobile-app-sample-nodejs))克隆到本地，然后按照如下命令即可下载已提供好的`示例 App`，并运行自动化测试。
+将官方示例([sample-nodejs](//github.com/macaca-sample/sample-nodejs))克隆到本地，然后按照如下命令即可下载已提供好的`示例 App`，并运行自动化测试。
 
 ```shell
 # 安装工具包和驱动
 $ npm i macaca-cli macaca-ios -g
-$ git clone https://github.com/macaca-sample/mobile-app-sample-nodejs.git --depth=1
-$ cd mobile-app-sample-nodejs
+$ git clone https://github.com/macaca-sample/sample-nodejs.git --depth=1
+$ cd sample-nodejs
 # 安装项目依赖
 $ npm i
 # macaca run --verbose
