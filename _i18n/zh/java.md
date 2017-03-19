@@ -6,7 +6,7 @@
 
 ## 示例集合
 
-- [各端Java用例写法示例](//github.com/macaca-sample/macaca-test-sample-java)
+- [各端Java用例写法示例](//github.com/macaca-sample/sample-java)
 - [架构合理并封装大量实用功能的示例](//github.com/macaca-sample/macaca-java-biz-sample)
 - [架构合理并封装大量实用功能的示例](//github.com/macaca-sample/macaca-java-biz-sample)
 
