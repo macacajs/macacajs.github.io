@@ -20,6 +20,7 @@
     - [inspector, 元素查看器]
     - [recorder, 录制回放器]
     - [pageuitest, 页面UI测试]
+    - [computer-vision, 计算机视觉]
     - [master-deployment, Reliable Master部署]
     - [slave-deployment, Reliable Slave部署]
     - [using-with-ci, 使用其他CI服务]

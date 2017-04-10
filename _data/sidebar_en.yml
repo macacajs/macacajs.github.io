@@ -20,6 +20,7 @@
     - [inspector, Inspector]
     - [recorder, Recorder]
     - [pageuitest, PageUITest]
+    - [computer-vision, Computer Vision]
     - [master-deployment, Reliable Master]
     - [slave-deployment, Reliable Slave]
     - [using-with-ci, Integration with CI Server]
