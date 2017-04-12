@@ -1,1 +1,25 @@
-# monkey-testing
+# Monkey测试
+
+## iOS
+
+### 来自 Macaca 社区
+
+- [baozhida/iosMonkey](//github.com/baozhida/iosMonkey)
+- [sixleaves/iOSMonkey](//github.com/sixleaves/iOSMonkey)
+
+### 其它
+
+- [zalando/SwiftMonkey](//github.com/zalando/SwiftMonkey)
+
+## Android
+
+### 基本用法
+
+``` bash
+$ adb shell monkey [options] <event-count>
+$ adb shell monkey -p your.package.name -v 500
+```
+
+### 更多内容
+
+[Android Test Monkey](https://developer.android.com/studio/test/monkey.html)
