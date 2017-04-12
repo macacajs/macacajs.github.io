@@ -7,6 +7,15 @@
     - [cli-usage, Macaca CLI Usage]
     - [versioning, Versioning]
 
+- title: Advanced
+  docs:
+    - [debugging, Debugging]
+    - [inspector, Inspector]
+    - [recorder, Recorder]
+    - [monkey-testing, Monkey Testing]
+    - [computer-vision, Computer Vision]
+    - [pageuitest, PageUITest]
+
 - title: API
   docs:
     - [multi-lang, Multi Lang]
@@ -14,12 +23,8 @@
     - [java, Java]
     - [python, Python]
 
-- title: Advanced
+- title: Continue Integration
   docs:
-    - [debugging, Debugging]
-    - [inspector, Inspector]
-    - [recorder, Recorder]
-    - [pageuitest, PageUITest]
     - [master-deployment, Reliable Master]
     - [slave-deployment, Reliable Slave]
     - [using-with-ci, Integration with CI Server]
