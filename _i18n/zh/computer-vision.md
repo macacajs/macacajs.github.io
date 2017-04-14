@@ -84,7 +84,7 @@ $ cd nodecv-server
 $ docker build . -t="node-server"
 ```
 
-然后便可在任意服务器环境启动 OpenCV 的 `HTTP` 服务，[macaca-sample](//github.com/macaca-sample) 也提供各语言针对服务端通信的示例。
+然后便可在任意服务器环境，甚至[树莓派](//github.com/macacajs/nodecv-server/issues/1)启动 OpenCV 的 `HTTP` 服务，[macaca-sample](//github.com/macaca-sample) 也提供各语言针对服务端通信的示例。
 
 服务启动成功后可访问 demo 页面： `http://localhost:9900/opencv/demo`
 
