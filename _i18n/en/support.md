@@ -2,7 +2,8 @@
 
 ## GitHub
 
-<iframe class="github-btn" src="https://ghbtns.com/github-btn.html?user=alibaba&amp;repo=macaca&amp;type=watch&amp;count=true" title="Star on GitHub"></iframe>
+[![GitHub stars](https://img.shields.io/github/stars/alibaba/macaca.svg "GitHub stars")](//github.com/alibaba/macaca)
+[![GitHub issues](https://img.shields.io/github/issues/alibaba/macaca.svg "GitHub issues")](//github.com/alibaba/macaca)
 
 Because we have lots of modules we use the main repo ([Macaca](//github.com/alibaba/macaca)) to track all our tasks, bugs, features, etc. Using [GitHub issues](//github.com/alibaba/macaca/issues?utf8=%E2%9C%93&q=).
 
