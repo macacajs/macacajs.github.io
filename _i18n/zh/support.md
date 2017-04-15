@@ -3,7 +3,7 @@
 ## GitHub
 
 [![GitHub stars](https://img.shields.io/github/stars/alibaba/macaca.svg "GitHub stars")](//github.com/alibaba/macaca)
-[![GitHub issues](https://img.shields.io/github/issues/alibaba/macaca.svg "GitHub issues")](//github.com/alibaba/macaca)
+[![GitHub issues](https://img.shields.io/github/issues/alibaba/macaca.svg "GitHub issues")](//github.com/alibaba/macaca/issues?utf8=%E2%9C%93&q=)
 
 Macaca 依赖的功能模块非常多，所以我们使用主仓库 ([Macaca](//github.com/alibaba/macaca)) 来管理所有任务，bug 等等，请使用 [GitHub issues](//github.com/alibaba/macaca/issues?utf8=%E2%9C%93&q=) 上报问题或交流。
 
