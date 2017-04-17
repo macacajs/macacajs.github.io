@@ -43,6 +43,17 @@ nodecv.imread(image1Path, (err, image1) => {
 });
 ```
 
+匹配方式枚举：
+
+```
+TM_SQDIFF        =0 平方差匹配法
+TM_SQDIFF_NORMED =1 归一化平方差匹配法
+TM_CCORR         =2 相关匹配法
+TM_CCORR_NORMED  =3 归一化相关匹配法
+TM_CCOEFF        =4 相关系数匹配法
+TM_CCOEFF_NORMED =5 归一化相关系数匹配法
+```
+
 更多 Node.js 示例请访问 [macaca-sample/cv-sample-node](//github.com/macaca-sample/cv-sample-node)。
 
 #### Python:
