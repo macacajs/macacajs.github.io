@@ -15,6 +15,7 @@
     - [monkey-testing, Monkey Testing]
     - [computer-vision, Computer Vision]
     - [pageuitest, PageUITest]
+    - [browser, Browser Testing]
 
 - title: API
   docs:

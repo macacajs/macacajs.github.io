@@ -15,6 +15,7 @@
     - [monkey-testing, Monkey测试]
     - [computer-vision, 计算机视觉]
     - [pageuitest, 页面UI测试]
+    - [browser, 浏览器测试]
 
 - title: API
   docs:
