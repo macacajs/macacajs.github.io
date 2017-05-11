@@ -6,7 +6,7 @@
 
 ## iOS 环境
 
-0. 请安装 Xcode8 或者更高版本
+0. 请安装 Xcode8.3 或者更高版本
 0. 需要安装 [usbmuxd](//github.com/libimobiledevice/usbmuxd) 以便于通过 USB 通道测试 iOS 真机，不需要测试真机则不用安装
 
 ``` bash
@@ -19,6 +19,12 @@ $ brew install usbmuxd
 $ brew install ios-webkit-debug-proxy
 ```
 
+0. 请安装 [carthage](//github.com/Carthage/Carthage) 来构建 Macaca [XCTestWD](//github.com/macacajs/XCTestWD).
+
+``` bash
+$ brew install carthage
+```
+
 备注：使用brew命令需要安装[Homebrew](http://brew.sh/index_zh-cn.html)（一款常用的 MacOS 的包管理器），请按照官网提示安装。
 
 * 准备 App 包：如需要测试 iOS 应用，请使用 Scheme 设置为 debug 的 `.app` 包。
@@ -29,7 +35,7 @@ $ brew install ios-webkit-debug-proxy
 
 0. 配置 JAVA_HOME，根据你所使用的 shell 工具修改不同的文件，比如 ~/.bashrc, ~/.bash_profile, ~/.zshrc
 
-```shell
+``` bash
 $ export JAVA_HOME=path/to/your/Java/Home
 ```
 
@@ -43,6 +49,12 @@ $ export ANDROID_HOME = /usr/local/opt/android-sdk
 
 # 如果通过其他方式安装的sdk，路径设置为对应的android sdk的路径
 $ export ANDROID_HOME = path/to/your/Android/sdk
+```
+
+请安装 [gradle](https://gradle.org) 来构建 [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) 和其它依赖包。
+
+``` bash
+$ brew install gradle
 ```
 
 * 准备 App 包：如需要测试 Android 应用，请使用 `.apk` 格式的包。
@@ -93,13 +105,13 @@ $ macaca doctor
 
 Chromedriver 和 Electron 可以使用如下镜像：
 
-``` shell
+``` bash
 $ export CHROMEDRIVER_CDNURL=http://npm.taobao.org/mirrors/chromedriver/
 $ export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 ```
 
 Homebrew 可以使用如下镜像：
 
-``` shell
+``` bash
 HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles brew install ios-webkit-debug-proxy
 ```

@@ -2,20 +2,20 @@
 
 ## Launch server only
 
-```shell
+``` bash
 $ macaca server --verbose
 ```
 
 ## REPL
 
-```shell
+``` bash
 # go into REPL environment
 $ node
 ```
 
 ## Devtool Usage
 
-```shell
+``` bash
 # only version 1.11.2 can be use
 $ npm i -g devtool@1.11.2
 # run devtool in your project directory

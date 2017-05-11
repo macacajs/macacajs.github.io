@@ -1,10 +1,20 @@
-# 脚本初始化参数
+# 参数设置
+
+## 支持的 Keycode 列表
+
+coming soon ...
+
+## 选择器说明 Locator
+
+coming soon ...
+
+## 脚本初始化参数
 
 Desired Capabilities 是用来在启动时配置服务器的参数。
 
-## 基本用法
+### 入参示例
 
-```javascript
+``` javascript
 const wd = require('macaca-wd');
 const driver = wd.promiseChainRemote({
   host: 'localhost',
@@ -20,14 +30,14 @@ const desiredCaps = {
 driver.init(desiredCaps);
 ```
 
-## 常见的参数
+### 常见的参数
 
 | 键     | 类型                                  | 描述    |
 | ---------- | ---------------------------------------- | --------- |
 | platformName | String | 当前用例运行的平台 { iOS / Android / Desktop } |
 | browserName | String | 当前测试的浏览器名称 { iOS: Safari } { Android: Chrome } { Desktop: Chrome / Electron } |
 
-## App 相关参数
+### App 相关参数
 
 | 键     | 类型                                  | 描述    |
 | ---------- | ---------------------------------------- | --------- |
@@ -35,7 +45,7 @@ driver.init(desiredCaps);
 | app | Stirng | .ipa，.app 或者 .apk 文件的绝对地址或者远程地址，或者是包含上述文件格式的 Zip 文件。 |
 | udid | String | 测试设备的唯一设备 ID。|
 
-## Android 的参数介绍
+### Android 的参数介绍
 
 | 键     | 类型                                  | 描述    |
 | ---------- | ---------------------------------------- | --------- |
@@ -44,7 +54,7 @@ driver.init(desiredCaps);
 | activity | String | 启动时的 Activity name。|
 | androidProcess | String | 使用 chromedriver 测试 webview 时需要的自定义的进程名。|
 
-## iOS 的参数介绍
+### iOS 的参数介绍
 
 | 键     | 类型                                  | 描述    |
 | ---------- | ---------------------------------------- | --------- |

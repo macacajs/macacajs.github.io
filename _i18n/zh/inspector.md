@@ -10,20 +10,20 @@
 
 ## 安装
 
-```shell
+``` bash
 $ npm i app-inspector -g
 ```
 
 ## 用法
 
-```shell
+``` bash
 # 直接 -u + 设备的 udid 即可
 $ app-inspector -u xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
 
 ## 帮助
 
-```shell
+``` bash
 $ app-inspector -h
 ```
 

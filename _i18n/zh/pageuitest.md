@@ -78,7 +78,7 @@ uitest({
 
 也可以通过 Gulp 引入：
 
-```shell
+``` bash
 $ npm i gulp-uitest --save-dev
 ```
 

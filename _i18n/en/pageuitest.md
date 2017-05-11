@@ -80,7 +80,7 @@ uitest({
 
 Or with Gulp:
 
-```shell
+``` bash
 $ npm i gulp-uitest --save-dev
 ```
 

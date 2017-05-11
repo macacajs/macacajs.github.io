@@ -10,19 +10,19 @@
 
 ## Installation
 
-```shell
+``` bash
 $ npm i app-inspector -g
 ```
 
 ## Usage
 
-```shell
+``` bash
 $ app-inspector -u xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
 
 ## Help
 
-```shell
+``` bash
 $ app-inspector -h
 ```
 

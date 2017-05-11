@@ -12,7 +12,7 @@
 
 执行以下命令检查环境：
 
-```shell
+``` bash
 $ npm i macaca-cli -g
 $ macaca doctor
 ```
@@ -23,7 +23,7 @@ $ macaca doctor
 
 在安装 reliable-slave 之前，请先安装 zeromq。
 
-```shell
+``` bash
 $ brew install pkg-config
 $ brew install zeromq
 
@@ -38,7 +38,7 @@ $ npm install reliable-macaca-slave -g
 
 在部署 reliable-slave 之前，我们应该先让 reliable-master 运行起来，如果没有的话，你应该先部署 [reliable-master](/zh/master-deployment) 。reliable-master 运行起来后, 执行命令来部署 reliable-slave。
 
-```shell
+``` bash
 $ reliable server -m <reliable-master:port> --verbose
 ```
 

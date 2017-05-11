@@ -20,7 +20,7 @@ Get the source code(if your system is windows，please exec 'git config --global
 
 Prepare basic docker image:
 
-```shell
+``` bash
 $ git clone https://github.com/reliablejs/reliable-docker-base --depth=1
 $ cd reliable-docker-base
 $ docker build -t="reliable-docker-base" .
@@ -30,7 +30,7 @@ Run `docker images`, you could find image named `reliable-docker-base`.
 
 Prepare master `reliable-master` image:
 
-```shell
+``` bash
 $ git clone https://github.com/reliablejs/reliable-master --depth=1
 $ cd reliable-master
 $ docker build -t="reliable-master" .
@@ -40,7 +40,7 @@ Run `docker images`, you could find image named `reliable-master`.
 
 Launch from compose file:
 
-```shell
+``` bash
 $ git clone https://github.com/reliablejs/reliable-macaca-docker-compose.git --depth=1
 $ cd reliable-macaca-docker-compose
 $ make start
@@ -119,7 +119,7 @@ Using `make restore` in reliable-master container to restore data into MongoDB c
 
 You can use `crontab` to backup data. See [scripts/cron.sh](//github.com/reliablejs/reliable-master/blob/master/scripts/cron.sh){:target="_blank"}, edit it for customization, and add it to your crontab script. Like:
 
-```shell
+``` bash
 $ crontab -e
 ```
 
