@@ -8,7 +8,6 @@
 - [Linux环境下运行注意事项](//github.com/alibaba/macaca/issues/6)
 - [Windows环境下的问题](//github.com/alibaba/macaca/issues/92)
 - [如何查找和定位Native和网页的元素](//github.com/alibaba/macaca/issues/65)
-- [Android SDK版本引起的安装失败](//github.com/alibaba/macaca/issues/7)
 - [iOS 包编译问题导致无法运行](//github.com/alibaba/macaca/issues/4)
 - [iOS 真机证书问题](//github.com/alibaba/macaca/issues/42)
 - [移动端手势相关](//github.com/alibaba/macaca/issues/366)

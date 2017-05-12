@@ -2,7 +2,7 @@
 
 ## 安装 Node.js
 
-请安装 [Node.js](https://nodejs.org/) v4.0 或者更高版本，装好 `Node.js` 后命令行里就已经集成了 `npm` 工具，为了提高安装模块的速度，请使用国内的 `cnpm`。
+请安装 [Node.js](https://nodejs.org/) v6.0 或者更高版本，装好 `Node.js` 后命令行里就已经集成了 `npm` 工具，为了提高安装模块的速度，请使用国内的 `cnpm`。
 
 ## iOS 环境
 
@@ -29,7 +29,7 @@ $ brew install carthage
 
 * 准备 App 包：如需要测试 iOS 应用，请使用 Scheme 设置为 debug 的 `.app` 包。
 
-## 安卓
+## Android 环境
 
 0. [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
@@ -39,7 +39,7 @@ $ brew install carthage
 $ export JAVA_HOME=path/to/your/Java/Home
 ```
 
-0. 安装安卓 SDK，运行 `brew install android-sdk`，然后安装`18-24`版本中的任一 SDK
+0. 安装安卓 SDK，运行 `brew install android-sdk`，然后安装`18-25`版本中的任一 SDK 和 `Android Support Repository`
 0. shell 环境设置 `ANDROID_HOME`
 	根据你所使用的Terminal修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
 

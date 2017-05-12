@@ -2,7 +2,7 @@
 
 ## Node.js
 
-[Node.js](https://nodejs.org/) v4.0 or higher.
+[Node.js](https://nodejs.org/) v6.0 or higher.
 
 ## iOS
 
