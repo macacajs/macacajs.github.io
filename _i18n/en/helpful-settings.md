@@ -163,6 +163,7 @@ driver.init(desiredCaps);
 | package | String | Java package of the Android app you want to run. |
 | activity | String | Activity name for the Android activity you want to launch from your package. |
 | androidProcess | String | Process name for the chromedriver binding when test webview |
+| isWaitActivity | Boolean | Wait the app's main acitivity. Default is true. |
 
 #### iOS-only Capabilities
 

@@ -163,6 +163,7 @@ driver.init(desiredCaps);
 | package | String | Android app 的 package name。|
 | activity | String | 启动时的 Activity name。|
 | androidProcess | String | 使用 chromedriver 测试 webview 时需要的自定义的进程名。|
+| isWaitActivity | Boolean | 是否等待传入 App 的 Acitivity 加载完成。 默认是 false。 |
 
 #### iOS 的参数介绍
 
