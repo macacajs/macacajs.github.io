@@ -104,11 +104,13 @@ driver.touch([{
 }, {
   type: 'drag',
   toX: 265,
-  toY: 1460
+  toY: 1460,
+  duration: 3
 }, {
   type: 'drag',
   toX: 825,
-  toY: 1460
+  toY: 1460,
+  duration: 3
 }]);
 ```
 
