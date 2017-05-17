@@ -4,6 +4,11 @@
 
 # Change Log
 
+## 2017.05.14
+
+- XCTestWD released
+- UIAutomatorWD released
+
 ## 2016.12.19
 
 - `gesture actions` supported
