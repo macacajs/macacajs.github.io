@@ -84,10 +84,10 @@
 | ----------------- | ---------------------------------------- | ---------------------------------------- | ----------------- |
 | tap               | { x: 100,  y: 100 }                      | driver.touch('tap', { x: 100, y: 100}) \| element.touch('tap') | 点击某个坐标或者当前元素   |
 | doubleTap         | { x: 100,  y: 100 }                      | driver.touch('doubleTap', { x: 100, y: 100}) \| element.touch('doubleTap') | 双击某个坐标或者当前元素    |
-| press             | { x: 100,  y: 100，duration: 2 (iOS，单位 S), steps: 100(Android) } | driver.touch('press', { x: 100, y: 100}) \| element.touch('press', { duration: 2 }) | 长按某个坐标或者当前元素    |
-| pinch             | { x: 100,  y: 100，scale: 2 (iOS), velocity: 1(iOS),  direction: "in" or "out"(Android), percent: 200(Android), steps: 100(Android) } | iOS: element.touch('pinch', { scale: 2 }), Android: element.touch('pinch', { direction: "in", percent: 50 })  | 两只手指放大或者缩小当前元素    |
+| press             | { x: 100,  y: 100, duration: 2 (单位 S) } | driver.touch('press', { x: 100, y: 100}) \| element.touch('press', { duration: 2 }) | 长按某个坐标或者当前元素    |
+| pinch             | { x: 100,  y: 100，scale: 2 (iOS), velocity: 1(iOS),  direction: "in" or "out"(Android), percent: 200(Android), duration: 2 (单位 S) } | iOS: element.touch('pinch', { scale: 2 }), Android: element.touch('pinch', { direction: "in", percent: 50 })  | 两只手指放大或者缩小当前元素    |
 | rotate (iOS Only) | { rotation: 6(弧度), velocity: 1 }         | element.touch('rotate', { rotation: 6, velocity: 1 }) | 旋转当前元素            |
-| drag              | { fromX: 100, fromY: 100, toX: 200, toY: 200, duration: 2(iOS，单位 S), steps: 100(Android)} | driver.touch('drag', { fromX: 100, fromY: 100, toX: 200, toY: 200 }) \| element.touch('drag', { toX: 200, toY: 200 }) | 拖拽一个元素或者在多个坐标之间移动 |
+| drag              | { fromX: 100, fromY: 100, toX: 200, toY: 200, duration: 2(iOS，单位 S) } | driver.touch('drag', { fromX: 100, fromY: 100, toX: 200, toY: 200 }) \| element.touch('drag', { toX: 200, toY: 200 }) | 拖拽一个元素或者在多个坐标之间移动 |
 
 #### 连续操作
 
