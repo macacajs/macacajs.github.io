@@ -6,9 +6,9 @@
 
 ---
 
-## 介绍
+## 前言
 
-本文写给正要成为 `contributor` 的你。Macaca 整套方案涉及的语言栈很多，仅用户端就有 Java, Node.js, Python 等语言栈，工具层面也包括 `C++`, `shell` 等。开发平台涉及 `Docker`, `iOS`, `Android`, `Chromium`, `x11` 等多个开发平台，横跨 `软件测试`、`计算机视觉`、`Node.js工具链`、`WEB及客户端技术` 等多领域。
+本篇文档写给正即将成为 `contributor` 的你。Macaca 起源于国内，长期保持技术开放的形态。整套方案涉及的语言栈很多，仅用户端就有 Java, Node.js, Python 等语言栈，工具层面也包括 `C++`, `shell` 等。开发平台涉及 `Docker`, `iOS`, `Android`, `Chromium`, `x11` 等多个开发平台，横跨 `软件测试`、`计算机视觉`、`Node.js工具链`、`WEB及客户端技术` 等多领域。
 
 > 无论擅长哪一个技术领域，哪一种语言，都可以尝试加入 Macaca，贡献形式不限。
 
