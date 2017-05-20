@@ -64,3 +64,15 @@ Macaca 依赖的功能模块非常多，所以我们使用主仓库 ([Macaca](//
     <p>Tmall</p>
   </li>
 </ul>
+
+## 相关周边
+
+Macaca T-shirt 采用的设计及 Logo 在保留原设计不修改的前提下可无偿使用。
+
+<img src="http://wx4.sinaimg.cn/large/6d308bd9gy1ffrrpxt3sbj20i20i23ym.jpg" width="300"/>
+
+更多请见:
+
+- [macaca-products-design](//github.com/macacajs/macaca-products-design)
+- [photos](//github.com/macacajs/macaca-products-design/issues/1)
+- [macaca-logo](//github.com/macacajs/macaca-logo)

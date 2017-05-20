@@ -12,6 +12,7 @@
     - [debugging, Debugging]
     - [inspector, Inspector]
     - [recorder, Recorder]
+    - [nosmoke, NoSmoke]
     - [monkey-testing, Monkey Testing]
     - [computer-vision, Computer Vision]
     - [pageuitest, PageUITest]
@@ -19,7 +20,6 @@
 
 - title: API
   docs:
-    - [multi-lang, Multi Lang]
     - [nodejs, Node.js]
     - [java, Java]
     - [python, Python]
@@ -33,4 +33,5 @@
 - title: Other
   docs:
     - [changelog, RoadMap]
+    - [contributing, Contributing]
     - [faq, FAQ]

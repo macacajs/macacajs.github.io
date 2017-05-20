@@ -1,0 +1,66 @@
+# 成为贡献者
+
+---
+
+向 Macaca 项目的贡献者们致敬！
+
+---
+
+## 贡献 Issue
+
+在新创建 `issue` 和在已有 `issue` 下评论，请尽量描述所遇到的问题和表达的意思，尽量避免反复确认信息。
+
+## 贡献代码
+
+### 第一步：Fork
+
+选择需要修改的仓库，Fork 到自己本地，如。
+
+``` bash
+$ git clone git@github.com:macacajs/macaca-ios.git
+$ cd macaca-ios
+$ git remote add upstream git://github.com/macacajs/macaca-ios.git
+```
+
+### 第二步：创建分支
+
+请根据修改级别创建分支名如：`features-xxx` 或 `bugfix-xxx`
+
+
+``` bash
+$ git checkout -b features-xxx -t origin/master
+```
+
+### 第三步：提交
+
+确认你的用户名和邮箱正确：
+
+$ git config --global user.name "awesome"
+$ git config --global user.email "awesome@macacajs.com"
+
+### 第四步：发起 PR
+
+向 `github/macacajs` 下的原仓库发起 `pull request(PR)`，通过前提为当前仓库 `CI` 通过，`github/macaca-sample` 下的 `sample` 回归通过。
+
+## 如何调试
+
+Macaca 是很多模块是集成在一起才能运行的，环境较单一功能的开源库要复杂很多。请参考具体`核心模块`仓库下的 `CONTRIBUTING.md` 了解如何调试。
+
+- [macaca-cli/CONTRIBUTING.md](//github.com/macacajs/macaca-cli/blob/master/CONTRIBUTING.md)
+- [macaca-doctor/CONTRIBUTING.md](//github.com/macacajs/macaca-doctor/blob/master/CONTRIBUTING.md)
+- [macaca-ios/CONTRIBUTING.md](//github.com/macacajs/macaca-ios/blob/master/CONTRIBUTING.md)
+- [macaca-android/CONTRIBUTING.md](//github.com/macacajs/macaca-android/blob/master/CONTRIBUTING.md)
+- [macaca-electron/CONTRIBUTING.md](//github.com/macacajs/macaca-electron/blob/master/CONTRIBUTING.md)
+- [app-inspector/CONTRIBUTING.md](//github.com/macacajs/app-inspector/blob/master/CONTRIBUTING.md)
+- [XCTestWD/CONTRIBUTING.md](//github.com/macacajs/XCTestWD/blob/master/CONTRIBUTING.md)
+- [UIAutomatorWD/CONTRIBUTING.md](//github.com/macacajs/UIAutomatorWD/blob/master/CONTRIBUTING.md)
+- [wd.java/CONTRIBUTING.md](//github.com/macacajs/wd.java/blob/master/CONTRIBUTING.md)
+- [wd.py/CONTRIBUTING.md](//github.com/macacajs/wd.py/blob/master/CONTRIBUTING.md)
+
+## 加入 Macaca 开源团队
+
+在任意模块有意义 `PR` 3次以上，或解决重要问题的提交者，在征得提交者同意的情况下会邀请加入 `Macaca Open Source Team`。
+
+## LICENSE
+
+[MIT LICENSE](//github.com/alibaba/macaca/blob/master/LICENSE)

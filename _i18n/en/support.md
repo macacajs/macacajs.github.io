@@ -15,7 +15,7 @@ Team members can be found in [here](//github.com/orgs/macacajs/people).
 
 [![GITTER](https://img.shields.io/badge/GITTER-join%20chat-green.svg?style=flat-square)](https://gitter.im/alibaba/macaca)
 
-## Stack Overflow
+## StackOverflow
 
 Use Stack Overflow to ask questions. Read through the [existing questions](http://stackoverflow.com/search?q=macaca) tagged with `Macaca` or [ask your own](http://stackoverflow.com/questions/ask)!
 
@@ -70,3 +70,15 @@ Use Stack Overflow to ask questions. Read through the [existing questions](http:
     <p>Tmall</p>
   </li>
 </ul>
+
+## Related products
+
+Macaca T-shirt's design is free of charge to any person. Just enjoy it.
+
+<img src="http://wx4.sinaimg.cn/large/6d308bd9gy1ffrrpxt3sbj20i20i23ym.jpg" width="300"/>
+
+More about:
+
+- [macaca-products-design](//github.com/macacajs/macaca-products-design)
+- [photos](//github.com/macacajs/macaca-products-design/issues/1)
+- [macaca-logo](//github.com/macacajs/macaca-logo)
