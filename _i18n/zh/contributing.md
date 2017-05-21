@@ -45,8 +45,10 @@ $ git checkout -b features-xxx -t origin/master
 
 确认你的用户名和邮箱正确：
 
+``` bash
 $ git config --global user.name "awesome"
 $ git config --global user.email "awesome@macacajs.com"
+```
 
 ### 第四步：发起 PR
 
