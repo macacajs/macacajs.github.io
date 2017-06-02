@@ -26,6 +26,14 @@ $ brew install ios-webkit-debug-proxy
 $ brew install carthage
 ```
 
+### iOS Real Device
+
+![](http://wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
+
+``` bash
+$ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
+```
+
 ## Android
 
 0. [Install the latest JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)

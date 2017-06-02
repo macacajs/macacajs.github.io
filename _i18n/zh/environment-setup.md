@@ -29,6 +29,16 @@ $ brew install carthage
 
 * 准备 App 包：如需要测试 iOS 应用，请使用 Scheme 设置为 debug 的 `.app` 包。
 
+### iOS 真机环境
+
+![](http://wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
+
+在安装过程中可以将 TEAM_ID 通过环境变量传入即可支持真机，TEAM_ID 如何获取请见上图。
+
+``` bash
+$ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
+```
+
 ## Android 环境
 
 0. [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
