@@ -7,7 +7,7 @@ global:
   navigate: Navigate the docs…
 home_page:
   get_start: Getting Started
-  description: Write End-to-End tests and run against a WebDriver server
+  description: An open-source automation test solution for native, hybrid, mobile web and web application on mobile and desktop platforms.
   cross_platforms: Cross Platforms
   real_devices: Real Devices
   easy_test: Easy Test
