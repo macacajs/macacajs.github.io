@@ -101,3 +101,4 @@ gulp.task('test', function() {
 
 - [更多关于 UITest](//github.com/macacajs/uitest)
 - 示例：[uitest-sample](//github.com/macaca-sample/uitest-sample)
+- 游戏渲染引擎测试示例： [Hilo Game](//github.com/hiloteam/Hilo)
