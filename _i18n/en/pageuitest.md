@@ -104,4 +104,5 @@ gulp.task('test', function() {
 - [More About UITest](//github.com/macacajs/uitest)
 - [uitest-sample](//github.com/macaca-sample/uitest-sample)
 - [Hilo Game](//github.com/hiloteam/Hilo)
-
+- [pillow.js](//github.com/xudafeng/pillow)
+- [monitor.js](//github.com/xudafeng/monitor.js)
