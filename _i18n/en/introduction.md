@@ -14,7 +14,7 @@ Macaca doesn't limit what languages you will use to write your tests.
 ## Features
 
 0. Macaca has a [MIT license](https://opensource.org/licenses/MIT).
-0. Macaca's Inspector(//macacajs.com/inspector) is web based.
+0. Macaca's [Inspector](//macacajs.com/inspector) is web based.
 0. Macaca's iOS WebDriver is written by Swift and in-house built.
 0. Macaca's Android WebDrive is in-house built, and supports Android UIAutomator 2.0.
 0. Macaca has built-in [UI recorder](//macacajs.com/recorder) functionality.
