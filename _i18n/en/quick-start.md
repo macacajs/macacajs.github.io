@@ -1,8 +1,9 @@
 # Quick Start
-If you are new to UI automation test or cross-platform automation tool, the basic idea is 
-1. You have a test target, such as a website, or an mobile app.
-2. You need to write some test codes to validate the properties and state of UI elements of your target.
-3. Your test codes talk to Macaca, and Macaca talks to your target, execute what you have commanded in your test codes such as switching between screens, inputting text you predefined, return the UI element and properties you described in your test code, and generate a report about pass or failure. 
+If you are new to UI automation test or cross-platform automation tool, the basic idea is
+
+0. You have a test target, such as a website, or an mobile app.
+0. You need to write some test codes to validate the properties and state of UI elements of your target.
+0. Your test codes talk to Macaca, and Macaca talks to your target, execute what you have commanded in your test codes such as switching between screens, inputting text you predefined, return the UI element and properties you described in your test code, and generate a report about pass or failure. 
 Watching the following videos will help you understand the concepts better.
 
 If you have done some UI automation before, you probably have grasped what Macaca can do. You might want to jum right into what's capability. 
