@@ -41,3 +41,24 @@ $ npm i macaca-cli macaca-android -g
 [travis-url-2]: https://travis-ci.org/macacajs/macaca-electron
 [travis-image-3]: https://img.shields.io/travis/macacajs/macaca-ios.svg?style=flat-square
 [travis-url-3]: https://travis-ci.org/macacajs/macaca-ios
+
+## 稳定性基线
+
+| 仓库     | CI 状态    |
+| ---------- | --------- |
+| [sample-nodejs](//github.com/macaca-sample/sample-nodejs) | [![build status][travis-image1]][travis-url1] |
+| [sample-java](//github.com/macaca-sample/sample-java) | [![build status][travis-image2]][travis-url2] |
+| [sample-python](//github.com/macaca-sample/sample-python) | [![build status][travis-image3]][travis-url3] |
+| [macaca-cli](//github.com/macacajs/macaca-cli) | [![build status][travis-image4]][travis-url4] |
+| [app-inspector](//github.com/macacajs/app-inspector) | [![build status][travis-image5]][travis-url5] |
+
+[travis-image1]: https://img.shields.io/travis/macaca-sample/sample-nodejs.svg?style=flat-square
+[travis-url1]: https://travis-ci.org/macaca-sample/sample-nodejs
+[travis-image2]: https://img.shields.io/travis/macaca-sample/sample-java.svg?style=flat-square
+[travis-url2]: https://travis-ci.org/macaca-sample/sample-java
+[travis-image3]: https://img.shields.io/travis/macaca-sample/sample-python.svg?style=flat-square
+[travis-url3]: https://travis-ci.org/macaca-sample/sample-python
+[travis-image4]: https://img.shields.io/travis/macacajs/macaca-cli.svg?style=flat-square
+[travis-url4]: https://travis-ci.org/macacajs/macaca-cli
+[travis-image5]: https://img.shields.io/travis/macacajs/app-inspector.svg?style=flat-square
+[travis-url5]: https://travis-ci.org/macacajs/app-inspector
