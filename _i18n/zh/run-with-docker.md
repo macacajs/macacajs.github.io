@@ -2,7 +2,7 @@
 
 ## 支持列表
 
-| Image     | Dockerfile                                  | Status    |
+| 镜像     | Dockerfile                                  | 可用状态    |
 | ---------- | ---------------------------------------- | --------- |
 | macaca-android | [macaca-android-docker](//github.com/macacajs/macaca-android-docker) | [![build status][travis-image1]][travis-url1] |
 | macaca-electron | [macaca-electron-docker](//github.com/macacajs/macaca-electron-docker) | [![build status][travis-image2]][travis-url2] |
