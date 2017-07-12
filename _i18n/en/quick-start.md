@@ -1,4 +1,5 @@
 # Quick Start
+
 If you are new to UI automation test or cross-platform automation tool, the basic idea is
 
 0. You have a test target, such as a website, or an mobile app.

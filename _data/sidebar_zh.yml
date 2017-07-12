@@ -26,6 +26,7 @@
 
 - title: 持续集成
   docs:
+    - [run-with-docker, 使用Docker]
     - [master-deployment, Reliable Master部署]
     - [slave-deployment, Reliable Slave部署]
     - [using-with-ci, 使用其他CI服务]
