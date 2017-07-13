@@ -49,6 +49,6 @@ if __name__ == '__main__':
 
 ## 相关链接
 
-- [API 文档](//github.com/macacajs/wd.py)
+- [API 文档](//macacajs.github.io/wd.py)
 - [示例](//github.com/macaca-sample/sample-python)
 - [源代码](//github.com/macacajs/wd.py)
