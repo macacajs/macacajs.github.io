@@ -65,6 +65,10 @@ Macaca 依赖的功能模块非常多，所以我们使用主仓库 ([Macaca](//
   </li>
 </ul>
 
+<a target="_blank" href="//render.alipay.com/p/s/taobaonpm_click/macaca_banner_click">
+  <img src="//render.alipay.com/p/s/taobaonpm_click/macaca_banner" />
+</a>
+
 ## 相关周边
 
 Macaca T-shirt 采用的设计及 Logo 在保留原设计不修改的前提下可无偿使用。
