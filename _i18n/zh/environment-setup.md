@@ -41,7 +41,7 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 
 ## Android 环境
 
-0. [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+0. [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)，要求 1.8 或更高版本
 
 0. 配置 JAVA_HOME，根据你所使用的 shell 工具修改不同的文件，比如 ~/.bashrc, ~/.bash_profile, ~/.zshrc
 
