@@ -174,3 +174,10 @@ driver.init(desiredCaps);
 | Key     | Type                                  | Description    |
 | ---------- | ---------------------------------------- | --------- |
 | bundleId | String | Bundle ID of the app such as com.apple.Maps.|
+
+#### Electron-only Capabilities
+
+| Key     | Type                                  | Description    |
+| ---------- | ---------------------------------------- | --------- |
+| uesrAgent | String | A user agent originating the request.|
+| extraHeaders | String | Extra headers separated by “\n”.|

@@ -180,3 +180,10 @@ driver.init(desiredCaps);
 | 键     | 类型                                  | 描述    |
 | ---------- | ---------------------------------------- | --------- |
 | bundleId | String | 应用的 Bundle ID，例如 com.apple.Maps。|
+
+#### Electron 的参数介绍
+
+| 键     | 类型                                  | 描述    |
+| ---------- | ---------------------------------------- | --------- |
+| uesrAgent | String | 自定义 UA |
+| extraHeaders | String | 自定义头 |
