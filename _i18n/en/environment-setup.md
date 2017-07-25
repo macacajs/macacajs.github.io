@@ -37,15 +37,11 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 ## Android
 
 0. [Install the latest JDK, 1.8 or higher](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-0. Install the Android SDK, run `brew install android-sdk`
+0. Install the Android SDK`
 0. Set the `ANDROID_HOME` environment variable to your `~/.bashrc`, `~/.bash_profile`, `~/.zshrc` or whatever your shell uses:
 
 ``` bash
-## if you have installed the SDK via Homebrew
 export ANDROID_HOME = /usr/local/opt/android-sdk
-
-## otherwise
-export ANDROID_HOME = path/to/your/Android/sdk
 ```
 
 [gradle](https://gradle.org) is needed in order to build [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) and other package.

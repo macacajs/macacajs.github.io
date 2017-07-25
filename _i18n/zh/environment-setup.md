@@ -49,16 +49,12 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 $ export JAVA_HOME=path/to/your/Java/Home
 ```
 
-0. 安装安卓 SDK，运行 `brew install android-sdk`，然后安装`18-25`版本中的任一 SDK 和 `Android Support Repository`
-0. shell 环境设置 `ANDROID_HOME`
-	根据你所使用的Terminal修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
+0. 安装 `18-25` 版本中的任一 SDK 和 `Android Support Repository`
+0. shell 环境设置 `ANDROID_HOME`，根据你所使用的Terminal修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
 
 ``` bash
-# 如果是通过homebrew安装的android-sdk，则路径如下
+# 例如
 $ export ANDROID_HOME = /usr/local/opt/android-sdk
-
-# 如果通过其他方式安装的sdk，路径设置为对应的android sdk的路径
-$ export ANDROID_HOME = path/to/your/Android/sdk
 ```
 
 请安装 [gradle](https://gradle.org) 来构建 [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) 和其它依赖包。
