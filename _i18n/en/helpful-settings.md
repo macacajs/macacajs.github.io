@@ -181,3 +181,4 @@ driver.init(desiredCaps);
 | ---------- | ---------------------------------------- | --------- |
 | uesrAgent | String | A user agent originating the request.|
 | extraHeaders | String | Extra headers separated by “\n”.|
+| cookies | Object | Set the custom cookies.|

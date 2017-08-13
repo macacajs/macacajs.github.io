@@ -187,3 +187,4 @@ driver.init(desiredCaps);
 | ---------- | ---------------------------------------- | --------- |
 | uesrAgent | String | 自定义 UA |
 | extraHeaders | String | 自定义头 |
+| cookies | Object | 设置cookie |
