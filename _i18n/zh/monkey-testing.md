@@ -4,6 +4,7 @@
 
 ### 来自 Macaca 社区
 
+- [zhangzhao4444/Fastmonkey](//github.com/zhangzhao4444/Fastmonkey)
 - [baozhida/iosMonkey](//github.com/baozhida/iosMonkey)
 - [sixleaves/iOSMonkey](//github.com/sixleaves/iOSMonkey)
 - [mengdegong/iosMonkey](//github.com/mengdegong/iosMonkey)
