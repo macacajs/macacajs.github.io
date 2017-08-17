@@ -23,7 +23,7 @@ $ npm i macaca-cli macaca-android -g
 | [Chrome](//github.com/macacajs/macaca-chrome)      | [![NPM version][npm-image-1]][npm-url-1] | [![build status][travis-image-1]][travis-url-1]  | npm i macaca-chrome -g     |
 | [Electron](//github.com/macacajs/macaca-electron)  | [![NPM version][npm-image-2]][npm-url-2] | [![build status][travis-image-2]][travis-url-2]  | npm i macaca-electron -g   |
 | [iOS](//github.com/macacajs/macaca-ios)            | [![NPM version][npm-image-3]][npm-url-3] | [![build status][travis-image-3]][travis-url-3]  | npm i macaca-ios -g        |
-| [Puppeteer](//github.com/macacajs/macaca-puppeteer) | [![NPM version][npm-image-4]][npm-url-4] | [![build status][travis-image-4]][travis-url-4] |
+| [Puppeteer](//github.com/macacajs/macaca-puppeteer) | [![NPM version][npm-image-4]][npm-url-4] | [![build status][travis-image-4]][travis-url-4] | npm i macaca-puppeteer -g |
 
 [npm-image-0]: https://img.shields.io/npm/v/macaca-android.svg?style=flat-square
 [npm-url-0]: https://npmjs.org/package/macaca-android
