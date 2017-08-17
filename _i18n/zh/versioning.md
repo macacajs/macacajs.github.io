@@ -23,6 +23,7 @@ $ npm i macaca-cli macaca-android -g
 | [Chrome](//github.com/macacajs/macaca-chrome)      | [![NPM version][npm-image-1]][npm-url-1] | [![build status][travis-image-1]][travis-url-1]  | npm i macaca-chrome -g     |
 | [Electron](//github.com/macacajs/macaca-electron)  | [![NPM version][npm-image-2]][npm-url-2] | [![build status][travis-image-2]][travis-url-2]  | npm i macaca-electron -g   |
 | [iOS](//github.com/macacajs/macaca-ios)            | [![NPM version][npm-image-3]][npm-url-3] | [![build status][travis-image-3]][travis-url-3]  | npm i macaca-ios -g        |
+| [Puppeteer](//github.com/macacajs/macaca-puppeteer) | [![NPM version][npm-image-4]][npm-url-4] | [![build status][travis-image-4]][travis-url-4] |
 
 [npm-image-0]: https://img.shields.io/npm/v/macaca-android.svg?style=flat-square
 [npm-url-0]: https://npmjs.org/package/macaca-android
@@ -32,6 +33,8 @@ $ npm i macaca-cli macaca-android -g
 [npm-url-2]: https://npmjs.org/package/macaca-electron
 [npm-image-3]: https://img.shields.io/npm/v/macaca-ios.svg?style=flat-square
 [npm-url-3]: https://npmjs.org/package/macaca-ios
+[npm-image-4]: https://img.shields.io/npm/v/macaca-puppeteer.svg?style=flat-square
+[npm-url-4]: https://npmjs.org/package/macaca-puppeteer
 
 [travis-image-0]: https://img.shields.io/travis/macacajs/macaca-android.svg?style=flat-square
 [travis-url-0]: https://travis-ci.org/macacajs/macaca-android
@@ -41,6 +44,8 @@ $ npm i macaca-cli macaca-android -g
 [travis-url-2]: https://travis-ci.org/macacajs/macaca-electron
 [travis-image-3]: https://img.shields.io/travis/macacajs/macaca-ios.svg?style=flat-square
 [travis-url-3]: https://travis-ci.org/macacajs/macaca-ios
+[travis-image-4]: https://img.shields.io/travis/macacajs/macaca-puppeteer.svg?style=flat-square
+[travis-url-4]: https://travis-ci.org/macacajs/macaca-puppeteer
 
 ## 稳定性基线
 

@@ -188,3 +188,9 @@ driver.init(desiredCaps);
 | uesrAgent | String | 自定义 UA |
 | extraHeaders | String | 自定义头 |
 | cookies | Object | 设置cookie |
+
+#### Puppeteer 的参数介绍
+
+| 键     | 类型                                  | 描述    |
+| ---------- | ---------------------------------------- | --------- |
+| uesrAgent | String | 自定义 UA |
