@@ -36,7 +36,7 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 
 ## Android
 
-0. [Install the latest JDK, 1.8 or higher](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+0. [Install the latest JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (Java 9 is not supported)
 0. Install the Android SDK`
 0. Set the `ANDROID_HOME` environment variable to your `~/.bashrc`, `~/.bash_profile`, `~/.zshrc` or whatever your shell uses:
 
