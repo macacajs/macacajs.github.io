@@ -1,0 +1,14 @@
+node_modules
+.travis.yml
+examples/
+Makefile
+.jshintrc
+.jshintignore
+coverage/
+*.sw*
+bin/
+gen/
+build/
+*.un~
+.idea/
+*.iml

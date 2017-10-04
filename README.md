@@ -1,24 +1,24 @@
-# Macaca docs site
+# Official Site of Macaca
 
 ## Running locally
 
 Start a dev server at `localhost:4000`:
 
-### install jekyll
+## install jekyll
 
-```shell
+``` bash
 $ sudo gem install jekyll
 ```
 
-### install bundler
+## install bundler
 
-```shell
+``` bash
 $ sudo gem install bundler
 ```
 
-### Scripts
+## Scripts
 
-```shell
+``` bash
 # open to see this website: http://localhost:4000/
 $ npm run server
 $ npm run build
@@ -30,6 +30,10 @@ default branch: develop
 
 Publish branch: master
 
-```shell
+``` bash
 $ npm run update
 ```
+
+## License
+
+The MIT License (MIT)
