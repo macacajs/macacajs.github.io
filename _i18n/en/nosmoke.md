@@ -33,3 +33,5 @@ In order to design a multiplatform UI automation tool, the overall architcture i
 
 - The **NoSmoke** layer, it contains a node client which posting various crawling and analysis commands to **Macaca-Server** layer. The crawling algorithm in this module utilizes the node client to fetch window sources and convert it to a DFS tree model, then eventually send out a UI action to the target app via **macaca-server** and **proxy**.
 
+For more information, please visit: https://github.com/macacajs/NoSmoke
+
