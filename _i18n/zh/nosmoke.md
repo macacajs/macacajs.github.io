@@ -22,4 +22,4 @@ macaca-android 封装: [macaca-android](//github.com/macacajs/macaca-android)<b
 负责初始化Macaca 服务以及代理层对应端的驱动程序， 内部提供一个 client 与 macaca server 进行通讯， 通讯协议遵守 WebDriver 规范； 初始化完毕后开始按照深度遍历算法， 结合android， ios ，以及web 各平台的特性对当前界面进行<br/>
 抓取， 分解界面可操作的基本元素后， 通过client 与router 进行交互， 发出操作指令，并进一步分解刷新后的界面. <br/>
 
-更多信息， 请访问 [macacajs/NoSmoke](github.com/macacajs/NoSmoke)
+更多信息， 请访问 [macacajs/NoSmoke](//github.com/macacajs/NoSmoke)
