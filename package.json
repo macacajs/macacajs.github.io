@@ -4,8 +4,8 @@
     "gh-pages": "^0.12.0"
   },
   "scripts": {
-    "server": "jekyll server",
-    "build": "jekyll build",
-    "update": "jekyll build && gh-pages -d _site -b master"
+    "server": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build",
+    "update": "npm run build && gh-pages -d _site -b master"
   }
 }
