@@ -64,10 +64,11 @@ Macaca 是很多模块是集成在一起才能运行的，环境较单一功能�
 - [macaca-android/CONTRIBUTING.md](//github.com/macacajs/macaca-android/blob/master/CONTRIBUTING.md)
 - [macaca-electron/CONTRIBUTING.md](//github.com/macacajs/macaca-electron/blob/master/CONTRIBUTING.md)
 - [app-inspector/CONTRIBUTING.md](//github.com/macacajs/app-inspector/blob/master/CONTRIBUTING.md)
+- [NoSmoke/CONTRIBUTING.md](//github.com/macacajs/nosmoke/blob/master/CONTRIBUTING.md)
 - [XCTestWD/CONTRIBUTING.md](//github.com/macacajs/XCTestWD/blob/master/CONTRIBUTING.md)
 - [UIAutomatorWD/CONTRIBUTING.md](//github.com/macacajs/UIAutomatorWD/blob/master/CONTRIBUTING.md)
 - [wd.java/CONTRIBUTING.md](//github.com/macacajs/wd.java/blob/master/CONTRIBUTING.md)
-- [wd.py/CONTRIBUTING.md](//github.com/macacajs/wd.py/blob/master/CONTRIBUTING.md)
+- [wd.py/CONTRIBUTING.md](//github.com/macacajs/wd.py/blob/master/CONTRIBUTING.rst)
 
 ## 加入 Macaca 开源团队
 
