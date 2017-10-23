@@ -63,6 +63,12 @@ $ export ANDROID_HOME = /usr/local/opt/android-sdk
 $ brew install gradle
 ```
 
+可以设置Maven源地址获取更快的安装速度。
+
+``` bash
+$ MAVEN_MIRROR_URL=http://maven.aliyun.com/nexus/content/groups/public/ npm i macaca-android -g
+```
+
 * 准备 App 包：如需要测试 Android 应用，请使用 `.apk` 格式的包。
 
 ## 准备移动端App
