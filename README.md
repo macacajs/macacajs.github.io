@@ -1,5 +1,10 @@
 # Official Site of Macaca
 
+[![build status][travis-image]][travis-url]
+
+[travis-image]: https://img.shields.io/travis/macacajs/macacajs.github.io.svg?style=flat-square
+[travis-url]: https://travis-ci.org/macacajs/macacajs.github.io
+
 ---
 
 ## Running locally
