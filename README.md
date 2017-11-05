@@ -1,5 +1,7 @@
 # Official Site of Macaca
 
+---
+
 ## Running locally
 
 Start a dev server at `localhost:4000`:
