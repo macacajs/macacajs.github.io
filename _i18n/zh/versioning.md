@@ -56,6 +56,8 @@ $ npm i macaca-cli macaca-android -g
 | [sample-python](//github.com/macaca-sample/sample-python) | [![build status][travis-image3]][travis-url3] |
 | [macaca-cli](//github.com/macacajs/macaca-cli) | [![build status][travis-image4]][travis-url4] |
 | [app-inspector](//github.com/macacajs/app-inspector) | [![build status][travis-image5]][travis-url5] |
+| [nosmoke](//github.com/macacajs/nosmoke) | [![build status][travis-image6]][travis-url6] |
+| [torchjs](//github.com/macacajs/torchjs) | [![build status][travis-image7]][travis-url7] |
 
 [travis-image1]: https://img.shields.io/travis/macaca-sample/sample-nodejs.svg?style=flat-square
 [travis-url1]: https://travis-ci.org/macaca-sample/sample-nodejs
@@ -67,3 +69,7 @@ $ npm i macaca-cli macaca-android -g
 [travis-url4]: https://travis-ci.org/macacajs/macaca-cli
 [travis-image5]: https://img.shields.io/travis/macacajs/app-inspector.svg?style=flat-square
 [travis-url5]: https://travis-ci.org/macacajs/app-inspector
+[travis-image6]: https://img.shields.io/travis/macacajs/nosmoke.svg?style=flat-square
+[travis-url6]: https://travis-ci.org/macacajs/nosmoke
+[travis-image7]: https://img.shields.io/travis/macacajs/torchjs.svg?style=flat-square
+[travis-url7]: https://travis-ci.org/macacajs/torchjs
