@@ -12,6 +12,7 @@
 ``` bash
 $ brew install usbmuxd
 ```
+
 - 请安装 [ideviceinstaller](//github.com/libimobiledevice/ideviceinstaller) 用来给真机安装 App。
 
 ``` bash
