@@ -6,20 +6,25 @@
 
 ## iOS 环境
 
-0. 请安装 Xcode8.3 或者更高版本
-0. 需要安装 [usbmuxd](//github.com/libimobiledevice/usbmuxd) 以便于通过 USB 通道测试 iOS 真机，不需要测试真机则不用安装
+- 请安装 Xcode8.3 或者更高版本
+- 请安装 [usbmuxd](//github.com/libimobiledevice/usbmuxd) 以便于通过 USB 通道测试 iOS 真机，不需要测试真机则不用安装
 
 ``` bash
 $ brew install usbmuxd
 ```
+- 请安装 [ideviceinstaller](//github.com/libimobiledevice/ideviceinstaller) 用来给真机安装 App。
 
-0. 应用中如含有 WebView，请安装 [ios-webkit-debug-proxy](//github.com/google/ios-webkit-debug-proxy)
+``` bash
+$ brew install ideviceinstaller
+```
+
+- 应用中如含有 WebView，请安装 [ios-webkit-debug-proxy](//github.com/google/ios-webkit-debug-proxy)
 
 ``` bash
 $ brew install ios-webkit-debug-proxy
 ```
 
-0. 请安装 [carthage](//github.com/Carthage/Carthage) 来构建 Macaca [XCTestWD](//github.com/macacajs/XCTestWD).
+- 请安装 [carthage](//github.com/Carthage/Carthage) 来构建 Macaca [XCTestWD](//github.com/macacajs/XCTestWD).
 
 ``` bash
 $ brew install carthage

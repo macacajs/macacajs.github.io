@@ -8,19 +8,25 @@
 
 Xcode v8.3 or higher is required.
 
-[usbmuxd](//github.com/libimobiledevice/usbmuxd) is needed in order to testing real iOS device via USB.
+- [usbmuxd](//github.com/libimobiledevice/usbmuxd) is needed in order to testing real iOS device via USB.
 
 ``` bash
 $ brew install usbmuxd
 ```
 
-[ios-webkit-debug-proxy](//github.com/google/ios-webkit-debug-proxy) is needed in order to testing WebViews.
+- [ideviceinstaller](//github.com/libimobiledevice/ideviceinstaller) is needed in order to install App to real device.
+
+``` bash
+$ brew install ideviceinstaller
+```
+
+- [ios-webkit-debug-proxy](//github.com/google/ios-webkit-debug-proxy) is needed in order to testing WebViews.
 
 ``` bash
 $ brew install ios-webkit-debug-proxy
 ```
 
-[carthage](//github.com/Carthage/Carthage) is needed in order to build [XCTestWD](//github.com/macacajs/XCTestWD).
+- [carthage](//github.com/Carthage/Carthage) is needed in order to build [XCTestWD](//github.com/macacajs/XCTestWD).
 
 ``` bash
 $ brew install carthage
