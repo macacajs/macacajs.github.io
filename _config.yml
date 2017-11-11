@@ -36,4 +36,4 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 languages: ["en", "zh"]
-exclude_from_localizations: ["assets", "redirects", "node_modules"]
+exclude_from_localizations: ["assets", "redirects"]
