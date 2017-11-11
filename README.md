@@ -21,6 +21,7 @@ $ sudo gem install jekyll
 
 ``` bash
 $ sudo gem install bundler
+$ bundle install
 ```
 
 ## Scripts

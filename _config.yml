@@ -30,7 +30,7 @@ sass:
   # style: expanded
   style: compressed
 
-gems:
+plugins:
   - jekyll-multiple-languages-plugin
 
 languages: ["en", "zh"]
