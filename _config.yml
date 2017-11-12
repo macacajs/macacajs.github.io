@@ -16,24 +16,21 @@ defaults:
 
 timezone: Asia/Shanghai
 
-#Exclude from Build
 exclude:
   - Gemfile
   - Gemfile.lock
-  - jekyll-multiple-languages-plugin
   - README.md
   - LICENSE
-  - Makefile
   - package.json
   - node_modules
   - npm-debug.log
 
 sass:
-  # style: expanded
   style: compressed
 
 plugins:
   - jekyll-multiple-languages-plugin
 
 languages: ["en", "zh"]
+
 exclude_from_localizations: ["assets", "redirects"]

@@ -47,16 +47,16 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 
 ## Android 环境
 
-0. [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)，要求 1.8 （不支持Java 9）
+- [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)，要求 1.8 （不支持Java 9）
 
-0. 配置 JAVA_HOME，根据你所使用的 shell 工具修改不同的文件，比如 ~/.bashrc, ~/.bash_profile, ~/.zshrc
+- 配置 JAVA_HOME，根据你所使用的 shell 工具修改不同的文件，比如 ~/.bashrc, ~/.bash_profile, ~/.zshrc
 
 ``` bash
 $ export JAVA_HOME=path/to/your/Java/Home
 ```
 
-0. 安装 `18-25` 版本中的任一 SDK 和 `Android Support Repository`
-0. shell 环境设置 `ANDROID_HOME`，根据你所使用的Terminal修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
+- 安装 `18-25` 版本中的任一 SDK 和 `Android Support Repository`
+- shell 环境设置 `ANDROID_HOME`，根据你所使用的Terminal修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
 
 ``` bash
 # 例如
