@@ -77,6 +77,10 @@ $ MAVEN_MIRROR_URL=http://maven.aliyun.com/nexus/content/groups/public/ npm i ma
 
 * 准备 App 包：如需要测试 Android 应用，请使用 `.apk` 格式的包。
 
+## ChromeDriver
+
+[默认版本请到这里看](//github.com/macacajs/macaca-chromedriver/blob/master/README.md#default-version)
+
 ## 准备移动端App
 
 iOS: 支持 `.app` 格式的包。

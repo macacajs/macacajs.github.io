@@ -56,6 +56,10 @@ export ANDROID_HOME = /usr/local/opt/android-sdk
 $ brew install gradle
 ```
 
+## ChromeDriver
+
+[Default Version](//github.com/macacajs/macaca-chromedriver/blob/master/README.md#default-version)
+
 ## Macaca Cli
 
 ### Global Installation
