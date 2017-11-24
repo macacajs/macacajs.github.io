@@ -17,7 +17,7 @@
 
 ### 基本用法
 
-``` bash
+```bash
 $ adb shell monkey [options] <event-count>
 $ adb shell monkey -p your.package.name -v 500
 ```

@@ -22,7 +22,7 @@ git clone 下源代码后(windows系统建议直接下载压缩包格式或者�
 
 1) build `reliable-docker-base` 镜像：
 
-``` bash
+```bash
 $ git clone https://github.com/reliablejs/reliable-docker-base --depth=1
 $ cd reliable-docker-base
 $ docker build -t="reliable-docker-base" .
@@ -32,7 +32,7 @@ $ docker build -t="reliable-docker-base" .
 
 2) build `reliable-master` 镜像:
 
-``` bash
+```bash
 $ git clone https://github.com/reliablejs/reliable-master --depth=1
 $ cd reliable-master
 $ docker build -t="reliable-master" .
@@ -42,7 +42,7 @@ $ docker build -t="reliable-master" .
 
 3) 使用 docker-compose 启动:
 
-``` bash
+```bash
 $ git clone https://github.com/reliablejs/reliable-macaca-docker-compose.git --depth=1
 $ cd reliable-macaca-docker-compose
 $ make start
@@ -119,7 +119,7 @@ Reliable 启动需要一些时间，请稍作等待。
 
 你也可以使用 `crontab` 备份数据。参考 [scripts/cron.sh](//github.com/reliablejs/reliable-master/blob/master/scripts/cron.sh){:target="_blank"}，自行配置后，添加到 crontab script 中。 如:
 
-``` bash
+```bash
 $ crontab -e
 ```
 

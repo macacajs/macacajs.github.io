@@ -8,13 +8,13 @@
 
 ### Installation
 
-``` bash
+```bash
 $ npm i torchjs --save-dev
 ```
 
 ### Options
 
-``` bash
+```bash
 $ torch --help
 
   Usage: torch [options]
@@ -76,7 +76,7 @@ $ torch --help
 
 ### Installation
 
-``` bash
+```bash
 $ npm i uitest --save-dev
 ```
 
@@ -133,7 +133,7 @@ Here is an example `test.html`
 
 Your can start uitest using Node API:
 
-``` javascript
+```javascript
 const uitest = require('uitest');
 
 uitest({
@@ -154,11 +154,11 @@ uitest({
 
 Or with Gulp:
 
-``` bash
+```bash
 $ npm i gulp-uitest --save-dev
 ```
 
-``` javascript
+```javascript
 const uitest = require('gulp-uitest');
 //test
 gulp.task('test', function() {

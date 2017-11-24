@@ -12,7 +12,7 @@
 
 ### Usage
 
-``` javascript
+```javascript
 const wd = require('macaca-wd');
 const remoteConfig = {
   host: 'host',

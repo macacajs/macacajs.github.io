@@ -161,7 +161,7 @@ driver.init(desiredCaps);
 
 连续执行多个 touch 操作，类似于下图的密码解锁。
 
-``` javascript
+```javascript
 driver.touch([{
   type: 'drag',
   fromX: 265,

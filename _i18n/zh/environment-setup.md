@@ -9,25 +9,25 @@
 - 请安装 Xcode8.3 或者更高版本
 - 请安装 [usbmuxd](//github.com/libimobiledevice/usbmuxd) 以便于通过 USB 通道测试 iOS 真机，不需要测试真机则不用安装
 
-``` bash
+```bash
 $ brew install usbmuxd
 ```
 
 - 请安装 [ideviceinstaller](//github.com/libimobiledevice/ideviceinstaller) 用来给真机安装 App。
 
-``` bash
+```bash
 $ brew install ideviceinstaller
 ```
 
 - 应用中如含有 WebView，请安装 [ios-webkit-debug-proxy](//github.com/google/ios-webkit-debug-proxy)
 
-``` bash
+```bash
 $ brew install ios-webkit-debug-proxy
 ```
 
 - 请安装 [carthage](//github.com/Carthage/Carthage) 来构建 Macaca [XCTestWD](//github.com/macacajs/XCTestWD).
 
-``` bash
+```bash
 $ brew install carthage
 ```
 
@@ -41,7 +41,7 @@ $ brew install carthage
 
 在安装过程中可以将 TEAM_ID 通过环境变量传入即可支持真机，TEAM_ID 如何获取请见上图。
 
-``` bash
+```bash
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 ```
 
@@ -51,27 +51,27 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 
 - 配置 JAVA_HOME，根据你所使用的 shell 工具修改不同的文件，比如 ~/.bashrc, ~/.bash_profile, ~/.zshrc
 
-``` bash
+```bash
 $ export JAVA_HOME=path/to/your/Java/Home
 ```
 
 - 安装 `18-25` 版本中的任一 SDK 和 `Android Support Repository`
 - shell 环境设置 `ANDROID_HOME`，根据你所使用的Terminal修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
 
-``` bash
+```bash
 # 例如
 $ export ANDROID_HOME = /usr/local/opt/android-sdk
 ```
 
 请安装 [gradle](https://gradle.org) 来构建 [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) 和其它依赖包。
 
-``` bash
+```bash
 $ brew install gradle
 ```
 
 可以设置Maven源地址获取更快的安装速度。
 
-``` bash
+```bash
 $ MAVEN_MIRROR_URL=http://maven.aliyun.com/nexus/content/groups/public/ npm i macaca-android -g
 ```
 
@@ -93,7 +93,7 @@ Desktop: 支持任意浏览器网页。
 
 ### 全局安装
 
-``` bash
+```bash
 $ npm i -g macaca-cli
 ```
 
@@ -105,7 +105,7 @@ $ npm i -g macaca-cli
 
 上述驱动可以按照自身需要选择性的安装，比如只需要测试 iOS平台用例，就执行iOS的安装命令：
 
-``` bash
+```bash
 $ npm i macaca-ios -g
 ```
 
@@ -113,7 +113,7 @@ $ npm i macaca-ios -g
 
 通过 `macaca doctor` 可以检查环境是否配置成功
 
-``` bash
+```bash
 $ macaca doctor
 ```
 
@@ -127,13 +127,13 @@ $ macaca doctor
 
 Chromedriver 和 Electron 可以使用如下镜像：
 
-``` bash
+```bash
 $ export CHROMEDRIVER_CDNURL=http://npm.taobao.org/mirrors/chromedriver/
 $ export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
 ```
 
 Homebrew 可以使用如下镜像：
 
-``` bash
+```bash
 HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles brew install ios-webkit-debug-proxy
 ```

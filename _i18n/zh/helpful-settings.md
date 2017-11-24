@@ -6,7 +6,7 @@ Desired Capabilities 是用来在启动时配置服务器的参数。
 
 #### 入参示例
 
-``` javascript
+```javascript
 const wd = require('macaca-wd');
 const driver = wd.promiseChainRemote({
   host: 'localhost',
@@ -167,7 +167,7 @@ driver.init(desiredCaps);
 
 连续执行多个 touch 操作，类似于下图的密码解锁。
 
-``` javascript
+```javascript
 driver.touch([{
   type: 'drag',
   fromX: 265,

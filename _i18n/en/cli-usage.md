@@ -2,7 +2,7 @@
 
 ### Run test tasks
 
-``` bash
+```bash
 # run test in current cwd
 $ macaca run --verbose
 
@@ -22,7 +22,7 @@ $ CUSTOM_DIR=path/to/screenshot macaca run -d ./test --reporter macaca-simple-re
 
 ### Start webdriver server only
 
-``` bash
+```bash
 # normal usage
 $ macaca server --verbose
 
@@ -32,13 +32,13 @@ $ macaca server -p 3456
 
 ### Environment doctor
 
-``` bash
+```bash
 $ macaca doctor
 ```
 
 ### More Help
 
-``` bash
+```bash
 $ macaca -h
 
 # helper for server

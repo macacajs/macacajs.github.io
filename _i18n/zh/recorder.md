@@ -12,13 +12,13 @@
 
 ## 安装
 
-``` bash
+```bash
 $ npm i uirecorder -g
 ```
 
 ## 用法
 
-``` bash
+```bash
 # 开启 Macaca 服务
 $ macaca server --port 4444 --verbose
 # 开始移动端录制

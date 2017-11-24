@@ -10,25 +10,25 @@ Xcode v8.3 or higher is required.
 
 - [usbmuxd](//github.com/libimobiledevice/usbmuxd) is needed in order to testing real iOS device via USB.
 
-``` bash
+```bash
 $ brew install usbmuxd
 ```
 
 - [ideviceinstaller](//github.com/libimobiledevice/ideviceinstaller) is needed in order to install App to real device.
 
-``` bash
+```bash
 $ brew install ideviceinstaller
 ```
 
 - [ios-webkit-debug-proxy](//github.com/google/ios-webkit-debug-proxy) is needed in order to testing WebViews.
 
-``` bash
+```bash
 $ brew install ios-webkit-debug-proxy
 ```
 
 - [carthage](//github.com/Carthage/Carthage) is needed in order to build [XCTestWD](//github.com/macacajs/XCTestWD).
 
-``` bash
+```bash
 $ brew install carthage
 ```
 
@@ -36,7 +36,7 @@ $ brew install carthage
 
 ![](http://wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 
-``` bash
+```bash
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 ```
 
@@ -46,13 +46,13 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 - Install the Android SDK`
 - Set the `ANDROID_HOME` environment variable to your `~/.bashrc`, `~/.bash_profile`, `~/.zshrc` or whatever your shell uses:
 
-``` bash
+```bash
 export ANDROID_HOME = /usr/local/opt/android-sdk
 ```
 
 [gradle](https://gradle.org) is needed in order to build [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) and other package.
 
-``` bash
+```bash
 $ brew install gradle
 ```
 
@@ -64,7 +64,7 @@ $ brew install gradle
 
 ### Global Installation
 
-``` bash
+```bash
 $ npm i -g macaca-cli
 ```
 
@@ -74,7 +74,7 @@ If you saw the picture below, congratulations! Macaca has been installed success
 
 ### Local Installation
 
-``` bash
+```bash
 $ npm i macaca-cli --save-dev
 
 # start Macaca
@@ -83,7 +83,7 @@ $ ./node_modules/.bin/macaca run --verbose
 
 ### Driver Installation
 
-``` bash
+```bash
 # please run below for newer npm
 $ npm i macaca-ios -g
 ```
@@ -92,7 +92,7 @@ $ npm i macaca-ios -g
 
 Let's check the version and verify the environment.
 
-``` bash
+```bash
 # show version
 $ macaca -v
 

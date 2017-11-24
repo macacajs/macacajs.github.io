@@ -26,7 +26,7 @@
 
 选择需要修改的仓库，Fork 到自己本地，如。
 
-``` bash
+```bash
 $ git clone git@github.com:macacajs/macaca-ios.git
 $ cd macaca-ios
 $ git remote add upstream git://github.com/macacajs/macaca-ios.git
@@ -37,7 +37,7 @@ $ git remote add upstream git://github.com/macacajs/macaca-ios.git
 请根据修改级别创建分支名如：`features-xxx` 或 `bugfix-xxx`
 
 
-``` bash
+```bash
 $ git checkout -b features-xxx -t origin/master
 ```
 
@@ -45,7 +45,7 @@ $ git checkout -b features-xxx -t origin/master
 
 确认你的用户名和邮箱正确：
 
-``` bash
+```bash
 $ git config --global user.name "awesome"
 $ git config --global user.email "awesome@macacajs.com"
 ```

@@ -8,13 +8,13 @@
 
 ### 安装
 
-``` bash
+```bash
 $ npm i torchjs --save-dev
 ```
 
 ### 配置
 
-``` bash
+```bash
 $ torch --help
 
   Usage: torch [options]
@@ -74,7 +74,7 @@ $ torch --help
 
 ### 安装
 
-``` bash
+```bash
 $ npm i uitest --save-dev
 ```
 
@@ -129,7 +129,7 @@ $ npm i uitest --save-dev
 
 在命令行里运行
 
-``` javascript
+```javascript
 const uitest = require('uitest');
 
 uitest({
@@ -150,11 +150,11 @@ uitest({
 
 也可以通过 Gulp 引入：
 
-``` bash
+```bash
 $ npm i gulp-uitest --save-dev
 ```
 
-``` javascript
+```javascript
 const uitest = require('gulp-uitest');
 //test
 gulp.task('test', function() {

@@ -14,7 +14,7 @@ We prepare an example for you to get a taste.
 
 Check out the sample located in this repo([mobile-app-sample-nodejs](//github.com/macaca-sample/sample-nodejs)).
 
-``` bash
+```bash
 $ git clone https://github.com/macaca-sample/sample-nodejs.git --depth=1
 $ cd sample-nodejs
 $ npm i

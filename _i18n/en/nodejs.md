@@ -2,7 +2,7 @@
 
 ## Usage
 
-``` javascript
+```javascript
 var wd = require('macaca-wd');
 
 var remoteConfig = {

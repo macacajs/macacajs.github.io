@@ -51,7 +51,7 @@ Macaca doesn't limit what client you use. We provide [Node.js](//macacajs.github
 
 Once you have node.js and npm installed, run our `sample test project ` to see Macaca in action
 
-``` shell
+```bash
 $ git clone https://github.com/macaca-sample/sample-nodejs.git --depth=1
 $ cd sample-nodejs
 $ npm i

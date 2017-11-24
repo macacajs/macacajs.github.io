@@ -8,7 +8,7 @@ First of all, in order to run iOS apps, the reliable-macaca-slave can only be in
 
 run command to check environment:
 
-``` bash
+```bash
 $ npm i macaca-cli -g
 $ macaca doctor
 ```
@@ -19,7 +19,7 @@ You need to install Node.js before.
 
 And before install reliable-macaca-slave, you need to install the zeromq library first.
 
-``` bash
+```bash
 $ brew install pkg-config
 $ brew install zeromq
 
@@ -36,7 +36,7 @@ Before deploy the reliable-macaca-slave, there should be a reliable-master serve
 
 ### For Development:
 
-``` bash
+```bash
 $ reliable server -m <reliable-master:port> --verbose
 ```
 After initialization successfully. Server logs will be shown in your terminal.

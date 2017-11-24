@@ -2,7 +2,7 @@
 
 ### 执行测试用例
 
-``` bash
+```bash
 # run test in current cwd
 $ macaca run --verbose
 
@@ -24,7 +24,7 @@ $ CUSTOM_DIR=path/to/screenshot macaca run -d ./test --reporter macaca-simple-re
 
 ### 只启动服务器
 
-``` bash
+```bash
 # 普通用法，添加了 --verbose 可以看到详细的信息
 $ macaca server --verbose
 
@@ -34,13 +34,13 @@ $ macaca server -p 3456
 
 ### 检查当前 Macaca 的安装环境
 
-``` bash
+```bash
 $ macaca doctor
 ```
 
 ### 更多的选项
 
-``` bash
+```bash
 $ macaca -h
 
 # 服务器相关选项

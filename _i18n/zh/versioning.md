@@ -4,7 +4,7 @@ Macaca 命令行工具，驱动模块和周边工具遵从 [Semantic Versioning]
 
 升级与安装的命令是一致的，直接使用 `npm install` 命令即可，比如安装命令行工具和 `Android` 端驱动：
 
-``` bash
+```bash
 $ npm i macaca-cli macaca-android -g
 ```
 

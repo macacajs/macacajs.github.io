@@ -8,13 +8,13 @@
 
 ## Installation
 
-``` bash
+```bash
 $ npm i uirecorder -g
 ```
 
 ## Usage
 
-``` bash
+```bash
 # start macaca server
 $ macaca server --port 4444 --verbose
 # start recorder

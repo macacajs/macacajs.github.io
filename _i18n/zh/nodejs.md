@@ -6,7 +6,7 @@
 
 ## 快速创建
 
-``` bash
+```bash
 $ git clone git@github.com:macaca-sample/macaca-nodejs-boilerplate.git
 ```
 
@@ -18,7 +18,7 @@ $ git clone git@github.com:macaca-sample/macaca-nodejs-boilerplate.git
 
 ## 用法示例
 
-``` javascript
+```javascript
 
 // 引入官方webdriver client 包
 var wd = require('macaca-wd');
@@ -57,7 +57,7 @@ it('#1 should', function() {
 
 ## 扩展 API
 
-``` javascript
+```javascript
 wd.addPromiseChainMethod(name, method);
 ```
 

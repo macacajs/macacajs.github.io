@@ -10,13 +10,13 @@
 
 ## Installation
 
-``` bash
+```bash
 $ npm i app-inspector -g
 ```
 
 ## Usage
 
-``` bash
+```bash
 $ app-inspector -u xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
 
@@ -24,13 +24,13 @@ $ app-inspector -u xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 ![](http://wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 
-``` bash
+```bash
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i app-inspector -g
 ```
 
 ## Help
 
-``` bash
+```bash
 $ app-inspector -h
 ```
 

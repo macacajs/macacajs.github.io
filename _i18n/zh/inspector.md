@@ -10,13 +10,13 @@
 
 ## 安装
 
-``` bash
+```bash
 $ npm i app-inspector -g
 ```
 
 ## 用法
 
-``` bash
+```bash
 # 直接 -u + 设备的 udid 即可
 $ app-inspector -u xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
@@ -27,13 +27,13 @@ $ app-inspector -u xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 
 在安装过程中可以将 TEAM_ID 通过环境变量传入即可支持真机，TEAM_ID 如何获取请见上图。
 
-``` bash
+```bash
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i app-inspector -g
 ```
 
 ## 帮助
 
-``` bash
+```bash
 $ app-inspector -h
 ```
 

@@ -2,20 +2,20 @@
 
 ## 先将服务启动
 
-``` bash
+```bash
 $ macaca server --verbose
 ```
 
 ## REPL 环境
 
-``` bash
+```bash
 # 直接使用 Node.js REPL 环境
 $ node
 ```
 
 ## Devtool 用法[推荐]
 
-``` bash
+```bash
 # 请安装 1.11.2 版本的 devtool
 $ npm i -g devtool@1.11.2
 # 然后在工程根目录运行

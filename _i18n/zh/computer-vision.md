@@ -8,7 +8,7 @@ Macaca 提供计算机视觉解决方案，用来处理 View 体系之外的问�
 
 MacOS 可使用 brew 来安装:
 
-``` bash
+```bash
 $ brew install opencv
 ```
 
@@ -22,7 +22,7 @@ $ brew install opencv
 
 只需要引入 [nodecv](https://github.com/xudafeng/nodecv) 模块即可完成图像相似度，特征匹配，特征识别等功能，如下示例。
 
-``` javascript
+```javascript
 const nodecv = require('nodecv');
 
 nodecv.imread(image1Path, (err, image1) => {
@@ -89,7 +89,7 @@ Java 端请直接使用 [JavaCV](//github.com/bytedeco/javacv)，更多 Java 示
 
 Macaca 提供便捷的 Opencv 服务部署，只需要 Docker 环境便可一键部署。
 
-``` bash
+```bash
 $ git clone git@github.com:macacajs/nodecv-server.git --depth=1
 $ cd nodecv-server
 $ docker build . -t="node-server"
@@ -117,7 +117,7 @@ POST /opencv/cascadedetect
 
 请求 HTTP 服务示例：
 
-``` javascript
+```javascript
 request.post({
   url: `${remoteHost}/opencv/dissimilarity`,
   formData: formData

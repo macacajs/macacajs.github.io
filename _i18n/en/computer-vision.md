@@ -6,7 +6,7 @@
 
 for MacOS, please use brew to install opencv2:
 
-``` bash
+```bash
 $ brew install opencv
 ```
 
@@ -14,7 +14,7 @@ $ brew install opencv
 
 #### Node.js:
 
-``` javascript
+```javascript
 const nodecv = require('nodecv');
 
 nodecv.imread(image1Path, (err, image1) => {
@@ -67,7 +67,7 @@ from: [macaca-sample/cv-sample-java](//github.com/macaca-sample/cv-sample-java)ã
 
 ### Use As Service
 
-``` bash
+```bash
 $ git clone git@github.com:macacajs/nodecv-server.git --depth=1
 $ cd nodecv-server
 $ docker build . -t="node-server"

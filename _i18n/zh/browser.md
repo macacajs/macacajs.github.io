@@ -8,7 +8,7 @@
 
 可以通过如下命令加速安装：
 
-``` bash
+```bash
 selenium-standalone install --drivers.firefox.baseURL=http://npm.taobao.org/mirrors/geckodriver --baseURL=http://npm.taobao.org/mirrors/selenium --drivers.chrome.baseURL=http://npm.taobao.org/mirrors/chromedriver --drivers.ie.baseURL=http://npm.taobao.org/mirrors/selenium
 ```
 
@@ -22,7 +22,7 @@ selenium-standalone install --drivers.firefox.baseURL=http://npm.taobao.org/mirr
 
 通过如下配置可以测试多种类型的桌面端浏览器：
 
-``` javascript
+```javascript
 const wd = require('macaca-wd');
 const remoteConfig = {
   host: 'host',
