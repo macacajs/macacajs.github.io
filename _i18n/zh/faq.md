@@ -14,3 +14,4 @@
 - [截图结果相关问题](//github.com/alibaba/macaca/issues/85)
 - [多任务测试](//github.com/alibaba/macaca/issues/105)
 - [多设备测试](//github.com/alibaba/macaca/issues/77)
+- [升级后出现 Package com.macaca.android.testing new target SDK 18 doesn't support runtime permission but the old target SDK 25 does 问题](//github.com/alibaba/macaca/issues/709)
