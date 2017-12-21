@@ -61,9 +61,6 @@ $ torch --help
 
 [更多配置](//github.com/macacajs/torchjs)
 
-- [简单的测试例子](//github.com/macaca-sample/torchjs-sample)
-- [antd 组件测试例子](//github.com/macaca-sample/antd-sample)
-
 ![](http://wx4.sinaimg.cn/large/6d308bd9gy1fivuatxep5j21kw13dgs6.jpg)
 
 ![](http://wx3.sinaimg.cn/large/6d308bd9gy1fivtfos9r5j21kw130af7.jpg)

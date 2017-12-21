@@ -13,20 +13,20 @@ Start a dev server at `localhost:4000`:
 
 ## install jekyll
 
-``` bash
+```bash
 $ sudo gem install jekyll
 ```
 
 ## install bundler
 
-``` bash
+```bash
 $ sudo gem install bundler
 $ bundle install
 ```
 
 ## Scripts
 
-``` bash
+```bash
 # open to see this website: http://localhost:4000/
 $ npm run server
 $ npm run build
@@ -38,7 +38,7 @@ default branch: develop
 
 Publish branch: master
 
-``` bash
+```bash
 $ npm run update
 ```
 

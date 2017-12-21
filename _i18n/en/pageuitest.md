@@ -61,11 +61,6 @@ $ torch --help
 
 [for more](//github.com/macacajs/torchjs)
 
-### Sample
-
-- [torchjs test sample](//github.com/macaca-sample/torchjs-sample)
-- [antd components test sample](//github.com/macaca-sample/antd-sample)
-
 ![](http://wx4.sinaimg.cn/large/6d308bd9gy1fivuatxep5j21kw13dgs6.jpg)
 
 ![](http://wx3.sinaimg.cn/large/6d308bd9gy1fivtfos9r5j21kw130af7.jpg)

@@ -1,7 +1,7 @@
 {
   "name": "macacajs.github.io",
   "devDependencies": {
-    "gh-pages": "^0.12.0"
+    "gh-pages": "^1.1.0"
   },
   "scripts": {
     "server": "bundle exec jekyll serve",
