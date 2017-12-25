@@ -1,8 +1,12 @@
+.DS_Store
+_site/
+.sass-cache/
+.ruby-version
+node_modules/
+npm-debug.log
+Gemfile.lock
 node_modules
 .travis.yml
-Makefile
-coverage/
-build/
 .idea/
 *.iml
 *.sw*
