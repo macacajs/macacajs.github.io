@@ -12,6 +12,7 @@
     - [debugging, 单步调试器]
     - [inspector, 元素查看器]
     - [recorder, 录制回放器]
+    - [datahub, 数据环境]
     - [nosmoke, 冒烟遍历器]
     - [monkey-testing, Monkey测试]
     - [computer-vision, 计算机视觉]
