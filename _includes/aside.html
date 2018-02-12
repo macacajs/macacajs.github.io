@@ -9,7 +9,7 @@
   <ul>
     {% for item in section.docs %}
     {% assign item_path = item[0] | prepend: "_docs/" | append: ".md" %}
-    <li{% if item_path == page.path %} class="current"{% endif %}><a href="{{ item[0] }}">{{ item[1] }}</a></li>
+    <li{% if item_path == page.path %} class="current"{% endif %}><a href="{{ item[0] }}" target="_self">{{ item[1] }}</a></li>
     {% endfor %}
   </ul>
   {% endfor %}
