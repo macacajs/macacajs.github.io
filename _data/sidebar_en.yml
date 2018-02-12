@@ -1,10 +1,9 @@
 - title: Guides
   docs:
     - [introduction, Introduction]
-    - [quick-start, Quick Start]
     - [environment-setup, Environment Setup]
+    - [quick-start, Quick Start]
     - [helpful-settings, Helpful Settings]
-    - [cli-usage, Macaca CLI Usage]
     - [versioning, Versioning]
 
 - title: Advanced
