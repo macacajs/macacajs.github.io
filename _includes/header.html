@@ -1,7 +1,6 @@
 <header class="clearfix">
   <div class="container">
-    <a href="{% if site.lang == "zh" %}/zh{% endif %}/" class="brand">{{ site.name }}</a>
-
+    <a target="_self" href="{% if site.lang == "zh" %}/zh{% endif %}/" class="brand">{{ site.name }}</a>
     <nav id="nav">
       <a href="{% if site.lang == "zh" %}/zh{% endif %}/"{% if page.path == "index.html" %} class="current"{% endif %} target="_self">
         <paper-ripple class="peach"></paper-ripple>
