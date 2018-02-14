@@ -6,24 +6,6 @@
 $ macaca server --verbose
 ```
 
-## REPL
-
-```bash
-# go into REPL environment
-$ node
-```
-
-## Devtool Usage
-
-```bash
-# only version 1.11.2 can be use
-$ npm i -g devtool@1.11.2
-# run devtool in your project directory
-$ devtool
-```
-
-![](http://ww3.sinaimg.cn/large/3fb01b8agw1f2m0n619wpj21d019aaey.jpg)
-
 ```javascript
 // run sample code
 > const wd = require('wd');
@@ -40,4 +22,4 @@ $ devtool
   });
 ```
 
-[More About Devtool](//github.com/Jam3/devtool)
+[More About Node.js Inspector](//nodejs.org/en/docs/inspector/)
