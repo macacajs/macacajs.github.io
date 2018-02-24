@@ -45,7 +45,7 @@ mocha example:
 ```javascript
 afterEach(function () {
   return driver
-    .coverage()  // 收集覆盖率
+    .coverage()
     .saveScreenshots(this);
 });
 ```
