@@ -6,23 +6,24 @@
     - [helpful-settings,  参数设置]
     - [versioning, 版本说明]
 
+- title: API文档
+  docs:
+    - [nodejs, Node.js]
+    - [java, Java]
+    - [python, Python]
+
 - title: 高级进阶
   docs:
     - [debugging, 单步调试器]
     - [inspector, 元素查看器]
     - [recorder, 录制回放器]
     - [datahub, 数据环境]
+    - [coverage, 覆盖率统计]
     - [nosmoke, 冒烟遍历器]
     - [monkey-testing, Monkey测试]
     - [computer-vision, 计算机视觉]
     - [pageuitest, 页面UI测试]
     - [browser, 浏览器测试]
-
-- title: API
-  docs:
-    - [nodejs, Node.js]
-    - [java, Java]
-    - [python, Python]
 
 - title: 持续集成
   docs:

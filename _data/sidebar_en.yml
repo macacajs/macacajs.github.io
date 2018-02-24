@@ -6,23 +6,24 @@
     - [helpful-settings, Helpful Settings]
     - [versioning, Versioning]
 
+- title: API
+  docs:
+    - [nodejs, Node.js]
+    - [java, Java]
+    - [python, Python]
+
 - title: Advanced
   docs:
     - [debugging, Debugging]
     - [inspector, Inspector]
     - [recorder, Recorder]
     - [datahub, DataHub]
+    - [coverage, Coverage]
     - [nosmoke, NoSmoke]
     - [monkey-testing, Monkey Testing]
     - [computer-vision, Computer Vision]
     - [pageuitest, PageUITest]
     - [browser, Browser Testing]
-
-- title: API
-  docs:
-    - [nodejs, Node.js]
-    - [java, Java]
-    - [python, Python]
 
 - title: Continue Integration
   docs:

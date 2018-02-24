@@ -37,4 +37,4 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i app-inspector -g
 $ app-inspector -h
 ```
 
-[更多关于 Inspector](//github.com/macacajs/app-inspector)
+[更多关于 Inspector](//macacajs.github.io/app-inspector/cn/)
