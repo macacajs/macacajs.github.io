@@ -117,6 +117,12 @@ public static void collect2ExecFile(boolean isNew) {
 }
 ```
 
+获取 `coverage.exec` 文件
+
+```
+$ adb pull /storage/emulated/0/coverage.exec .
+```
+
 然后使用 Macaca 提供的覆盖率工具生成报告：
 
 ```bash

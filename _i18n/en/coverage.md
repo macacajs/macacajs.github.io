@@ -115,6 +115,10 @@ public static void collect2ExecFile(boolean isNew) {
 }
 ```
 
+```
+$ adb pull /storage/emulated/0/coverage.exec .
+```
+
 Generate report by Macaca coverage tool:
 
 ```bash
