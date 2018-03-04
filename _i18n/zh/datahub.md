@@ -68,4 +68,4 @@ DataHub 提供开放的操作 API 通过 SDK 包的形式提供给工程集成�
 
 - [datahub-nodejs-sdk](//github.com/macacajs/datahub-nodejs-sdk)
 - [datahub-java-sdk](//github.com/macacajs/datahub-java-sdk)
-- [datahub-ios-sdk](//github.com/macacajs/datahub-ios-sdk)
+- [datahub-python-sdk](//github.com/macacajs/datahub-python-sdk)

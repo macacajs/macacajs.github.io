@@ -50,5 +50,5 @@ Webpack, React, Vue, iOS, Android project samples can be found in [here](//githu
 
 - [datahub-nodejs-sdk](//github.com/macacajs/datahub-nodejs-sdk)
 - [datahub-java-sdk](//github.com/macacajs/datahub-java-sdk)
-- [datahub-ios-sdk](//github.com/macacajs/datahub-ios-sdk)
+- [datahub-python-sdk](//github.com/macacajs/datahub-python-sdk)
 
