@@ -6,7 +6,7 @@
 
 ## iOS 环境
 
-- 请安装 Xcode8.3 或者更高版本
+- 请安装 Xcode9 或者更高版本
 - 请安装 [usbmuxd](//github.com/libimobiledevice/usbmuxd) 以便于通过 USB 通道测试 iOS 真机，不需要测试真机则不用安装
 
 ```bash

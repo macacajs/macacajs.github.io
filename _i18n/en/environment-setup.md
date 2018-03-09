@@ -6,7 +6,7 @@
 
 ## iOS
 
-Xcode v8.3 or higher is required.
+Xcode v9 or higher is required.
 
 - [usbmuxd](//github.com/libimobiledevice/usbmuxd) is needed in order to testing real iOS device via USB.
 
