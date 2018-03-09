@@ -56,6 +56,12 @@ export ANDROID_HOME = /usr/local/opt/android-sdk
 $ brew install gradle
 ```
 
+* If you got a error like [You have not accepted the license agreements of the following SDK components] on your install command [npm i macaca-android -g]，plz accept all Android SDK licenses uses command below, and retry install.
+
+```bash
+$ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
+```
+
 ## ChromeDriver
 
 [Default Version](//github.com/macacajs/macaca-chromedriver/blob/master/README.md#default-version)

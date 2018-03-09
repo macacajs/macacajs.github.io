@@ -76,6 +76,11 @@ $ MAVEN_MIRROR_URL=http://maven.aliyun.com/nexus/content/groups/public/ npm i ma
 ```
 
 * 准备 App 包：如需要测试 Android 应用，请使用 `.apk` 格式的包。
+* 如果在运行 npm i macaca-android -g 的过程中出现 [You have not accepted the license agreements of the following SDK components]，请执行如下命令(该命令将同意所有的AndroidSDK 协议)后再次执行安装。
+
+```bash
+$ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
+```
 
 ## ChromeDriver
 
