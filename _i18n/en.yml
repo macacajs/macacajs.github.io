@@ -3,7 +3,7 @@ global:
   doc: Document
   support: Support
   slogan: Solution for Automation Test with Ease
-  lang: 中文版
+  lang: 中文
   navigate: Navigate the docs…
 home_page:
   get_start: Getting Started

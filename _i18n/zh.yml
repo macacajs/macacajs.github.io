@@ -3,7 +3,7 @@ global:
   doc: 文档
   support: 帮助支持
   slogan: 面向多端的自动化测试
-  lang: English Version
+  lang: English
   navigate: 点击切换文档
 home_page:
   get_start: 上手文档
