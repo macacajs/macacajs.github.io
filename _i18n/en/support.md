@@ -11,6 +11,10 @@ Packages can be found in [Macaca Group](//github.com/macacajs) and [Reliable Gro
 
 Team members can be found in [here](//github.com/orgs/macacajs/people).
 
+## DingTalk
+
+<img src="//wx3.sinaimg.cn/large/6d308bd9gy1fp92ufd64mj20ku0riq5y.jpg" width="280" />
+
 ## Quick questions
 
 [![GITTER](https://img.shields.io/badge/GITTER-join%20chat-green.svg?style=flat-square)](https://gitter.im/alibaba/macaca)

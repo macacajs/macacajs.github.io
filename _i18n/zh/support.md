@@ -9,6 +9,10 @@ Macaca 依赖的功能模块非常多，所以我们使用主仓库 ([Macaca](//
 
 源码管理在 [Macaca Group](//github.com/macacajs) 和 [Reliable Group](//github.com/reliablejs) 两个组。
 
+## 钉钉群
+
+<img src="//wx3.sinaimg.cn/large/6d308bd9gy1fp92ufd64mj20ku0riq5y.jpg" width="280" />
+
 ## 团队成员
 
 [成员列表](//github.com/orgs/macacajs/people)
