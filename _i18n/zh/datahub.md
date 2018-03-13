@@ -30,6 +30,8 @@ DataHub 采用单向数据流动的原则，使当前项目下的数据状态及
 
 DataHub 将 Mock 数据与字段描述整合处理，自动生成接口文档。使得文档能够与交互字段随时保持一致。
 
+<img src="https://wx3.sinaimg.cn/large/6d308bd9gy1fpbm9w2ohoj21kw13ak2r.jpg" width="80%" />
+
 ---
 
 ## 多场景
@@ -38,9 +40,13 @@ DataHub 将 Mock 数据与字段描述整合处理，自动生成接口文档。
 
 DataHub 采用多场景设计，能够根据场景名称进行数据分组，同时提供了场景数据的增、删、改，可以通过 DataHub 的面板界面进行操作。
 
+<img src="https://wx3.sinaimg.cn/large/6d308bd9gy1fpbm9x6ctkj21kw13a16k.jpg" width="80%" />
+
 ### 快照录入
 
 DataHub 兼备代理功能，会将最近请求的实时响应保存下来，便于归档。也就是说你可以通过已归档的快照随时复现当时的场景。
+
+<img src="https://wx3.sinaimg.cn/large/6d308bd9gy1fpbm9xwssnj21kw13adu9.jpg" width="80%" />
 
 ---
 
@@ -57,6 +63,12 @@ $ npm i macaca-datahub -g
 ### 工程接入
 
 - Web 工程接入可以直接使用 [datahub-proxy-middleware](//github.com/macacajs/datahub-proxy-middleware)
+
+<img src="https://wx1.sinaimg.cn/large/6d308bd9gy1fpbm9v2ckvj213u0ri0xj.jpg" width="80%" />
+
+<img src="https://wx1.sinaimg.cn/large/6d308bd9gy1fpbm9ut1tuj213u0rijtq.jpg" width="80%" />
+
+<img src="https://wx2.sinaimg.cn/large/6d308bd9gy1fpbm9usykxj213u0riq58.jpg" width="80%" />
 
 Webpack 工程集成以及如何与 React, Vue 等页面构建框架配合完成研发、测试以及覆盖率统计请直接参考[样板工程](//github.com/macacajs/awesome-macaca)。
 
