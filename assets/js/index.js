@@ -44,4 +44,44 @@
     }
     location.href = dist
   }
+
+  function renderNav() {
+    var container = document.querySelector('.container article');
+    if (!container) {
+      return;
+    }
+
+    var list = container.querySelectorAll('h1,h2');
+
+    var navHtml = '';
+    for (var i = 0; i < list.length; i++) {
+      var item = list[i];
+      var nodeName = item.nodeName;
+      navHtml += item.outerHTML.replace('id', 'data-id');
+    }
+
+    var nav_fix = document.createElement('div');
+    nav_fix.id = 'nav-fix';
+    nav_fix.className = 'nav-fix';
+    nav_fix.innerHTML = navHtml;
+
+    nav_fix.addEventListener('click', function(e) {
+      var target = e.target;
+      var dataId = target.getAttribute('data-id');
+      location.hash = '#' + dataId;
+      location.href = '#' + dataId;
+    }, false);
+    container.appendChild(nav_fix);
+  };
+
+  renderNav();
+
+  var hash = location.hash;
+  if (hash) {
+    var element = document.getElementById(hash.replace('#', ''));
+    if (element) {
+      location.href = hash;
+    }
+  }
+
 })()
