@@ -92,25 +92,39 @@ article {
     top: 135px;
     background: rgba(255, 255, 255, 0.4);
     border: 1px solid rgba(0, 0, 0, 0.09);
-    padding: 10px 4px;
+    padding: 15px 10px;
     border-radius: 2px;
     z-index: 9999;
     h1 {
       font-weight: 500;
       font-size: 22px;
+      line-height: 2;
       margin: 0;
-      margin-bottom: 10px;
+      padding-left: 15px;
       cursor: pointer;
       color: rgba(0, 0, 0, 0.8);
+      border-left: 1px dotted rgba(0, 0, 0, 0.1);
     }
     h2 {
+      position: relative;
       font-weight: 400;
       font-size: 18px;
+      line-height: 1.8;
       margin: 0;
-      margin-left: 10px;
-      margin-bottom: 5px;
+      margin-left: 20px;
+      padding-left: 15px;
       cursor: pointer;
       color: rgba(0, 0, 0, 0.7);
+      border-left: 1px dotted rgba(0, 0, 0, 0.1);
+    }
+    h2:before {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 31px;
+      border-left: 1px dotted rgba(0, 0, 0, 0.1);
+      left: -21px;
+      top: 1px;
     }
   }
 }
