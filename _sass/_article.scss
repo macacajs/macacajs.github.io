@@ -95,6 +95,10 @@ article {
     padding: 15px 10px;
     border-radius: 2px;
     z-index: 9999;
+    transition: background .8s ease;
+    &:hover {
+      background: #fff;
+    }
     h1 {
       font-weight: 500;
       font-size: 22px;
