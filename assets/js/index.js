@@ -58,6 +58,11 @@
       var item = list[i];
       var nodeName = item.nodeName;
       navHtml += item.outerHTML.replace('id', 'data-id');
+      item.addEventListener('click', function(e) {
+        var dataId = e.currentTarget.id;
+        location.hash = '#' + dataId;
+        location.href = '#' + dataId;
+      }, false);
     }
 
     var nav_fix = document.createElement('div');
