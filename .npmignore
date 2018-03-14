@@ -5,7 +5,6 @@ _site/
 node_modules/
 npm-debug.log
 Gemfile.lock
-node_modules
 .travis.yml
 .idea/
 *.iml
