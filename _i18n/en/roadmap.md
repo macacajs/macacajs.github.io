@@ -1,8 +1,32 @@
-# [Roadmap](//github.com/alibaba/macaca/labels/Roadmap)
+# Milestones
+
+Roadmap can be found in [Github Roadmap](//github.com/alibaba/macaca/labels/Roadmap)。
 
 ---
 
-# Change Log
+## 2017.12.17
+
+- Macaca Coverage released
+
+## 2017.11.24
+
+- Macaca DataHub released
+
+## 2017.08.23
+
+- Macaca Reporter released
+
+## 2017.08.17
+
+- Macaca Puppeteer released
+
+## 2017.06.10
+
+- Macaca Torchjs released
+
+## 2017.05.16
+
+- Macaca NoSmoke released
 
 ## 2017.05.14
 
@@ -19,7 +43,7 @@
 
 ## 2016.09.19
 
-- App-inspector release
+- Macaca App-Inspector release
 
 ## 2016.07.05
 
