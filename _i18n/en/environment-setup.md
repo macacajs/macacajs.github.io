@@ -34,7 +34,7 @@ $ brew install carthage
 
 ### iOS Real Device
 
-![](http://wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
+![](//wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 
 ```bash
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g

@@ -8,7 +8,7 @@
 
 [F2ETest DOC](//github.com/alibaba/f2etest)
 
-![](http://wx1.sinaimg.cn/large/6d308bd9gy1feru097e8cj20sw0dcagm.jpg)
+![](//wx1.sinaimg.cn/large/6d308bd9gy1feru097e8cj20sw0dcagm.jpg)
 
 ### Usage
 

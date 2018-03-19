@@ -27,43 +27,43 @@ Macaca 依赖的功能模块非常多，所以我们使用主仓库 ([Macaca](//
 <ul id="who-use-list" class="clearfix">
   <li>
     <a href="https://www.alipay.com" target="_blank">
-      <img src="http://wx1.sinaimg.cn/large/6d308bd9gy1fd4tr0jhxej203c03ct8o.jpg" />
+      <img src="//wx1.sinaimg.cn/large/6d308bd9gy1fd4tr0jhxej203c03ct8o.jpg" />
     </a>
     <p>Alipay</p>
   </li>
   <li>
     <a href="https://www.aliyun.com" target="_blank">
-      <img src="http://wx1.sinaimg.cn/square/6d308bd9gy1fd4w3yh89hj203c03c744.jpg" />
+      <img src="//wx1.sinaimg.cn/square/6d308bd9gy1fd4w3yh89hj203c03c744.jpg" />
     </a>
     <p>Aliyun</p>
   </li>
   <li>
     <a href="https://www.taobao.com" target="_blank">
-      <img src="http://wx1.sinaimg.cn/square/6d308bd9gy1fd4w3zvgewj2020020mx1.jpg" />
+      <img src="//wx1.sinaimg.cn/square/6d308bd9gy1fd4w3zvgewj2020020mx1.jpg" />
     </a>
     <p>Taobao</p>
   </li>
   <li>
     <a href="https://www.dingtalk.com" target="_blank">
-      <img src="http://wx2.sinaimg.cn/square/6d308bd9gy1fd4w3z89xbj203c03czk6.jpg" />
+      <img src="//wx2.sinaimg.cn/square/6d308bd9gy1fd4w3z89xbj203c03czk6.jpg" />
     </a>
     <p>DingTalk</p>
   </li>
   <li>
     <a href="https://www.alibaba.com" target="_blank">
-      <img src="http://wx4.sinaimg.cn/square/6d308bd9gy1fd4w3xrucxj2020020mx0.jpg" />
+      <img src="//wx4.sinaimg.cn/square/6d308bd9gy1fd4w3xrucxj2020020mx0.jpg" />
     </a>
     <p>Alibaba</p>
   </li>
   <li>
     <a href="https://www.youku.com" target="_blank">
-      <img src="http://wx4.sinaimg.cn/square/6d308bd9gy1fd4w414i38j20200200sk.jpg" />
+      <img src="//wx4.sinaimg.cn/square/6d308bd9gy1fd4w414i38j20200200sk.jpg" />
     </a>
     <p>Youku</p>
   </li>
   <li>
     <a href="https://www.tmall.com" target="_blank">
-      <img src="http://wx2.sinaimg.cn/square/6d308bd9gy1fd4w40on0qj203c03caa2.jpg" />
+      <img src="//wx2.sinaimg.cn/square/6d308bd9gy1fd4w40on0qj203c03caa2.jpg" />
     </a>
     <p>Tmall</p>
   </li>
@@ -77,7 +77,7 @@ Macaca 依赖的功能模块非常多，所以我们使用主仓库 ([Macaca](//
 
 Macaca T-shirt 采用的设计及 Logo 在保留原设计不修改的前提下可无偿使用。
 
-<img src="http://wx4.sinaimg.cn/large/6d308bd9gy1ffrrpxt3sbj20i20i23ym.jpg" width="300"/>
+<img src="//wx4.sinaimg.cn/large/6d308bd9gy1ffrrpxt3sbj20i20i23ym.jpg" width="300"/>
 
 更多请见:
 

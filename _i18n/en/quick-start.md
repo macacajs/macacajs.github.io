@@ -18,7 +18,8 @@ Check out the sample located in this repo([sample-nodejs](//github.com/macaca-sa
 $ git clone https://github.com/macaca-sample/sample-nodejs.git --depth=1
 $ cd sample-nodejs
 $ npm i
-$ make
+$ npm run doctor
+$ npm run test:ios
 ```
 
 ### Run test tasks
@@ -67,30 +68,29 @@ $ macaca server -h
 
 # helper for how to run test
 $ macaca run -h
-
 ```
 
 ## Sample Video
 
 ### iOS APP
 
-{% include video.html url="https://os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" %}
+{% include video.html url="//os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" %}
 
 ### Mobile Safari
 
-{% include video.html url="https://os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" %}
+{% include video.html url="//os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" %}
 
 ### Android APP
 
-{% include video.html url="https://os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" %}
+{% include video.html url="//os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" %}
 
 ### Android Browser
 
-{% include video.html url="https://os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" %}
+{% include video.html url="//os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" %}
 
 ### Desktop (Electron)
 
-{% include video.html url="https://os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" %}
+{% include video.html url="//os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" %}
 
 ## More Examples
 [more sample](//github.com/macaca-sample).

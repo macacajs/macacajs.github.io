@@ -75,7 +75,7 @@ $ docker build . -t="node-server"
 
 Please visit demo page： `http://localhost:9900/opencv/demo`
 
-![](http://wx3.sinaimg.cn/large/6d308bd9gy1fek6oa9i3vj21kw0zrn4y.jpg)
+![](//wx3.sinaimg.cn/large/6d308bd9gy1fek6oa9i3vj21kw0zrn4y.jpg)
 
 API DOC: [nodecv-server](//github.com/macacajs/nodecv-server), [Raspberry Pi](//github.com/macacajs/nodecv-server/issues/1)
 

@@ -7,7 +7,7 @@
 
 ## How it works?
 
-![image](http://wx3.sinaimg.cn/large/6d308bd9gy1fkcda5ls5bj20va0cy41b.jpg)
+![image](//wx3.sinaimg.cn/large/6d308bd9gy1fkcda5ls5bj20va0cy41b.jpg)
 
 In order to design a multiplatform UI automation tool, the overall architcture is devided into 3 different layers.
 

@@ -99,7 +99,7 @@ $ docker build . -t="node-server"
 
 服务启动成功后可访问 demo 页面： `http://localhost:9900/opencv/demo`
 
-![](http://wx3.sinaimg.cn/large/6d308bd9gy1fek6oa9i3vj21kw0zrn4y.jpg)
+![](//wx3.sinaimg.cn/large/6d308bd9gy1fek6oa9i3vj21kw0zrn4y.jpg)
 
 ## API
 

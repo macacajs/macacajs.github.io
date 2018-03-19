@@ -11,8 +11,8 @@ $ git clone https://github.com/macaca-sample/sample-nodejs.git --depth=1
 $ cd sample-nodejs
 # 安装项目依赖
 $ npm i
-# macaca run --verbose
-# 更多运行方式见 Makefile
+$ npm run doctor
+$ npm run test:ios
 ```
 
 ### 执行测试用例
@@ -80,20 +80,20 @@ $ macaca run -h
 
 ### iOS 应用测试(含 WebView)
 
-{% include video.html url="https://os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" %}
+{% include video.html url="//os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" %}
 
 ### iOS 手机端浏览器
 
-{% include video.html url="https://os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" %}
+{% include video.html url="//os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" %}
 
 ### Android 应用测试(含 WebView)
 
-{% include video.html url="https://os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" %}
+{% include video.html url="//os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" %}
 
 ### Android 手机端浏览器
 
-{% include video.html url="https://os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" %}
+{% include video.html url="//os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" %}
 
 ### 桌面端 (Electron)
 
-{% include video.html url="https://os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" %}
+{% include video.html url="//os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" %}
