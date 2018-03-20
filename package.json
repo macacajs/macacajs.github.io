@@ -6,6 +6,7 @@
   "scripts": {
     "server": "bundle exec jekyll serve",
     "build": "bundle exec jekyll build",
-    "update": "npm run build && gh-pages -d _site -b master"
+    "clean": "rm -rf ./_site",
+    "update": "npm run clean && npm run build && gh-pages -d _site -b master"
   }
 }
