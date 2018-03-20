@@ -50,7 +50,7 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 export ANDROID_HOME = /usr/local/opt/android-sdk
 ```
 
-[gradle](https://gradle.org) is needed in order to build [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) and other package.
+[gradle](https://gradle.org) is needed in order to build [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) and other package.(For Windows Users plz download [gradle installer](https://gradle.org/releases/) and set PATH environment variable.)
 
 ```bash
 $ brew install gradle
