@@ -50,7 +50,7 @@ $ npm run update
 | :---: | :---: | :---: | :---: | :---: | :---: |
 |[<img src="https://avatars0.githubusercontent.com/u/8198256?v=4" width="100px;"/><br/><sub><b>SamuelZhaoY</b></sub>](https://github.com/SamuelZhaoY)<br/>
 
-This project follows the git-contributor [spec](git+https://github.com/xudafeng/git-contributor.git), auto upated at `Sun Mar 25 2018 21:18:59 GMT+0800`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor.git), auto upated at `Mon Mar 26 2018 00:25:28 GMT+0800`.
 
 <!-- GITCONTRIBUTOR_END -->
 
