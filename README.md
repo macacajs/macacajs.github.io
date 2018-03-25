@@ -42,6 +42,17 @@ Publish branch: master
 $ npm run update
 ```
 
+<!-- GITCONTRIBUTOR_START -->
+
+## Contributors
+
+|[<img src="https://avatars1.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|[<img src="https://avatars2.githubusercontent.com/u/872749?v=4" width="100px;"/><br/><sub><b>lihuazhang</b></sub>](https://github.com/lihuazhang)<br/>|[<img src="https://avatars0.githubusercontent.com/u/4576123?v=4" width="100px;"/><br/><sub><b>CodeToSurvive1</b></sub>](https://github.com/CodeToSurvive1)<br/>|[<img src="https://avatars1.githubusercontent.com/u/4575751?v=4" width="100px;"/><br/><sub><b>jacksonlai</b></sub>](https://github.com/jacksonlai)<br/>|[<img src="https://avatars2.githubusercontent.com/u/410850?v=4" width="100px;"/><br/><sub><b>qichuan</b></sub>](https://github.com/qichuan)<br/>|[<img src="https://avatars2.githubusercontent.com/u/7089720?v=4" width="100px;"/><br/><sub><b>wuweicoco</b></sub>](https://github.com/wuweicoco)<br/>
+| :---: | :---: | :---: | :---: | :---: | :---: |
+
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor.git), welcome to join in and feel free to contribute.
+
+<!-- GITCONTRIBUTOR_END -->
+
 ## License
 
 The MIT License (MIT)
