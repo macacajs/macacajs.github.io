@@ -31,6 +31,8 @@ $ brew install ios-webkit-debug-proxy
 $ brew install carthage
 ```
 
+- 在运行的过程中，如果发现问题， 可以在macaca 启动时设置 --verbose 参数， 运行的日志中会显示XCTestWD的[诊断日志信息](https://github.com/macacajs/XCTestWD/blob/master/README.md#43-debug-info).
+
 备注：使用brew命令需要安装[Homebrew](http://brew.sh/index_zh-cn.html)（一款常用的 MacOS 的包管理器），请按照官网提示安装。
 
 * 准备 App 包：如需要测试 iOS 应用，请使用 Scheme 设置为 debug 的 `.app` 包。
