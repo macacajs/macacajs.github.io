@@ -32,7 +32,7 @@ $ brew install ios-webkit-debug-proxy
 $ brew install carthage
 ```
 
-- [debug log](https://github.com/macacajs/XCTestWD/blob/master/README.md#43-debug-info) will be displayed when '--verbose' is set as an argument when initiating macaca.
+- [debug log](//github.com/macacajs/XCTestWD/blob/master/README.md#43-debug-info) will be displayed when '--verbose' is set as an argument when initiating macaca.
 
 ### iOS Real Device
 
