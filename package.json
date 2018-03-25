@@ -1,12 +1,14 @@
 {
   "name": "macacajs.github.io",
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "gh-pages": "^1.1.0",
+    "git-contributor": "^1.0.0"
   },
   "scripts": {
     "server": "bundle exec jekyll serve",
     "build": "bundle exec jekyll build",
     "clean": "rm -rf ./_site",
-    "update": "npm run clean && npm run build && gh-pages -d _site -b master"
+    "update": "npm run clean && npm run build && gh-pages -d _site -b master",
+    "contributor": "git-contributor"
   }
 }
