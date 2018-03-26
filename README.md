@@ -46,11 +46,11 @@ $ npm run update
 
 ## Contributors
 
-|[<img src="https://avatars1.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|[<img src="https://avatars2.githubusercontent.com/u/872749?v=4" width="100px;"/><br/><sub><b>lihuazhang</b></sub>](https://github.com/lihuazhang)<br/>|[<img src="https://avatars0.githubusercontent.com/u/4576123?v=4" width="100px;"/><br/><sub><b>CodeToSurvive1</b></sub>](https://github.com/CodeToSurvive1)<br/>|[<img src="https://avatars1.githubusercontent.com/u/4575751?v=4" width="100px;"/><br/><sub><b>jacksonlai</b></sub>](https://github.com/jacksonlai)<br/>|[<img src="https://avatars2.githubusercontent.com/u/410850?v=4" width="100px;"/><br/><sub><b>qichuan</b></sub>](https://github.com/qichuan)<br/>|[<img src="https://avatars2.githubusercontent.com/u/7089720?v=4" width="100px;"/><br/><sub><b>wuweicoco</b></sub>](https://github.com/wuweicoco)<br/>
+|[<img src="https://avatars1.githubusercontent.com/u/1011681?v=4" width="100px;"/><br/><sub><b>xudafeng</b></sub>](https://github.com/xudafeng)<br/>|[<img src="https://avatars3.githubusercontent.com/u/5086369?v=4" width="100px;"/><br/><sub><b>brunoyang</b></sub>](https://github.com/brunoyang)<br/>|[<img src="https://avatars2.githubusercontent.com/u/872749?v=4" width="100px;"/><br/><sub><b>lihuazhang</b></sub>](https://github.com/lihuazhang)<br/>|[<img src="https://avatars0.githubusercontent.com/u/4576123?v=4" width="100px;"/><br/><sub><b>CodeToSurvive1</b></sub>](https://github.com/CodeToSurvive1)<br/>|[<img src="https://avatars1.githubusercontent.com/u/4575751?v=4" width="100px;"/><br/><sub><b>jacksonlai</b></sub>](https://github.com/jacksonlai)<br/>|[<img src="https://avatars2.githubusercontent.com/u/410850?v=4" width="100px;"/><br/><sub><b>qichuan</b></sub>](https://github.com/qichuan)<br/>
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|[<img src="https://avatars0.githubusercontent.com/u/8198256?v=4" width="100px;"/><br/><sub><b>SamuelZhaoY</b></sub>](https://github.com/SamuelZhaoY)<br/>
+|[<img src="https://avatars1.githubusercontent.com/u/33296?v=4" width="100px;"/><br/><sub><b>mattl</b></sub>](https://github.com/mattl)<br/>|[<img src="https://avatars2.githubusercontent.com/u/7089720?v=4" width="100px;"/><br/><sub><b>wuweicoco</b></sub>](https://github.com/wuweicoco)<br/>|[<img src="https://avatars0.githubusercontent.com/u/8198256?v=4" width="100px;"/><br/><sub><b>SamuelZhaoY</b></sub>](https://github.com/SamuelZhaoY)<br/>
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor.git), auto upated at `Mon Mar 26 2018 00:25:28 GMT+0800`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto upated at `Mon Mar 26 2018 11:34:01 GMT+0800`.
 
 <!-- GITCONTRIBUTOR_END -->
 
