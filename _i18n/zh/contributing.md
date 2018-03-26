@@ -56,21 +56,15 @@ $ git config --global user.email "awesome@macacajs.com"
 
 ## 如何调试
 
-Macaca 是很多模块是集成在一起才能运行的，环境较单一功能的开源库要复杂很多。请参考具体`核心模块`仓库下的 `CONTRIBUTING.md` 了解如何调试。
+Macaca 是很多模块是集成在一起才能运行的，环境较单一功能的开源库要复杂很多。请参考具体`核心模块`仓库下的 `CONTRIBUTING.md` 了解如何调试，比如 [UIAutomatorWD/CONTRIBUTING.md](//github.com/macacajs/UIAutomatorWD/blob/master/CONTRIBUTING.md)。
 
-- [macaca-cli/CONTRIBUTING.md](//github.com/macacajs/macaca-cli/blob/master/CONTRIBUTING.md)
-- [macaca-doctor/CONTRIBUTING.md](//github.com/macacajs/macaca-doctor/blob/master/CONTRIBUTING.md)
-- [macaca-ios/CONTRIBUTING.md](//github.com/macacajs/macaca-ios/blob/master/CONTRIBUTING.md)
-- [macaca-android/CONTRIBUTING.md](//github.com/macacajs/macaca-android/blob/master/CONTRIBUTING.md)
-- [macaca-electron/CONTRIBUTING.md](//github.com/macacajs/macaca-electron/blob/master/CONTRIBUTING.md)
-- [app-inspector/CONTRIBUTING.md](//github.com/macacajs/app-inspector/blob/master/CONTRIBUTING.md)
-- [NoSmoke/CONTRIBUTING.md](//github.com/macacajs/nosmoke/blob/master/CONTRIBUTING.md)
-- [XCTestWD/CONTRIBUTING.md](//github.com/macacajs/XCTestWD/blob/master/CONTRIBUTING.md)
-- [UIAutomatorWD/CONTRIBUTING.md](//github.com/macacajs/UIAutomatorWD/blob/master/CONTRIBUTING.md)
-- [wd.java/CONTRIBUTING.md](//github.com/macacajs/wd.java/blob/master/CONTRIBUTING.md)
-- [wd.py/CONTRIBUTING.md](//github.com/macacajs/wd.py/blob/master/CONTRIBUTING.rst)
+## 贡献者公示
 
-## 加入 Macaca 开源团队
+贡献者将会自动公示在项目主页，遵循 [git-contributor](//github.com/xudafeng/git-contributor) 规则，如：
+
+[![](https://wx1.sinaimg.cn/large/6d308bd9gy1fpq7g11gm5j21e60mgqlx.jpg)](//github.com/macacajs/macacajs.github.io#contributors)
+
+## 加入 Github 开源组
 
 在任意模块有意义 `PR` 3次以上，或解决重要问题的提交者，在征得提交者同意的情况下会邀请加入 `Macaca Open Source Team`。
 
