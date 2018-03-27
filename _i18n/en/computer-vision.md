@@ -68,7 +68,7 @@ from: [macaca-sample/cv-sample-java](//github.com/macaca-sample/cv-sample-java)ã
 ### Use As Service
 
 ```bash
-$ git clone git@github.com:macacajs/nodecv-server.git --depth=1
+$ git clone https://github.com/macacajs/nodecv-server.git --depth=1
 $ cd nodecv-server
 $ docker build . -t="node-server"
 ```

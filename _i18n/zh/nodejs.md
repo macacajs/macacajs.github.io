@@ -7,7 +7,7 @@
 ## 快速创建
 
 ```bash
-$ git clone git@github.com:macaca-sample/macaca-nodejs-boilerplate.git
+$ git clone https://github.com/macaca-sample/macaca-nodejs-boilerplate.git
 ```
 
 一个Macaca可以使用的工程就创建好了，可在此基础上添加和运行测试用例，Macaca 推荐使用[mocha 测试框架](//github.com/mochajs/mocha)。

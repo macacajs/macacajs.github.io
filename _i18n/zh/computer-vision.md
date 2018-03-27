@@ -90,7 +90,7 @@ Java 端请直接使用 [JavaCV](//github.com/bytedeco/javacv)，更多 Java 示
 Macaca 提供便捷的 Opencv 服务部署，只需要 Docker 环境便可一键部署。
 
 ```bash
-$ git clone git@github.com:macacajs/nodecv-server.git --depth=1
+$ git clone https://github.com/macacajs/nodecv-server.git --depth=1
 $ cd nodecv-server
 $ docker build . -t="node-server"
 ```

@@ -27,9 +27,8 @@
 选择需要修改的仓库，Fork 到自己本地，如。
 
 ```bash
-$ git clone git@github.com:macacajs/macaca-ios.git
+$ git clone https://github.com/macacajs/macaca-ios.git
 $ cd macaca-ios
-$ git remote add upstream git://github.com/macacajs/macaca-ios.git
 ```
 
 ### 第二步：创建分支
