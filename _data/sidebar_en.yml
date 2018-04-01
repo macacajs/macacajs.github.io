@@ -27,10 +27,10 @@
 
 - title: Continue Integration
   docs:
+    - [run-with-scripts, Integration with scripts]
     - [run-with-docker, Run with docker]
     - [master-deployment, Reliable Master]
     - [slave-deployment, Reliable Slave]
-    - [using-with-ci, Integration with CI Server]
 
 - title: Other
   docs:
