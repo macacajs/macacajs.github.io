@@ -1,3 +1,19 @@
-[FAQ on github](//github.com/alibaba/macaca/issues?q=label%3AFAQ)
+# Frequent Asked Question (FAQ)
+
+- [iOS: Can't Connect Webview](//github.com/alibaba/macaca/issues/79)
+- [Android: Webview and its version](//github.com/alibaba/macaca/issues/361)
+- [Use Promise to Write Async Test Case](//github.com/alibaba/macaca/issues/26)
+- [Export Report Failure](//github.com/alibaba/macaca/issues/13)
+- [Don't Have Enought Right](//github.com/alibaba/macaca/issues/8)
+- [Run under Linux](//github.com/alibaba/macaca/issues/6)
+- [Run under Windows](//github.com/alibaba/macaca/issues/92)
+- [How to search and locate UI Element](//github.com/alibaba/macaca/issues/65)
+- [iOS: IPA file is not Right ](//github.com/alibaba/macaca/issues/4)
+- [iOS: Certification on Real Device](//github.com/alibaba/macaca/issues/42)
+- [Gesture Related](//github.com/alibaba/macaca/issues/366)
+- [Screenshot Related](//github.com/alibaba/macaca/issues/85)
+- [Multi-tasks](//github.com/alibaba/macaca/issues/105)
+- [Multi-devices](//github.com/alibaba/macaca/issues/77)
+- [Android: Apk Failure after Upgrade WD Driver](//github.com/alibaba/macaca/issues/709)
 
 
