@@ -1,8 +1,6 @@
 # Contributing to Macaca
 
----
 Macaca welcomes all kinds of contributions, from feature implementation, issues, promotion and/or marketing Macaca or simply help on translation.
----
 
 ## Issue
 
