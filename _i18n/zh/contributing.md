@@ -61,7 +61,7 @@ Macaca 是很多模块是集成在一起才能运行的，环境较单一功能�
 
 贡献者将会自动公示在项目主页，遵循 [git-contributor](//github.com/xudafeng/git-contributor) 规则，如：
 
-[![](https://wx1.sinaimg.cn/large/6d308bd9gy1fpq7g11gm5j21e60mgqlx.jpg)](//github.com/macacajs/macacajs.github.io#contributors)
+[![](//wx4.sinaimg.cn/large/6d308bd9gy1fqda9m7kktj21es0n0ttg.jpg)](//github.com/macacajs/macacajs.github.io#contributors)
 
 ## 加入 Github 开源组
 

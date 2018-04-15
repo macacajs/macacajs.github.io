@@ -15,5 +15,3 @@
 - [Multi-tasks](//github.com/alibaba/macaca/issues/105)
 - [Multi-devices](//github.com/alibaba/macaca/issues/77)
 - [Android: Apk Failure after Upgrade WD Driver](//github.com/alibaba/macaca/issues/709)
-
-
