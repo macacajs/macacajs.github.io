@@ -1,6 +1,13 @@
 # Java
 
+Please use the latest version
+
 [![Download](https://api.bintray.com/packages/xudafeng/maven/macacaclient/images/download.svg)](https://bintray.com/xudafeng/maven/macacaclient/_latestVersion)
+
+## Sample Code
+
+- [Examples of side-by-side Java use case writing](//github.com/macaca-sample/sample-java)
+- [A well-structured sample containing a lot of practical functions](//github.com/macaca-sample/macaca-java-biz-sample)
 
 ## Usage
 
@@ -67,6 +74,6 @@ public class SampleTest {
 
 ## Links
 
-- [API doc](//macacajs.github.io/wd.java)
-- [source code](//github.com/macacajs/wd.java)
-- [sample](//github.com/macaca-sample/sample-java)
+- [API](//macacajs.github.io/wd.java)
+- [Source code](//github.com/macacajs/wd.java)
+- [Sample](//github.com/macaca-sample/sample-java)

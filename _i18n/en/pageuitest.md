@@ -1,6 +1,6 @@
 # Page UI Test
 
-## Run with torchjs
+## With torchjs (recommended)
 
 > Test framework to light up the world.
 
@@ -59,7 +59,7 @@ $ torch --help
     --watch-aggregate-timeout               delay time for re-run test cases after files changed
 ```
 
-[for more](//github.com/macacajs/torchjs)
+[More options](//github.com/macacajs/torchjs)
 
 ![](//wx4.sinaimg.cn/large/6d308bd9gy1fivuatxep5j21kw13dgs6.jpg)
 
@@ -67,7 +67,7 @@ $ torch --help
 
 ---
 
-## Run with uitest
+## With UITest
 
 ### Installation
 
@@ -79,9 +79,7 @@ $ npm i uitest --save-dev
 
 ![](http://ww3.sinaimg.cn/large/6d308bd9gw1f6wsic5dmxj20rl0qqtbi.jpg)
 
-You should configure your entry HTML by including `uitest-mocha-shim.js`.
-
-Here is an example `test.html`
+Directly import `uitest-mocha-shim.js` file to run in browser.
 
 ``` html
 <!DOCTYPE html>
@@ -122,7 +120,7 @@ Here is an example `test.html`
 </html>
 ```
 
-### Node.js
+### With Node.js
 
 ![](http://ww1.sinaimg.cn/large/6d308bd9gw1f6wsibnfldg20nk0gr7kg.gif)
 
@@ -145,7 +143,7 @@ uitest({
 });
 ```
 
-### Gulp
+### With Gulp
 
 Or with Gulp:
 
@@ -171,7 +169,7 @@ gulp.task('test', function() {
 ```
 
 - [More About UITest](//github.com/macacajs/uitest)
-- [uitest-sample](//github.com/macaca-sample/uitest-sample)
-- [Hilo Game](//github.com/hiloteam/Hilo)
-- [pillow.js](//github.com/xudafeng/pillow)
-- [monitor.js](//github.com/xudafeng/monitor.js)
+- [UITest sample](//github.com/macaca-sample/uitest-sample)
+- [Game framework Hilo test sample](//github.com/hiloteam/Hilo)
+- [Game framework pillow.js test sample](//github.com/xudafeng/pillow)
+- [Canvas framework monitor.js test sample](//github.com/xudafeng/monitor.js)

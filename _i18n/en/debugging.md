@@ -1,9 +1,14 @@
 # Debugging
 
-## Launch server only
+## Start the server
 
 ```bash
 $ macaca server --verbose
+```
+
+```bash
+# Use the Node.js REPL environment directly
+$ node
 ```
 
 ```javascript

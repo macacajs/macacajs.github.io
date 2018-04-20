@@ -1,12 +1,14 @@
-# Coverage
+# Coverage Statistics
 
-Macaca provide coverage tool to support multiple platform, Web, Android, iOS. We can get coverage report after UI testing.
+Macaca provides a tool for multiple platforms: Web, Android, iOS to collect code coverage statistics during test execution and generate coverage report after completion of test. 
+
+> Code coverage is an important measure of test effectiveness.
 
 ## Web
 
 In order to collect coverage data, please use [macaca-coverage](//github.com/macacajs/macaca-coverage) and extend webdriver API.
 
-like this:
+Example:
 
 ```javascript
 wd.addPromiseChainMethod('coverage', function (context) {
@@ -40,12 +42,12 @@ wd.addPromiseChainMethod('coverage', function (context) {
 });
 ```
 
-mocha example:
+Recommend to collect coverage statistics after each test case:
 
 ```javascript
 afterEach(function () {
   return driver
-    .coverage()
+    .coverage()	// Collect coverage statistics
     .saveScreenshots(this);
 });
 ```
@@ -54,15 +56,15 @@ afterEach(function () {
 
 ![](https://wx3.sinaimg.cn/large/6d308bd9gy1forl1pd99pj211x0rtgrt.jpg)
 
-React, Vue, and common front-end projects are supportd, [More sample](//github.com/macacajs/awesome-macaca#coverage).
+React, Vue, and common front-end projects are supportd. [More examples](//github.com/macacajs/awesome-macaca#coverage).
 
-**Note**：We use [istanbul](//github.com/gotwarlost/istanbul) for coverage, project should be instrumented before testing.
+**Note**：We use [istanbul](//github.com/gotwarlost/istanbul) for JavaScript code coverage. Project should be instrumented before testing.
 
 ---
 
 ## Android
 
-JaCoCo configuration on Andrid Studio by `Gradle` scripts.
+Using Android Studio 2.x as an example. The most common method is to introduce the Jacoco plug-in to enable the coverage switch in the `Gradle` script.
 
 ```gradle
 apply plugin: 'jacoco'
@@ -80,7 +82,7 @@ android {
 }
 ```
 
-Execute `collect2ExecFile` to generate `.exec` file, which include the coverage data.
+Then use the Jacoco provided collection method `collect2ExecFile` to generate the `.exec` file, which contains the coverage data, by reflection.
 
 ```java
 public static void collect2ExecFile(boolean isNew) {
@@ -115,11 +117,13 @@ public static void collect2ExecFile(boolean isNew) {
 }
 ```
 
+Get the `coverage.exec` file
+
 ```
 $ adb pull /storage/emulated/0/coverage.exec .
 ```
 
-Generate report by Macaca coverage tool:
+Generate report with Macaca coverage tool:
 
 ```bash
 $ macaca coverage -r java -f ./coverage.exec -c ./android_app_bootstrap/build/intermediates/classes/debug -s ./android_app_bootstrap/src/main/java --html ./reporter
@@ -128,17 +132,21 @@ $ macaca coverage -r java -f ./coverage.exec -c ./android_app_bootstrap/build/in
 
 ![](https://wx3.sinaimg.cn/large/6d308bd9gy1forl1qxn7ij21kw16zkam.jpg)
 
-**Node**：All our source code could be found in [sample](//github.com/macacajs/awesome-macaca#coverage).
+**Note**：Java code coverage is done using the popular [Jacoco]((//github.com/jacoco/jacoco)) package. Please refer to the [sample](//github.com/macacajs/awesome-macaca#coverage).
 
 ---
 
 ## iOS
 
+The current implementation for iOS requires Xcode's coverage collection switch to be enabled, and then introduce the Mac-provided iOS driver package `xctestwd` to test
+
 Enable test coverage by ticking the `Gather coverage data` checkbox when editing a scheme:
 
 ![](https://wx2.sinaimg.cn/large/6d308bd9gy1forlbdrx66j20ow0e0q55.jpg)
 
-Generate report by Macaca coverage tool:
+**Note**: The next release will provide an intrusive integration package that integrates directly with the application without relying on launching Xcode. The current version does not yet support this feature.
+
+After completion of test, generate report with Macaca coverage tool:
 
 ```bash
 $ macaca coverage -r ios -n ios-app-bootstrap -p ./ios-app-bootstrap.xcodeproj --html ./reporter
@@ -148,13 +156,13 @@ $ macaca coverage -r ios -n ios-app-bootstrap -p ./ios-app-bootstrap.xcodeproj -
 
 ![](https://wx3.sinaimg.cn/large/6d308bd9gy1forlgyonr0j21030ok79b.jpg)
 
-**Note**：iOS coverage report require [slather](//github.com/SlatherOrg/slather) installed in your system, all our source code could be found in [sample](//github.com/macacajs/awesome-macaca#coverage)。
+**Note**：iOS coverage report requires [slather](//github.com/SlatherOrg/slather) to be installed in your system. [Sample](//github.com/macacajs/awesome-macaca#coverage).
 
 ---
 
 ## Command-line Tool
 
-`macaca-cli` is an all-in-one tool sets, and include `coverage` command, please install it flow [quick start](./quick-start) document.
+`macaca-cli` is an all-in-one command-line tool, including the `coverage` command. To install, follow the [quick start guide](./quick-start).
 
 ```bash
 $ macaca coverage -h
@@ -176,7 +184,10 @@ $ macaca coverage -h
     -h, --help            output usage information
 ```
 
+Currently supports several common format (`html`, `xml`, `json`) reporters.
+
 **Note**
 
-- option `runtime type` is required
-- for Java, `classfiles` is required, and you must pass the `source` if you want the code lines schedule.
+- Runtime type option `--runtime` or `-r` is required
+- For Java, compiled classfiles location (`--classfiles`) is required. If you want source code line mapping, you must set the `--source` option.
+- iOS project requires project address `--project` or `-p` and specific `scheme` name.
