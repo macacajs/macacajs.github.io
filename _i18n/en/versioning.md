@@ -4,7 +4,7 @@ Macaca follow [Semantic Versioning Specification](//github.com/mojombo/semver)
 
 ## Cli Tool Version
 
-current version: [![NPM version][npm-image]][npm-url]
+Current version: [![NPM version][npm-image]][npm-url]
 
 [npm-image]: https://img.shields.io/npm/v/macaca-cli.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/macaca-cli
