@@ -1,8 +1,8 @@
 # Introduction
 
-Macaca is an open-source automation test solution for native, hybrid, mobile web and web application on mobile and desktop platforms.
+Macaca is an open-source automation test solution for native, hybrid, mobile web and web application on mobile and desktop platforms. Macaca provides automation drivers, environmental support, peripheral tools, and integration solutions designed to address issues such as test automation, and performance on the client end.
 
-0. Native means apps written with iOS or android SDKs.
+0. Native means apps written with iOS or Android SDKs.
 0. Mobile web means apps written in HTML, CSS and Javascript and displayed via a mobile device browser such as Safari, Chrome or Webview in iOS and android.
 0. Hybrid is apps created by webview in native app.
 0. Web means apps written in HTML, CSS and Javascript.
@@ -10,6 +10,8 @@ Macaca is an open-source automation test solution for native, hybrid, mobile web
 Macaca is "cross-platform". It means you can use the same API to write test scripts, and same test scripts to test your apps running on devices such as iOS, Android or desktops.
 
 Macaca doesn't limit what languages you will use to write your tests.
+
+> [Macaca](https://en.wikipedia.org/wiki/Macaque) is a kind of Monkey. Monkey testing means smart and agile testing.
 
 ## Features
 

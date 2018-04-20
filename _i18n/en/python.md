@@ -49,6 +49,6 @@ if __name__ == '__main__':
 
 ## Links
 
-- [API doc](//macacajs.github.io/wd.py)
-- [source code](//github.com/macacajs/wd.py)
-- [sample](//github.com/macaca-sample/sample-python)
+- [API](//macacajs.github.io/wd.py)
+- [Source code](//github.com/macacajs/wd.py)
+- [Sample](//github.com/macaca-sample/sample-python)

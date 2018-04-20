@@ -9,19 +9,19 @@
 - [sixleaves/iOSMonkey](//github.com/sixleaves/iOSMonkey)
 - [mengdegong/iosMonkey](//github.com/mengdegong/iosMonkey)
 
-### Other
+### Others
 
 - [zalando/SwiftMonkey](//github.com/zalando/SwiftMonkey)
 
 ## Android
 
-### Basic Use of the Monkey
+### Basic Usage
 
 ```bash
 $ adb shell monkey [options] <event-count>
 $ adb shell monkey -p your.package.name -v 500
 ```
 
-### Command Options Reference
+### More Information
 
 [Android Test Monkey](https://developer.android.com/studio/test/monkey.html)
