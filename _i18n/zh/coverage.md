@@ -56,7 +56,7 @@ afterEach(function () {
 
 ![](https://wx3.sinaimg.cn/large/6d308bd9gy1forl1pd99pj211x0rtgrt.jpg)
 
-通过 Macaca Coverage 实现 React, Vue, 常规前端工程的覆盖率请看[更多示例项目](//github.com/macacajs/awesome-macaca#coverage)。
+通过 Macaca Coverage 实现 React, Vue, Angular, 常规前端工程的覆盖率请看[更多示例项目](//github.com/macacajs/awesome-macaca#coverage)。
 
 **注意**：JavaScript 语言的覆盖率是使用流行的 [istanbul](//github.com/gotwarlost/istanbul) 包完成的，在执行前需要进行插桩。
 

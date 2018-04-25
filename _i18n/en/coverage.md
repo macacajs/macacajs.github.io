@@ -1,6 +1,6 @@
 # Coverage Statistics
 
-Macaca provides a tool for multiple platforms: Web, Android, iOS to collect code coverage statistics during test execution and generate coverage report after completion of test. 
+Macaca provides a tool for multiple platforms: Web, Android, iOS to collect code coverage statistics during test execution and generate coverage report after completion of test.
 
 > Code coverage is an important measure of test effectiveness.
 
@@ -56,7 +56,7 @@ afterEach(function () {
 
 ![](https://wx3.sinaimg.cn/large/6d308bd9gy1forl1pd99pj211x0rtgrt.jpg)
 
-React, Vue, and common front-end projects are supportd. [More examples](//github.com/macacajs/awesome-macaca#coverage).
+React, Vue, Angular, and common front-end projects are supportd. [More examples](//github.com/macacajs/awesome-macaca#coverage).
 
 **Note**：We use [istanbul](//github.com/gotwarlost/istanbul) for JavaScript code coverage. Project should be instrumented before testing.
 
