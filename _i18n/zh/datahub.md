@@ -64,7 +64,7 @@ $ npm i macaca-datahub -g
 
 <img src="https://wx2.sinaimg.cn/large/6d308bd9gy1fpbm9usykxj213u0riq58.jpg" width="80%" />
 
-## 前端工程接入
+## 终端工程接入
 
 - Web 工程接入可以直接使用 [datahub-proxy-middleware](//github.com/macacajs/datahub-proxy-middleware)
 
