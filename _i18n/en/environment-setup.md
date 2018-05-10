@@ -26,12 +26,6 @@ $ brew install ideviceinstaller
 $ brew install ios-webkit-debug-proxy
 ```
 
-- [carthage](//github.com/Carthage/Carthage) is needed in order to build [XCTestWD](//github.com/macacajs/XCTestWD).
-
-```bash
-$ brew install carthage
-```
-
 - [debug log](//github.com/macacajs/XCTestWD/blob/master/README.md#43-debug-info) will be displayed when '--verbose' is set as an argument when initiating macaca.
 
 ### iOS Real Device
