@@ -13,7 +13,7 @@ Team members can be found in [here](//github.com/orgs/macacajs/people).
 
 ## DingTalk
 
-<img src="//wx3.sinaimg.cn/large/6d308bd9gy1fqdac0gdbfj20ku0rin07.jpg" width="280" />
+<img src="//wx3.sinaimg.cn/large/6d308bd9gy1frbztx4h97j20ku0riq5y.jpg" width="280" />
 
 ## Quick questions
 
