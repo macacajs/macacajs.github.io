@@ -4,6 +4,10 @@ Roadmap can be found in [Github Roadmap](//github.com/alibaba/macaca/labels/Road
 
 ---
 
+## 2018.05.15
+
+- Macaca bot for Github released
+
 ## 2017.12.17
 
 - Macaca Coverage released

@@ -6,6 +6,10 @@
 
 以下为 Macaca 重要功能发布记录。
 
+## 2018.05.15
+
+- Macaca bot Github 机器人启用
+
 ## 2017.12.17
 
 - Macaca Coverage 发布
