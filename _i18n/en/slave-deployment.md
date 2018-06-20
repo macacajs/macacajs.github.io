@@ -28,7 +28,7 @@ $ brew install zeromq
 $ npm install reliable-macaca-slave -g
 ```
 
-After enviroment checking and installation, it is ready to deploy the reliable-macaca-slave.
+After environment checking and installation, it is ready to deploy the reliable-macaca-slave.
 
 ## Deployment
 
