@@ -27,6 +27,7 @@
 
 - title: 持续集成
   docs:
+    - [marmot, Marmot CD(recommend)]
     - [run-with-scripts, 使用集成脚本]
     - [run-with-docker, 使用Docker]
     - [master-deployment, Reliable Master部署]

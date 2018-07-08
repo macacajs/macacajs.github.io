@@ -27,6 +27,7 @@
 
 - title: Continue Integration
   docs:
+    - [marmot, Marmot CD(recommend)]
     - [run-with-scripts, Integration with scripts]
     - [run-with-docker, Run with docker]
     - [master-deployment, Reliable Master]

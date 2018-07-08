@@ -4,6 +4,10 @@ Roadmap can be found in [Github Roadmap](//github.com/alibaba/macaca/labels/Road
 
 ---
 
+## 2018.06.08
+
+- Marmot CI/CD management suite released
+
 ## 2018.05.15
 
 - Macaca bot for Github released
