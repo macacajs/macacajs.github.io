@@ -49,6 +49,10 @@ Roadmap can be found in [Github Roadmap](//github.com/alibaba/macaca/labels/Road
 
 - connection via USB for iOS
 
+## 2016.10.30
+
+- [UI Recorder](https://github.com/alibaba/uirecorder) mobile end supported
+
 ## 2016.09.19
 
 - Macaca App-Inspector release

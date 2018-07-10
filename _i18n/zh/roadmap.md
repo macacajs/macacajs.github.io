@@ -55,6 +55,10 @@
 
 - iOS 支持 USB 通道连接
 
+## 2016.10.30
+
+- 三端录制器 [UI Recorder](https://github.com/alibaba/uirecorder) 发布
+
 ## 2016.09.19
 
 - Macaca Inspector 元素查看器发布
