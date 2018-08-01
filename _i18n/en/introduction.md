@@ -11,7 +11,9 @@ Macaca is "cross-platform". It means you can use the same API to write test scri
 
 Macaca doesn't limit what languages you will use to write your tests.
 
-> [Macaca](https://en.wikipedia.org/wiki/Macaque) is a kind of Monkey. Monkey testing means smart and agile testing.
+> Macaca is a kind of Monkey. Monkey testing means smart and agile testing.
+
+[Introduction Video On YouTube Channel](https://www.youtube.com/playlist?list=PLpmrn9zBXhkiyfWhaZZV1ZaRj-LFtu6bj)
 
 ## Features
 
