@@ -13,7 +13,7 @@ Macaca doesn't limit what languages you will use to write your tests.
 
 > Macaca is a kind of Monkey. Monkey testing means smart and agile testing.
 
-[Introduction Video On YouTube Channel](https://www.youtube.com/playlist?list=PLpmrn9zBXhkiyfWhaZZV1ZaRj-LFtu6bj)
+[Introduction Video On YouTube Channel](//github.com/macacajs/awesome-macaca#video)
 
 ## Features
 
