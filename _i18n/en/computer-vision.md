@@ -20,7 +20,7 @@ If you do not want to install on your local machine, please use the NodeCV servi
 
 #### Node.js:
 
-You only need to introduce [nodecv](https://github.com/xudafeng/nodecv) module to use the image similarity, feature matching, feature recognition and other functions. 
+You only need to introduce [nodecv](https://github.com/macacajs/nodecv) module to use the image similarity, feature matching, feature recognition and other functions. 
 
 ```javascript
 const nodecv = require('nodecv');

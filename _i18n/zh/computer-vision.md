@@ -20,7 +20,7 @@ $ brew install opencv
 
 #### Node.js:
 
-只需要引入 [nodecv](https://github.com/xudafeng/nodecv) 模块即可完成图像相似度，特征匹配，特征识别等功能，如下示例。
+只需要引入 [nodecv](https://github.com/macacajs/nodecv) 模块即可完成图像相似度，特征匹配，特征识别等功能，如下示例。
 
 ```javascript
 const nodecv = require('nodecv');
