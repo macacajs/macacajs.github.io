@@ -32,8 +32,8 @@ DataHub adopts the principle of unidirectional data flow to make sure you will a
 
 Datahub can also automatically generate an API document from your mock/testing data, to help keep your API document up to date and consistent with your mock data.
 
-<img src="https://wx2.sinaimg.cn/large/6d308bd9gy1fpbmdx2whdj21kw13a7fa.jpg" width="80%" />
 
+<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386244435-90820ae6-62e1-4161-bce3-ed27664b9903.png" style="width: 80%;" />
 
 ## DataHub Dashboard
 
@@ -41,7 +41,7 @@ DataHub adopts multi-scenario design, can group data according to the scene name
 
 DataHub provides a dashboard for you to manage your data. You can group data by scene, or by stage such as development, testing, or staging. Datahub provides standard CRUD funtions.
 
-<img src="https://wx4.sinaimg.cn/large/6d308bd9gy1fpbmdxv2ehj21kw13awr0.jpg" width="80%" />
+<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386278325-31e12ed6-234f-4418-b715-12f2d7bf8101.png" style="width: 80%;" />
 
 ## Save Snapshot
 
@@ -59,15 +59,23 @@ $ npm i macaca-datahub -g
 
 For advanced configuration items, read the project [README](//github.com/macacajs/macaca-datahub).
 
-<img src="https://wx4.sinaimg.cn/large/6d308bd9gy1fpbmdwggkgj21kw13ak7y.jpg" width="80%" />
+<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386305217-e2d0ba59-e55e-4869-a55f-9934aa0b538e.png" style="width: 80%;" />
 
 ## Create New Hub
 
-<img src="https://wx3.sinaimg.cn/large/6d308bd9gy1fpbmdv54jzj213u0ridi2.jpg" width="80%" />
+<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386353929-47fb1570-09de-456d-a05b-a79bb3270a92.png" style="width: 80%;" />
 
 ## Create a New API
 
-<img src="https://wx1.sinaimg.cn/large/6d308bd9gy1fpbmdvacmvj213u0riwgp.jpg" width="80%" />
+<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386388109-b00dcc34-ac37-424b-bc0e-73ade0768666.png" style="width: 80%;" />
+
+## Upload and Download Project Data
+
+<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386639997-722beff9-cc11-432a-9040-84d1cbe617b8.png" style="width: 80%;" />
+
+## Upload and Download Interface Data
+
+<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386700272-09be79d4-f63f-40e6-8825-acdeeb4526ba.png" style="width: 80%;" />
 
 ## Examples
 
