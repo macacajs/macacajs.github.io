@@ -16,7 +16,7 @@ DataHub is born to solving the lifecycle needs of mock/testing data of software 
 
 DataHub is flexible with how and where mock/testing data is stored. 
 
-You can use a local instance of Datahub on your local machine to manage your local testing/mock data during development. The mock/testing data is in plain text. It can be versioned and archived with any version control software, together with your project files. 
+You can use a local instance of Datahub on your local machine to manage your local testing/mock data during development. The mock/testing data is in plain text. It can be versioned and archived with any version control software, together with your project files.
 
 In addition, the local mock/testing data can be pushed and synchronized to a remote Datahub server to meet the needs of data sharing and collaboration.
 
@@ -33,7 +33,7 @@ DataHub adopts the principle of unidirectional data flow to make sure you will a
 Datahub can also automatically generate an API document from your mock/testing data, to help keep your API document up to date and consistent with your mock data.
 
 
-<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386244435-90820ae6-62e1-4161-bce3-ed27664b9903.png" style="width: 80%;" />
+<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9fj6doj21kw13adnq.jpg" style="width: 80%;" />
 
 ## DataHub Dashboard
 
@@ -41,13 +41,13 @@ DataHub adopts multi-scenario design, can group data according to the scene name
 
 DataHub provides a dashboard for you to manage your data. You can group data by scene, or by stage such as development, testing, or staging. Datahub provides standard CRUD funtions.
 
-<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386278325-31e12ed6-234f-4418-b715-12f2d7bf8101.png" style="width: 80%;" />
+<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9g34dcj229m1ge12a.jpg" style="width: 80%;" />
 
 ## Save Snapshot
 
 DataHub can save the response of each request by taking snapshot. You can use the archieved snapshot to find out what happened.
 
-<img src="https://wx4.sinaimg.cn/large/6d308bd9gy1fpbmdy5o65j21kw13a7i2.jpg" width="80%" />
+<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9fj6doj21kw13adnq.jpg" width="80%" />
 
 ## Command-line Tool
 
@@ -59,29 +59,15 @@ $ npm i macaca-datahub -g
 
 For advanced configuration items, read the project [README](//github.com/macacajs/macaca-datahub).
 
-<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386305217-e2d0ba59-e55e-4869-a55f-9934aa0b538e.png" style="width: 80%;" />
+<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9gdaxrj229m1hegx8.jpg" style="width: 80%;" />
 
 ## Create New Hub
 
-<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386353929-47fb1570-09de-456d-a05b-a79bb3270a92.png" style="width: 80%;" />
+<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9grua6j229m1hejxa.jpg" style="width: 80%;" />
 
 ## Create a New API
 
-<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386388109-b00dcc34-ac37-424b-bc0e-73ade0768666.png" style="width: 80%;" />
-
-## Upload and Download
-
-### Use Upload and Download
-
-<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540444531986-7a88ba26-0f73-4d25-8be3-e742bc60075c.png" style="width: 80%;" />
-
-### Upload and Download Project Data
-
-<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386639997-722beff9-cc11-432a-9040-84d1cbe617b8.png" style="width: 80%;" />
-
-### Upload and Download Interface Data
-
-<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540386700272-09be79d4-f63f-40e6-8825-acdeeb4526ba.png" style="width: 80%;" />
+<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9h1qa7j22a41eedlw.jpg" style="width: 80%;" />
 
 ## Examples
 
