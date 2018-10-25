@@ -64,11 +64,17 @@ $ npm i macaca-datahub -g
 
 <img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540385065245-8b6f0908-07f7-4d26-bbd8-703d8df17889.png" width="80%" />
 
-## 上传下载接口数据
+## 上传下载
+
+### 打开上传下载功能
+
+<img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540453848096-73af4603-ff90-4f5e-961f-7e521bf2ba44.png" width="80%" />
+
+### 上传下载接口数据
 
 <img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540385719562-a7f69d92-990a-4419-83fc-90c19851e866.png" width="80%" />
 
-## 上传下载项目数据
+### 上传下载项目数据
 
 <img src="https://cdn.nlark.com/yuque/0/2018/png/95383/1540385777161-c6a52ce3-8cd1-49f1-88e4-3cc845cde1c7.png" width="80%" />
 
