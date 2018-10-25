@@ -33,7 +33,7 @@ DataHub adopts the principle of unidirectional data flow to make sure you will a
 Datahub can also automatically generate an API document from your mock/testing data, to help keep your API document up to date and consistent with your mock data.
 
 
-<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9fj6doj21kw13adnq.jpg" style="width: 80%;" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9fj6doj21kw13adnq.jpg" style="width: 80%;" />
 
 ## DataHub Dashboard
 
@@ -41,13 +41,13 @@ DataHub adopts multi-scenario design, can group data according to the scene name
 
 DataHub provides a dashboard for you to manage your data. You can group data by scene, or by stage such as development, testing, or staging. Datahub provides standard CRUD funtions.
 
-<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9g34dcj229m1ge12a.jpg" style="width: 80%;" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9g34dcj229m1ge12a.jpg" style="width: 80%;" />
 
 ## Save Snapshot
 
 DataHub can save the response of each request by taking snapshot. You can use the archieved snapshot to find out what happened.
 
-<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9fj6doj21kw13adnq.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9fj6doj21kw13adnq.jpg" width="80%" />
 
 ## Command-line Tool
 
@@ -59,15 +59,15 @@ $ npm i macaca-datahub -g
 
 For advanced configuration items, read the project [README](//github.com/macacajs/macaca-datahub).
 
-<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9gdaxrj229m1hegx8.jpg" style="width: 80%;" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9gdaxrj229m1hegx8.jpg" style="width: 80%;" />
 
 ## Create New Hub
 
-<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9grua6j229m1hejxa.jpg" style="width: 80%;" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9grua6j229m1hejxa.jpg" style="width: 80%;" />
 
 ## Create a New API
 
-<img src="https://ws1.sinaimg.cn/large/bceaad1fly1fwkm9h1qa7j22a41eedlw.jpg" style="width: 80%;" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9h1qa7j22a41eedlw.jpg" style="width: 80%;" />
 
 ## Examples
 
