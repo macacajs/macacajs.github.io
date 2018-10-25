@@ -30,19 +30,19 @@ DataHub 采用单向数据流动的原则，使当前项目下的数据状态及
 
 DataHub 将 Mock 数据与字段描述整合处理，自动生成接口文档。使得文档能够与交互字段随时保持一致。
 
-<img src="https://wx3.sinaimg.cn/large/6d308bd9gy1fpbm9w2ohoj21kw13ak2r.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm6c8rh3j22a41g8jzd.jpg" width="80%" />
 
 ## 场景管理
 
 DataHub 采用多场景设计，能够根据场景名称进行数据分组，同时提供了场景数据的增、删、改，可以通过 DataHub 的面板界面进行操作。
 
-<img src="https://wx3.sinaimg.cn/large/6d308bd9gy1fpbm9x6ctkj21kw13a16k.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm6bxcllj22a41g848i.jpg" width="80%" />
 
 ## 快照录入
 
 DataHub 兼备代理功能，会将最近请求的实时响应保存下来，便于归档。也就是说你可以通过已归档的快照随时复现当时的场景。
 
-<img src="https://wx3.sinaimg.cn/large/6d308bd9gy1fpbm9xwssnj21kw13adu9.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm6ati9ij21kw13ado5.jpg" width="80%" />
 
 ---
 
@@ -54,15 +54,15 @@ DataHub 兼备代理功能，会将最近请求的实时响应保存下来，便
 $ npm i macaca-datahub -g
 ```
 
-<img src="https://wx1.sinaimg.cn/large/6d308bd9gy1fpbm9v2ckvj213u0ri0xj.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm6bkk0mj22a41g8drm.jpg" width="80%" />
 
-## 创建一个 Hub
+## 创建一个 DataHub
 
-<img src="https://wx1.sinaimg.cn/large/6d308bd9gy1fpbm9ut1tuj213u0rijtq.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm6b151aj22a41ee44i.jpg" width="80%" />
 
 ## 创建一个服务接口
 
-<img src="https://wx2.sinaimg.cn/large/6d308bd9gy1fpbm9usykxj213u0riq58.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm6balvzj22a41eedlw.jpg" width="80%" />
 
 ## 终端工程接入
 

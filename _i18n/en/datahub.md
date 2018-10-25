@@ -16,7 +16,7 @@ DataHub is born to solving the lifecycle needs of mock/testing data of software 
 
 DataHub is flexible with how and where mock/testing data is stored. 
 
-You can use a local instance of Datahub on your local machine to manage your local testing/mock data during development. The mock/testing data is in plain text. It can be versioned and archived with any version control software, together with your project files. 
+You can use a local instance of Datahub on your local machine to manage your local testing/mock data during development. The mock/testing data is in plain text. It can be versioned and archived with any version control software, together with your project files.
 
 In addition, the local mock/testing data can be pushed and synchronized to a remote Datahub server to meet the needs of data sharing and collaboration.
 
@@ -32,8 +32,8 @@ DataHub adopts the principle of unidirectional data flow to make sure you will a
 
 Datahub can also automatically generate an API document from your mock/testing data, to help keep your API document up to date and consistent with your mock data.
 
-<img src="https://wx2.sinaimg.cn/large/6d308bd9gy1fpbmdx2whdj21kw13a7fa.jpg" width="80%" />
 
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkophwa8qj229m1gejyw.jpg" style="width: 80%;" />
 
 ## DataHub Dashboard
 
@@ -41,13 +41,13 @@ DataHub adopts multi-scenario design, can group data according to the scene name
 
 DataHub provides a dashboard for you to manage your data. You can group data by scene, or by stage such as development, testing, or staging. Datahub provides standard CRUD funtions.
 
-<img src="https://wx4.sinaimg.cn/large/6d308bd9gy1fpbmdxv2ehj21kw13awr0.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9g34dcj229m1ge12a.jpg" style="width: 80%;" />
 
 ## Save Snapshot
 
 DataHub can save the response of each request by taking snapshot. You can use the archieved snapshot to find out what happened.
 
-<img src="https://wx4.sinaimg.cn/large/6d308bd9gy1fpbmdy5o65j21kw13a7i2.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9fj6doj21kw13adnq.jpg" width="80%" />
 
 ## Command-line Tool
 
@@ -59,15 +59,15 @@ $ npm i macaca-datahub -g
 
 For advanced configuration items, read the project [README](//github.com/macacajs/macaca-datahub).
 
-<img src="https://wx4.sinaimg.cn/large/6d308bd9gy1fpbmdwggkgj21kw13ak7y.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9gdaxrj229m1hegx8.jpg" style="width: 80%;" />
 
 ## Create New Hub
 
-<img src="https://wx3.sinaimg.cn/large/6d308bd9gy1fpbmdv54jzj213u0ridi2.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9grua6j229m1hejxa.jpg" style="width: 80%;" />
 
 ## Create a New API
 
-<img src="https://wx1.sinaimg.cn/large/6d308bd9gy1fpbmdvacmvj213u0riwgp.jpg" width="80%" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9h1qa7j22a41eedlw.jpg" style="width: 80%;" />
 
 ## Examples
 
