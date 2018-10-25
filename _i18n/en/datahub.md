@@ -33,7 +33,7 @@ DataHub adopts the principle of unidirectional data flow to make sure you will a
 Datahub can also automatically generate an API document from your mock/testing data, to help keep your API document up to date and consistent with your mock data.
 
 
-<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkm9fj6doj21kw13adnq.jpg" style="width: 80%;" />
+<img src="//ws1.sinaimg.cn/large/bceaad1fly1fwkophwa8qj229m1gejyw.jpg" style="width: 80%;" />
 
 ## DataHub Dashboard
 
