@@ -1,7 +1,6 @@
 {
   "name": "macacajs.github.io",
   "devDependencies": {
-    "gh-pages": "^1.1.0",
     "git-contributor": "^1.0.7",
     "vuepress": "^0.14.8"
   },
@@ -12,7 +11,6 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "update": "gh-pages -d docs -b master",
     "contributor": "git-contributor"
   }
 }
