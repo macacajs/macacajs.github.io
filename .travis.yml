@@ -5,3 +5,10 @@ node_js:
 script:
   - npm i
   - npm run build
+  - npm run update
+after_success:
+  - cd ./docs
+  - git init
+  - git add --all .
+  - git commit -m "Travis CI Auto Builder"
+  - git push --quiet --force https://$REPO_TOKEN@github.com/macacajs/macacajs.github.io.git master

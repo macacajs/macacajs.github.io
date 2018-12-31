@@ -2,7 +2,7 @@
 
 module.exports = {
   dest: 'docs',
-  base: `/`,
+  base: '/',
 
   locales: {
     '/': {
