@@ -3,7 +3,7 @@
 home: true
 heroImage: /logo/macaca.svg
 actionText: 立即开始
-actionLink: /zh/guide/introduction.html
+actionLink: /zh/guide/
 features:
 - title: 跨平台
   details: 支持在移动端和PC端的Native, Hybrid, 移动端Web应用

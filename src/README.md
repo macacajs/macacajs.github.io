@@ -3,7 +3,7 @@
 home: true
 heroImage: /logo/macaca.svg
 actionText: Getting Started
-actionLink: /guide/introduction.html
+actionLink: /guide/
 features:
 - title: Cross Platforms
   details: Support native, hybrid and mobile web app on both Mobile and Desktop Platforms

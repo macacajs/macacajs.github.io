@@ -80,7 +80,7 @@ module.exports = {
         nav: [
           {
             text: 'Guide',
-            link: '/guide/introduction.html'
+            link: '/guide/'
           },
         ],
         sidebar: {
@@ -101,7 +101,7 @@ module.exports = {
         nav: [
           {
             text: '指南',
-            link: '/zh/guide/introduction.html'
+            link: '/zh/guide/'
           },
         ],
         sidebar: {
@@ -118,7 +118,7 @@ function genSidebarConfig(isZh) {
       title: 'Guide',
       collapsable: false,
       children: [
-        'introduction',
+        '',
         'environment-setup',
         'quick-start',
         'helpful-settings',
