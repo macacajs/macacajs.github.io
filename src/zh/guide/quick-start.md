@@ -80,20 +80,20 @@ $ macaca run -h
 
 ### iOS 应用测试(含 WebView)
 
-{% include video.html url="//os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" %}
+<video src="//os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" controls="controls"></video>
 
 ### iOS 手机端浏览器
 
-{% include video.html url="//os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" %}
+<video src="//os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" controls="controls"></video>
 
 ### Android 应用测试(含 WebView)
 
-{% include video.html url="//os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" %}
+<video src="//os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" controls="controls"></video>
 
 ### Android 手机端浏览器
 
-{% include video.html url="//os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" %}
+<video src="//os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" controls="controls"></video>
 
 ### 桌面端 (Electron)
 
-{% include video.html url="//os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" %}
+<video src="//os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" controls="controls"></video>

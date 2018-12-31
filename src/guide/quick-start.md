@@ -74,23 +74,24 @@ $ macaca run -h
 
 ### iOS APP
 
-{% include video.html url="//os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" %}
+<video src="//os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" controls="controls"></video>
 
 ### Mobile Safari
 
-{% include video.html url="//os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" %}
+<video src="//os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" controls="controls"></video>
 
 ### Android APP
 
-{% include video.html url="//os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" %}
+<video src="//os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" controls="controls"></video>
 
 ### Android Browser
 
-{% include video.html url="//os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" %}
+<video src="//os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" controls="controls"></video>
 
 ### Desktop (Electron)
 
-{% include video.html url="//os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" %}
+<video src="//os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" controls="controls"></video>
 
 ## More Examples
+
 [more sample](//github.com/macaca-sample).

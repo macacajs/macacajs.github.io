@@ -1,4 +1,4 @@
-# Frequent Asked Question (FAQ)
+# FAQ
 
 - [iOS: Can't Connect Webview](//github.com/alibaba/macaca/issues/79)
 - [Android: Webview and its version](//github.com/alibaba/macaca/issues/361)

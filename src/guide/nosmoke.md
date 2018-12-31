@@ -1,4 +1,4 @@
-# NoSmoke Automated UI Crawler
+# UI Crawler
 
 A cross platform UI crawler which scans view trees then generate and execute UI test cases. For full set of documentation, please refer to:
 [wiki](https://github.com/macacajs/NoSmoke/wiki)

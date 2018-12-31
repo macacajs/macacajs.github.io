@@ -25,12 +25,39 @@ module.exports = {
     ['script', {
       async: true,
       src: 'https://www.googletagmanager.com/gtag/js?id=UA-49226133-2',
-    }, ''],
+    }],
     ['script', {}, `
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-49226133-2');
+    `],
+    ['style', {}, `
+      .clearfix{
+        overflow: hidden;
+      }
+      video {
+        width: 100%;
+      }
+      #who-use-list {
+        list-style: none;
+        clear: left;
+        margin: 0;
+      }
+      #who-use-list li {
+        float: left;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+      }
+      #who-use-list img {
+        width: 60px;
+      }
+      #who-use-list p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.5;
+      }
     `]
   ],
   serviceWorker: true,
