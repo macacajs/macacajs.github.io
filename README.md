@@ -13,7 +13,6 @@
 # open to see this website: http://localhost:8080/
 $ npm run dev
 $ npm run build
-$ npm run update
 ```
 
 <!-- GITCONTRIBUTOR_START -->

@@ -2,14 +2,28 @@
 
 home: true
 heroImage: /logo/macaca.svg
-actionText: Try it Out →
-actionLink: /zh/guide
+actionText: 立即开始
+actionLink: /zh/guide/introduction.html
 features:
-- title: 多环节覆盖
-  details: 支持从本地开发阶段，到集成测试阶段，以及上线前验证阶段的一系列数据环境需求
-- title: 去中心化
-  details: DataHub 采用去中心化设计，本地研发阶段每项实例都拥有一份独立的数据
+- title: 跨平台
+  details: 支持在移动端和PC端的Native, Hybrid, 移动端Web应用
+- title: 支持真机
+  details: 支持真机和模拟器，以及大量样板示例
+- title: 更加容易
+  details: 支持多种语言栈编写脚本，提供调试，元素查看器，数据Mock，录制回放等周边
+- title: 提供CI方案
+  details: 提供持续集成方案及持续集成平台的私有部署方案
 footer: MIT Licensed | Copyright © 2015-present Macaca
 
 ---
 
+::: tip 一句话介绍
+遵从标准的多端自动化测试。
+:::
+
+## 安装示例
+
+```bash
+$ npm i -g macaca-cli macaca-ios # 安装命令行工具和驱动模块
+$ macaca run                     # 运行即可，点击按钮播放视频
+```

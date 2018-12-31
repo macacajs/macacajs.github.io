@@ -17,6 +17,11 @@ module.exports = {
     },
   },
   head: [
+    ['link', {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/assets/favicon.ico'
+    }],
     ['script', {
       async: true,
       src: 'https://www.googletagmanager.com/gtag/js?id=UA-49226133-2',
@@ -48,11 +53,11 @@ module.exports = {
         nav: [
           {
             text: 'Guide',
-            link: '/guide'
+            link: '/guide/introduction.html'
           },
         ],
         sidebar: {
-          '/guide/': genSidebarConfig('Guide')
+          '/guide/': genSidebarConfig(),
         }
       },
       '/zh/': {
@@ -69,26 +74,82 @@ module.exports = {
         nav: [
           {
             text: '指南',
-            link: '/zh/guide'
+            link: '/zh/guide/introduction.html'
           },
         ],
         sidebar: {
-          '/zh/guide/': genSidebarConfig('指南')
+          '/zh/guide/': genSidebarConfig(true),
         }
       },
     },
   },
 };
 
-function genSidebarConfig(title) {
-  return [
+function genSidebarConfig(isZh) {
+  const res = [
     {
-      title,
+      title: 'Guide',
       collapsable: false,
       children: [
-        'install',
+        'introduction',
+        'environment-setup',
         'quick-start',
+        'helpful-settings',
+        'versioning',
+      ],
+    },
+    {
+      title: 'API',
+      collapsable: false,
+      children: [
+        'nodejs',
+        'java',
+        'python'
+      ],
+    },
+    {
+      title: 'Advanced',
+      collapsable: false,
+      children: [
+        'debugging',
+        'inspector',
+        'recorder',
+        'datahub',
+        'coverage',
+        'nosmoke',
+        'monkey-testing',
+        'computer-vision',
+        'pageuitest',
+        'browser',
+        'run-with-docker',
+        'master-deployment'
+      ],
+    },
+    {
+      title: 'Support',
+      collapsable: false,
+      children: [
+        'roadmap',
+        'contributing',
+        'faq',
+        'support'
       ],
     },
   ];
+
+  if (!isZh) {
+    return res;
+  }
+
+  const map = {
+    guide: '使用指南',
+    api: 'API文档',
+    advanced: '高级进阶',
+    support: '社区支持'
+  };
+
+  return res.map(item => {
+    item.title = map[item.title.toLowerCase()];
+    return item;
+  });
 }

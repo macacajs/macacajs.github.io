@@ -1,6 +1,0 @@
-  get_start: 上手文档
-  description: 遵从标准的多端自动化测试
-  cross_platforms: 跨平台
-  real_devices: 支持真机
-  easy_test: 更加容易
-  distributed_ci: 提供CI方案
