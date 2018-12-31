@@ -7,38 +7,12 @@
 
 ---
 
-## Running locally
-
-Start a dev server at `localhost:4000`:
-
-## install jekyll
-
-```bash
-$ sudo gem install jekyll
-```
-
-## install bundler
-
-```bash
-$ sudo gem install bundler
-$ bundle install
-```
-
 ## Scripts
 
 ```bash
-# open to see this website: http://localhost:4000/
-$ npm run server
+# open to see this website: http://localhost:8080/
+$ npm run dev
 $ npm run build
-```
-
-## Publish
-
-default branch: develop
-
-Publish branch: master
-
-```bash
 $ npm run update
 ```
 
