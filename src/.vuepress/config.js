@@ -62,7 +62,7 @@ module.exports = {
   ],
   serviceWorker: true,
   themeConfig: {
-    repo: `alibaba/macaca`,
+    repo: 'alibaba/macaca',
     editLinks: true,
     docsDir: 'src',
     locales: {
@@ -82,6 +82,20 @@ module.exports = {
             text: 'Guide',
             link: '/guide/'
           },
+          {
+            text: 'Ecosystem',
+            items: [
+              {
+                text: 'Web Page Testing',
+                items: [
+                  {
+                    text: 'UITest',
+                    link: '/uitest/'
+                  }
+                ]
+              }
+            ]
+          }
         ],
         sidebar: {
           '/guide/': genSidebarConfig(),
@@ -103,6 +117,20 @@ module.exports = {
             text: '指南',
             link: '/zh/guide/'
           },
+          {
+            text: '生态成员',
+            items: [
+              {
+                text: 'Web 测试框架',
+                items: [
+                  {
+                    text: 'UITest',
+                    link: '/uitest/'
+                  }
+                ]
+              }
+            ]
+          }
         ],
         sidebar: {
           '/zh/guide/': genSidebarConfig(true),
@@ -146,7 +174,6 @@ function genSidebarConfig(isZh) {
         'nosmoke',
         'monkey-testing',
         'computer-vision',
-        'pageuitest',
         'browser',
         'run-with-docker',
         'master-deployment'
