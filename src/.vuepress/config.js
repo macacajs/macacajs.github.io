@@ -91,6 +91,28 @@ module.exports = {
                   {
                     text: 'UITest',
                     link: 'https://macacajs.github.io/uitest'
+                  },
+                  {
+                    text: 'Torchjs',
+                    link: 'https://macacajs.github.io/torchjs'
+                  }
+                ]
+              },
+              {
+                text: 'Mock',
+                items: [
+                  {
+                    text: 'DataHub',
+                    link: 'https://macacajs.github.io/macaca-datahub'
+                  }
+                ]
+              },
+              {
+                text: 'UI Crawler',
+                items: [
+                  {
+                    text: 'NoSmoke',
+                    link: 'https://macacajs.github.io/NoSmoke'
                   }
                 ]
               }
@@ -125,7 +147,29 @@ module.exports = {
                 items: [
                   {
                     text: 'UITest',
-                    link: 'https://macacajs.github.io/uitest/'
+                    link: 'https://macacajs.github.io/uitest/zh/'
+                  },
+                  {
+                    text: 'Torchjs',
+                    link: 'https://macacajs.github.io/torchjs/zh/'
+                  }
+                ]
+              },
+              {
+                text: 'Mock 方案',
+                items: [
+                  {
+                    text: 'DataHub',
+                    link: 'https://macacajs.github.io/macaca-datahub/zh/'
+                  }
+                ]
+              },
+              {
+                text: '遍历工具',
+                items: [
+                  {
+                    text: 'NoSmoke',
+                    link: 'https://macacajs.github.io/NoSmoke/zh/'
                   }
                 ]
               }
@@ -169,9 +213,7 @@ function genSidebarConfig(isZh) {
         'debugging',
         'inspector',
         'recorder',
-        'datahub',
         'coverage',
-        'nosmoke',
         'monkey-testing',
         'computer-vision',
         'browser',
