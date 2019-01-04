@@ -90,7 +90,7 @@ module.exports = {
                 items: [
                   {
                     text: 'UITest',
-                    link: '/uitest/'
+                    link: 'https://macacajs.github.io/uitest'
                   }
                 ]
               }
@@ -125,7 +125,7 @@ module.exports = {
                 items: [
                   {
                     text: 'UITest',
-                    link: '/uitest/'
+                    link: 'https://macacajs.github.io/uitest/'
                   }
                 ]
               }
