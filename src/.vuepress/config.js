@@ -143,7 +143,6 @@ function genSidebarConfig(isZh) {
       collapsable: false,
       children: [
         'debugging',
-        'inspector',
         'recorder',
         'coverage',
         'monkey-testing',
