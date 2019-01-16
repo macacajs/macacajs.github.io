@@ -148,8 +148,7 @@ function genSidebarConfig(isZh) {
         'monkey-testing',
         'computer-vision',
         'browser',
-        'run-with-docker',
-        'master-deployment'
+        'run-with-docker'
       ],
     },
     {
