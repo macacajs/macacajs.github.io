@@ -9,7 +9,7 @@ Since we have lots of modules, we use the main repo ([Macaca](//github.com/aliba
 
 Source code for the packages can be found in [Macaca Org](//github.com/macacajs) and [Reliable Org](//github.com/reliablejs).
 
-Source code for this docs can be found in [macacajs.github.io](//github.com/macacajs/macacajs.github.io).
+Source code for the docs can be found in [macacajs.github.io](//github.com/macacajs/macacajs.github.io).
 
 ## DingTalk
 
