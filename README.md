@@ -10,8 +10,9 @@
 ## Scripts
 
 ```bash
-# open to see this website: http://localhost:8080/
+$ npm i
 $ npm run dev
+# open to see this website: http://localhost:8080/
 $ npm run build
 ```
 
