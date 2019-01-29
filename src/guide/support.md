@@ -5,21 +5,25 @@
 [![GitHub stars](https://img.shields.io/github/stars/alibaba/macaca.svg?style=flat-square "GitHub stars")](//github.com/alibaba/macaca)
 [![GitHub issues](https://img.shields.io/github/issues/alibaba/macaca.svg?style=flat-square "GitHub issues")](//github.com/alibaba/macaca/issues?utf8=%E2%9C%93&q=)
 
-Because we have lots of modules we use the main repo ([Macaca](//github.com/alibaba/macaca)) to track all our tasks, bugs, features, etc. Using [GitHub issues](//github.com/alibaba/macaca/issues?utf8=%E2%9C%93&q=).
+Since we have lots of modules, we use the main repo ([Macaca](//github.com/alibaba/macaca)) to track all our tasks, bugs, features, etc. using [GitHub issues](//github.com/alibaba/macaca/issues?utf8=%E2%9C%93&q=).
 
-Packages can be found in [Macaca Group](//github.com/macacajs) and [Reliable Group](//github.com/reliablejs).
+Source code for the packages can be found in [Macaca Org](//github.com/macacajs) and [Reliable Org](//github.com/reliablejs).
 
-Team members can be found in [here](//github.com/orgs/macacajs/people).
+Source code for this docs can be found in [macacajs.github.io](//github.com/macacajs/macacajs.github.io).
 
 ## DingTalk
 
 <img src="//wx3.sinaimg.cn/large/6d308bd9gy1frbztx4h97j20ku0riq5y.jpg" width="280" />
 
+## Team Members
+
+[Members list](//github.com/orgs/macacajs/people)
+
 ## Quick questions
 
 [![GITTER](https://img.shields.io/badge/GITTER-join%20chat-green.svg?style=flat-square)](https://gitter.im/alibaba/macaca)
 
-## StackOverflow
+## Stack Overflow
 
 Use Stack Overflow to ask questions. Read through the [existing questions](http://stackoverflow.com/search?q=macaca) tagged with `Macaca` or [ask your own](http://stackoverflow.com/questions/ask)!
 

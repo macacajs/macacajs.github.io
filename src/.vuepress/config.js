@@ -65,7 +65,7 @@ module.exports = {
   serviceWorker: true,
   themeConfig: {
     repo: 'alibaba/macaca',
-    editLinks: true,
+    editLinks: false,
     docsDir: 'src',
     locales: {
       '/': {
