@@ -13,7 +13,7 @@ Macaca 依赖的功能模块非常多，所以我们使用主仓库 ([Macaca](//
 
 ## 钉钉群
 
-<img src="//wx3.sinaimg.cn/large/6d308bd9gy1frbztx4h97j20ku0riq5y.jpg" width="280" />
+<img src="//wx3.sinaimg.cn/large/6d308bd9ly1fzol6szylcj20ku0ri0vx.jpg" width="280" />
 
 ## 团队成员
 

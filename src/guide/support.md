@@ -13,7 +13,7 @@ Source code for the docs can be found in [macacajs.github.io](//github.com/macac
 
 ## DingTalk
 
-<img src="//wx3.sinaimg.cn/large/6d308bd9gy1frbztx4h97j20ku0riq5y.jpg" width="280" />
+<img src="//wx3.sinaimg.cn/large/6d308bd9ly1fzol6szylcj20ku0ri0vx.jpg" width="280" />
 
 ## Team Members
 
