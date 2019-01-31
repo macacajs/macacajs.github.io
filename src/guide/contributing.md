@@ -4,7 +4,7 @@ Macaca welcomes all kinds of contributions, from feature implementation, issues,
 
 ## Issue
 
-Open new `issue` whenver you have questions about Macaca while using it. Give details about your problem and the steps to reproduce it.
+Open new `issue` whenever you have questions about Macaca while using it. Give details about your problem and the steps to reproduce it.
 Keep in mind, make sure your question has been listed on [FAQ](./faq) before you submit it.
 Help on resolving `issue` brought up by others. Sharing your knowledge is another way to help this community.
 
@@ -18,6 +18,7 @@ Find bugs? Implement new features? Follow those steps:
 $ git clone https://github.com/macacajs/macaca-ios.git
 $ cd macaca-ios
 ```
+
 2. Create a branch
 
 Want to add a new feature, name your feature `features-xxx`; Mean to fix a bug? name it `bugfix-xxx`
@@ -34,7 +35,6 @@ You know how to do it.
 
 Submit a pull request (PR) to the macacajs repo. We will review it shortly.
 
-
 ## Additional Notes
 
 Macaca consists of multiple modules. Please refer to `CONTRIBUTING.md` to understand how to build and run. You can use [UIAutomatorWD/CONTRIBUTING.md](//github.com/macacajs/UIAutomatorWD/blob/master/CONTRIBUTING.md) for your reference.
@@ -49,9 +49,9 @@ We follows the git-contributor [spec](//github.com/xudafeng/git-contributor), li
 ## Join Us
 
 We will invite you to join us if
-*You have made more than three(3) important pull request (PR).*
+_You have made more than three(3) important pull request (PR)._
 or
-*You have solved challenging problems.*
+_You have solved challenging problems._
 
 ## LICENSE
 
