@@ -2,8 +2,9 @@ language: node_js
 sudo: false
 node_js:
   - 8
-script:
+install:
   - npm i
+script:
   - npm run build
 after_success:
   - $(npm bin)/macaca-ecosystem push --cwd ./docs --branch master
