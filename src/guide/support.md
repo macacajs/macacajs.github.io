@@ -7,7 +7,7 @@
 
 Since we have lots of modules, we use the main repo ([Macaca](//github.com/alibaba/macaca)) to track all our tasks, bugs, features, etc. using [GitHub issues](//github.com/alibaba/macaca/issues?utf8=%E2%9C%93&q=).
 
-Source code for the packages can be found in [Macaca Org](//github.com/macacajs) and [Reliable Org](//github.com/reliablejs).
+Source code for the packages can be found in [Macaca Org](//github.com/macacajs).
 
 Source code for the docs can be found in [macacajs.github.io](//github.com/macacajs/macacajs.github.io).
 

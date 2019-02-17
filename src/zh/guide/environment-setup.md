@@ -57,6 +57,8 @@ $ export JAVA_HOME=path/to/your/Java/Home
 ```bash
 # 例如
 $ export ANDROID_HOME = /usr/local/opt/android-sdk
+# 或
+$ export ANDROID_HOME="/Users/<UserName>/Library/Android/sdk"
 ```
 
 请安装 [gradle](https://gradle.org) 来构建 [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) 和其它依赖包。 ( Windows 用户请安装 [gradle 安装包](https://gradle.org/releases/) 并且设置对应的环境变量。)
