@@ -43,7 +43,10 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 - Set the `ANDROID_HOME` environment variable to your `~/.bashrc`, `~/.bash_profile`, `~/.zshrc` or whatever your shell uses:
 
 ```bash
-export ANDROID_HOME = /usr/local/opt/android-sdk
+# for example
+$ export ANDROID_HOME=/usr/local/opt/android-sdk
+# or
+$ export ANDROID_HOME="/Users/<UserName>/Library/Android/sdk"
 ```
 
 [gradle](https://gradle.org) is needed in order to build [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) and other package.(For Windows Users plz download [gradle installer](https://gradle.org/releases/) and set PATH environment variable.)
