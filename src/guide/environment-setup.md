@@ -1,12 +1,16 @@
 # Environment Setup
 
+[[toc]]
+
 ## Node.js
 
 [Node.js](https://nodejs.org/) v8.0 or higher.
 
 ## iOS
 
-Xcode v9 or higher is required.
+::: warning Important
+**Xcode v9** or higher is **required**.
+:::
 
 - [usbmuxd](//github.com/libimobiledevice/usbmuxd) is needed in order to testing real iOS device via USB.
 
@@ -39,14 +43,23 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 ## Android
 
 - [Install the latest JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (Java 9 is not supported)
-- Install the Android SDK`
-- Set the `ANDROID_HOME` environment variable to your `~/.bashrc`, `~/.bash_profile`, `~/.zshrc` or whatever your shell uses:
+- Set the `JAVA_HOME` environment variable in your `~/.bashrc`, `~/.bash_profile`, `~/.zshrc` or whatever your shell uses:
 
 ```bash
 # for example
-$ export ANDROID_HOME=/usr/local/opt/android-sdk
+export JAVA_HOME=path/to/your/Java/Home
 # or
-$ export ANDROID_HOME="/Users/<UserName>/Library/Android/sdk"
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+```
+
+- Install the `Android SDK` and `Android Support Repository`, using any of the versions within `18-25`
+- Set the `ANDROID_HOME` environment variable in your `~/.bashrc`, `~/.bash_profile`, `~/.zshrc` or whatever your shell uses:
+
+```bash
+# for example
+export ANDROID_HOME=/usr/local/opt/android-sdk
+# or
+export ANDROID_HOME="/Users/<UserName>/Library/Android/sdk"
 ```
 
 [gradle](https://gradle.org) is needed in order to build [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) and other package.(For Windows Users plz download [gradle installer](https://gradle.org/releases/) and set PATH environment variable.)

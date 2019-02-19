@@ -5,7 +5,11 @@ const macacaEcosystem = require('macaca-ecosystem');
 module.exports = {
   dest: 'docs',
   base: '/',
-
+  markdown: {
+    toc: {
+      includeLevel: [2],
+    },
+  },
   locales: {
     '/': {
       lang: 'en-US',
