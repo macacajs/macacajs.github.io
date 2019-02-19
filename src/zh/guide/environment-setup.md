@@ -1,12 +1,18 @@
 # 环境配置
 
+[[toc]]
+
 ## 安装 Node.js
 
 请安装 [Node.js](https://nodejs.org/) v8.0 或者更高版本，装好 `Node.js` 后命令行里就已经集成了 `npm` 工具，为了提高安装模块的速度，请使用国内的 `cnpm`。
 
 ## iOS 环境
 
-- 请安装 Xcode9 或者更高版本
+
+::: warning 重要
+请安装 **Xcode9** 或者更高版本
+:::
+
 - 请安装 [usbmuxd](//github.com/libimobiledevice/usbmuxd) 以便于通过 USB 通道测试 iOS 真机，不需要测试真机则不用安装
 
 ```bash
@@ -45,20 +51,23 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 
 - [安装 JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)，要求 1.8 （不支持Java 9）
 
-- 配置 JAVA_HOME，根据你所使用的 shell 工具修改不同的文件，比如 ~/.bashrc, ~/.bash_profile, ~/.zshrc
-
-```bash
-$ export JAVA_HOME=path/to/your/Java/Home
-```
-
-- 安装 `18-25` 版本中的任一 SDK 和 `Android Support Repository`
-- shell 环境设置 `ANDROID_HOME`，根据你所使用的Terminal修改不同的文件，比如~/.bashrc, ~/.bash_profile, ~/.zshrc
+- 配置 `JAVA_HOME`，根据你所使用的 shell 工具修改不同的文件，比如 `~/.bashrc`, `~/.bash_profile`, `~/.zshrc`
 
 ```bash
 # 例如
-$ export ANDROID_HOME = /usr/local/opt/android-sdk
+export JAVA_HOME=path/to/your/Java/Home
 # 或
-$ export ANDROID_HOME="/Users/<UserName>/Library/Android/sdk"
+export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)"
+```
+
+- 安装 `18-25` 版本中的任一 `Android SDK` 和 `Android Support Repository`
+- shell 环境设置 `ANDROID_HOME`，根据你所使用的Terminal修改不同的文件，比如 `~/.bashrc`, `~/.bash_profile`, `~/.zshrc`
+
+```bash
+# 例如
+export ANDROID_HOME = /usr/local/opt/android-sdk
+# 或
+export ANDROID_HOME="/Users/<UserName>/Library/Android/sdk"
 ```
 
 请安装 [gradle](https://gradle.org) 来构建 [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) 和其它依赖包。 ( Windows 用户请安装 [gradle 安装包](https://gradle.org/releases/) 并且设置对应的环境变量。)
