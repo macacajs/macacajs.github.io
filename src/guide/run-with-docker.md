@@ -10,8 +10,8 @@
 | nodecv | [nodecv-server](//github.com/macacajs/nodecv-server) | [![build status][docker-image4]][docker-url4] |
 | macaca-datahub | [macaca-datahub](//github.com/macacajs/macaca-datahub) | [![build status][docker-image5]][docker-url5] |
 
-[docker-image1]: https://img.shields.io/docker/pulls/macacajs/macaca-android.svg?style=flat-square
-[docker-url1]: https://hub.docker.com/r/macacajs/macaca-android
+[docker-image1]: https://img.shields.io/docker/pulls/macacajs/macaca-android-docker.svg?style=flat-square
+[docker-url1]: https://hub.docker.com/r/macacajs/macaca-android-docker
 [docker-image2]: https://img.shields.io/docker/pulls/macacajs/macaca-electron-docker.svg?style=flat-square
 [docker-url2]: https://hub.docker.com/r/macacajs/macaca-electron-docker
 [docker-image3]: https://img.shields.io/docker/pulls/macacajs/macaca-puppeteer-docker.svg?style=flat-square
