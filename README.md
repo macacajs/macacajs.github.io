@@ -7,15 +7,6 @@
 
 ---
 
-## Scripts
-
-```bash
-$ npm i
-$ npm run dev
-# open to see this website: http://localhost:8080/
-$ npm run build
-```
-
 <!-- GITCONTRIBUTOR_START -->
 
 ## Contributors
@@ -28,6 +19,15 @@ $ npm run build
 This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Fri Feb 08 2019 16:07:30 GMT+0800`.
 
 <!-- GITCONTRIBUTOR_END -->
+
+## Scripts
+
+```bash
+$ npm i
+$ npm run dev
+# open to see this website: http://localhost:8080/
+$ npm run build
+```
 
 ## License
 
