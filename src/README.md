@@ -19,7 +19,7 @@ footer: MIT Licensed | Copyright © 2015-present Macaca
 Macaca is an open-source automation test solution for native, hybrid, mobile web and web application on mobile and desktop platforms.
 :::
 
-<video src="//os.alipayobjects.com/rmsportal/rEgPjSRIJBwfbMq.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/rEgPjSRIJBwfbMq.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
 
 ## As Easy as 1, 2, 3
 

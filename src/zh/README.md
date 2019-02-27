@@ -21,7 +21,8 @@ footer: MIT Licensed | Copyright © 2015-present Macaca
 遵从标准的多端自动化测试。
 :::
 
-<video src="//os.alipayobjects.com/rmsportal/rEgPjSRIJBwfbMq.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/rEgPjSRIJBwfbMq.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
+
 
 ## 安装示例
 
