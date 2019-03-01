@@ -80,20 +80,20 @@ $ macaca run -h
 
 ### iOS 应用测试(含 WebView)
 
-<video src="//os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
 
 ### iOS 手机端浏览器
 
-<video src="//os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
 
 ### Android 应用测试(含 WebView)
 
-<video src="//os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
 
 ### Android 手机端浏览器
 
-<video src="//os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
 
 ### 桌面端 (Electron)
 
-<video src="//os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
