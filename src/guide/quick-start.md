@@ -74,23 +74,23 @@ $ macaca run -h
 
 ### iOS APP
 
-<video src="//os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/fyuMolxdSsGMlNw.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
 
 ### Mobile Safari
 
-<video src="//os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/TDeTXmTfeqRlxhj.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
 
 ### Android APP
 
-<video src="//os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/vjoZfJaZmCvInDv.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
 
 ### Android Browser
 
-<video src="//os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/VoxFKOVDsOjKyMs.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
 
 ### Desktop (Electron)
 
-<video src="//os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" controls="controls"></video>
+<video src="//os.alipayobjects.com/rmsportal/bgBKHXYSrlYpuvv.mp4" controls="controls" preload="auto" controlslist="nodownload"></video>
 
 ## More Examples
 
