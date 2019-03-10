@@ -12,7 +12,7 @@ Macaca 是一套面向用户端软件的测试解决方案，提供了自动化�
 
 ## 标准化
 
-Macaca 提供了标准化的驱动层，消除了各技术平台测试技术栈的差异。用户只需要遵从 [W3C webdriver 标准](//w3c.github.io/webdriver/webdriver-spec.html)即可多端无忧，理解成本降低。
+Macaca 提供了标准化的驱动层，消除了各技术平台测试技术栈的差异。用户只需要遵从 [W3C webdriver 标准](https://www.w3.org/TR/webdriver/)即可多端无忧，理解成本降低。
 
 ## 多语言栈支持
 
