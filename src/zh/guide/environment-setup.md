@@ -47,15 +47,15 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 ```
 
 * 下载 [XCTestWD](https://github.com/macacajs/XCTestWD)
-  * 如果 `XCTestWD` 是另一个包的依赖，从另一个包的里`node_modules`找
-  * 比如全局安装的`app-inspector`，在`/usr/local/lib/node_modules/app-inspector/node_modules/xctestwd`
-* 用XCode打开 `/XCTestWD/XCTestWD.xcodeproj`
+  * 如果 `XCTestWD` 是另一个包的依赖，从另一个包的里 `node_modules` 找
+  * 比如全局安装的 `app-inspector`，在 `/usr/local/lib/node_modules/app-inspector/node_modules/xctestwd`
+* 用 XCode 打开 `/XCTestWD/XCTestWD.xcodeproj`
 * 导入开发者账号（证书）
-* Run Test将`XCTestWDUITest`装入真机：
+* Run Test 将 `XCTestWDUITest` 装入真机：
 
 ![](https://wx3.sinaimg.cn/large/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
 
-* 在测试脚本中配置真机测试参数，比如`udid`, `bundleId` 和 `app`。参见[desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities)。
+* 在测试脚本中配置真机测试参数，比如 `udid`, `bundleId` 和 `app`。参见 [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities)。
 
 ![](https://wx1.sinaimg.cn/large/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
 
