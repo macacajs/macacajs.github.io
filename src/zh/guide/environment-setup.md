@@ -40,7 +40,9 @@ $ brew install ios-webkit-debug-proxy
 ## iOS 真机环境
 
 * 下载 [XCTestWD](https://github.com/macacajs/XCTestWD)
-  * 如果 `XCTestWD` 是另一个包的依赖，从另一个包的里 `node_modules` 找
+  * 如果 `XCTestWD` 是另一个包的依赖，可以用环境变量传入 `XCTestWD` 位置，参见[XCTestWD 文档](https://github.com/macacajs/XCTestWD#44)。
+    * 比如 `MACACA_XCTESTWD_ROOT_PATH=/path/to/macaca_xctest app-inspector -u xxx --verbose`
+  * 也可以从另一个包的里 `node_modules` 找到 `XCTestWD`
   * 比如全局安装的 `app-inspector`，在 `/usr/local/lib/node_modules/app-inspector/node_modules/xctestwd`
 * 用 XCode 打开 `/XCTestWD/XCTestWD.xcodeproj`
 * 导入开发者账号（证书）

@@ -36,7 +36,9 @@ $ brew install ios-webkit-debug-proxy
 
 
 * Download [XCTestWD](https://github.com/macacajs/XCTestWD)
-  * If `XCTestWD` is a dependency of another package, find it in the relevant `node_modules`
+  * If `XCTestWD` is a dependency of another package, use environmental variable to pass in the location of `XCTestWD`, refer to the [XCTestWD doc](https://github.com/macacajs/XCTestWD#44)
+    * For example, `MACACA_XCTESTWD_ROOT_PATH=/path/to/macaca_xctest app-inspector -u xxx --verbose`
+  * Alternatively, find it in the relevant `node_modules`
   * For example, in the case of globally installed `app-inspector`, it is at `/usr/local/lib/node_modules/app-inspector/node_modules/xctestwd`
 * Open `/XCTestWD/XCTestWD.xcodeproj` with XCode
 * Import developer certificate
