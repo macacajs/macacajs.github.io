@@ -32,13 +32,32 @@ $ brew install ios-webkit-debug-proxy
 
 - [debug log](//github.com/macacajs/XCTestWD/blob/master/README.md#43-debug-info) will be displayed when '--verbose' is set as an argument when initiating macaca.
 
-### iOS Real Device
+## iOS Real Device
 
-![](//wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
+* Install macaca-ios with `TEAM_ID`, find `TEAM_ID` in XCode:
+
+![](https:////wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 
 ```bash
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 ```
+
+* Download [XCTestWD](https://github.com/macacajs/XCTestWD)
+  * If `XCTestWD` is a dependency of another package, find it in the relevant `node_modules`
+  * For example, in the case of globally installed `app-inspector`, it is at `/usr/local/lib/node_modules/app-inspector/node_modules/xctestwd`
+* Open `/XCTestWD/XCTestWD.xcodeproj` with XCode
+* Import developer certificate
+* Execute `Run Test` to import `XCTestWDUITest` into the real device
+
+![](https://wx3.sinaimg.cn/large/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
+
+* If you need to run iOS tests, also remember to pass in relevant parameters for real device in [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities), such as `udid`, `bundleId` and `app`.
+
+![](https://wx1.sinaimg.cn/large/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
+
+::: tip More details
+Refer to [this issue](https://github.com/alibaba/macaca/issues/654) for more details
+:::
 
 ## Android
 

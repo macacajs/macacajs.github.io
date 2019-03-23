@@ -37,15 +37,31 @@ $ brew install ios-webkit-debug-proxy
 
 * 准备 App 包：如需要测试 iOS 应用，请使用 Scheme 设置为 debug 的 `.app` 包。
 
-### iOS 真机环境
+## iOS 真机环境
 
+* 在安装过程中将 `TEAM_ID` 通过环境变量传入即可支持真机，`TEAM_ID` 获取：
 ![](//wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
-
-在安装过程中可以将 TEAM_ID 通过环境变量传入即可支持真机，TEAM_ID 如何获取请见上图。
 
 ```bash
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 ```
+
+* 下载 [XCTestWD](https://github.com/macacajs/XCTestWD)
+  * 如果 `XCTestWD` 是另一个包的依赖，从另一个包的里`node_modules`找
+  * 比如全局安装的`app-inspector`，在`/usr/local/lib/node_modules/app-inspector/node_modules/xctestwd`
+* 用XCode打开 `/XCTestWD/XCTestWD.xcodeproj`
+* 导入开发者账号（证书）
+* Run Test将`XCTestWDUITest`装入真机：
+
+![](https://wx3.sinaimg.cn/large/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
+
+* 在测试脚本中配置真机测试参数，比如`udid`, `bundleId` 和 `app`。参见[desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities)。
+
+![](https://wx1.sinaimg.cn/large/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
+
+::: tip 更多细节
+参考 [这里](https://github.com/alibaba/macaca/issues/654) 
+:::
 
 ## Android 环境
 
