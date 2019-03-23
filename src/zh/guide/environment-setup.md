@@ -39,21 +39,23 @@ $ brew install ios-webkit-debug-proxy
 
 ## iOS 真机环境
 
-* 在安装过程中将 `TEAM_ID` 通过环境变量传入即可支持真机，`TEAM_ID` 获取：
-![](//wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
-
-```bash
-$ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
-```
-
 * 下载 [XCTestWD](https://github.com/macacajs/XCTestWD)
-  * 如果 `XCTestWD` 是另一个包的依赖，从另一个包的里 `node_modules` 找
+  * 如果 `XCTestWD` 是另一个包的依赖，可以用环境变量传入 `XCTestWD` 位置，参见[XCTestWD 文档](https://github.com/macacajs/XCTestWD#44)。
+    * 比如 `MACACA_XCTESTWD_ROOT_PATH=/path/to/macaca_xctest app-inspector -u xxx --verbose`
+  * 也可以从另一个包的里 `node_modules` 找到 `XCTestWD`
   * 比如全局安装的 `app-inspector`，在 `/usr/local/lib/node_modules/app-inspector/node_modules/xctestwd`
 * 用 XCode 打开 `/XCTestWD/XCTestWD.xcodeproj`
 * 导入开发者账号（证书）
 * Run Test 将 `XCTestWDUITest` 装入真机：
 
 ![](https://wx3.sinaimg.cn/large/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
+
+* 在安装过程中将 `TEAM_ID` 通过环境变量传入即可支持真机。真机安装 `XCTestWD` 后可以获取 `TEAM_ID` ：
+![](//wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
+
+```bash
+$ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
+```
 
 * 在测试脚本中配置真机测试参数，比如 `udid`, `bundleId` 和 `app`。参见 [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities)。
 
