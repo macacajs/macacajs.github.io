@@ -39,13 +39,6 @@ $ brew install ios-webkit-debug-proxy
 
 ## iOS 真机环境
 
-* 在安装过程中将 `TEAM_ID` 通过环境变量传入即可支持真机，`TEAM_ID` 获取：
-![](//wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
-
-```bash
-$ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
-```
-
 * 下载 [XCTestWD](https://github.com/macacajs/XCTestWD)
   * 如果 `XCTestWD` 是另一个包的依赖，从另一个包的里 `node_modules` 找
   * 比如全局安装的 `app-inspector`，在 `/usr/local/lib/node_modules/app-inspector/node_modules/xctestwd`
@@ -54,6 +47,13 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 * Run Test 将 `XCTestWDUITest` 装入真机：
 
 ![](https://wx3.sinaimg.cn/large/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
+
+* 在安装过程中将 `TEAM_ID` 通过环境变量传入即可支持真机。真机安装 `XCTestWD` 后可以获取 `TEAM_ID` ：
+![](//wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
+
+```bash
+$ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
+```
 
 * 在测试脚本中配置真机测试参数，比如 `udid`, `bundleId` 和 `app`。参见 [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities)。
 
