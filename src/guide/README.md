@@ -17,6 +17,10 @@ Macaca provides automation drivers, environmental support, peripheral tools, and
 
 Macaca is **cross-platform**. It means you can use the same API to write test scripts, and same test scripts to test your apps running on devices such as iOS, Android or desktops.
 
+## Architecture
+
+![](https://wx2.sinaimg.cn/large/88fe9010gy1g1k8o53d0ej20wb0ggwgu.jpg)
+
 ## Language Support
 
 Macaca does not limit what [languages](#client) you will use to write your tests.
