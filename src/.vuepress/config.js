@@ -66,7 +66,7 @@ module.exports = {
       }
     `]
   ],
-  serviceWorker: true,
+  serviceWorker: false,
   themeConfig: {
     repo: 'alibaba/macaca',
     editLinks: false,
