@@ -28,5 +28,7 @@ Macaca 提供了多种持续集成方案和功能模块，方便集成到研发�
 
 ## 社区生态
 
+![](https://wx2.sinaimg.cn/large/88fe9010gy1g1u1juuz3hj20rz0kwafl.jpg)
+
 Macaca 拥有庞大的用户群，自我生长的开源形态和优质的中文社区环境，更多请见[帮助支持](/zh/guide/support.html)。
 
