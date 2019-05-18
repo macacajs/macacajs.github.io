@@ -12,7 +12,7 @@ selenium-standalone install --drivers.firefox.baseURL=http://npm.taobao.org/mirr
 
 [F2ETest DOC](//github.com/alibaba/f2etest) supports private deployment of servers, and is the overall solution for multi-browser compatibility testing
 
-![](//wx1.sinaimg.cn/large/6d308bd9gy1feru097e8cj20sw0dcagm.jpg)
+![](/assets/6d308bd9gy1feru097e8cj20sw0dcagm.jpg)
 
 ### Usage
 

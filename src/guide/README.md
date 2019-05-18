@@ -19,7 +19,7 @@ Macaca is **cross-platform**. It means you can use the same API to write test sc
 
 ## Architecture
 
-![](https://wx2.sinaimg.cn/large/88fe9010gy1g1k8o53d0ej20wb0ggwgu.jpg)
+![](/assets/88fe9010gy1g1k8o53d0ej20wb0ggwgu.jpg)
 
 ## Language Support
 
@@ -66,4 +66,4 @@ Client is where you write tests and execute them. Macaca doesn't limit what lang
 
 ## Macaca Community Ecosystem
 
-![](https://wx4.sinaimg.cn/large/88fe9010gy1g1u1s0bzwsj20rz0kwtdx.jpg)
+![](/assets/88fe9010gy1g1u1s0bzwsj20rz0kwtdx.jpg)

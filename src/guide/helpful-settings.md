@@ -182,6 +182,6 @@ driver.touch([{
 }]);
 ```
 
-![touch-gestures](//wx3.sinaimg.cn/large/6d308bd9gy1ffji0wxvjij20ri0mg4al.jpg)
+![touch-gestures](/assets/6d308bd9gy1ffji0wxvjij20ri0mg4al.jpg)
 
-<img src="//wx3.sinaimg.cn/large/6d308bd9gy1ffji0we3eig20g60ssqv6.gif" width="240" />
+<img src="/assets/6d308bd9gy1ffji0we3eig20g60ssqv6.gif" width="240" />

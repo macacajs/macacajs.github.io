@@ -44,11 +44,11 @@ $ brew install ios-webkit-debug-proxy
 * Import developer certificate
 * Execute `Run Test` to import `XCTestWDUITest` into the real device
 
-![](https://wx3.sinaimg.cn/large/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
+![](/assets/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
 
 * Install macaca-ios with `TEAM_ID`, find `TEAM_ID` in XCode after importing `XCTestWDUITest` into the real device:
 
-![](https:////wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
+![](/assets/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 
 ```bash
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
@@ -110,7 +110,7 @@ $ npm i -g macaca-cli
 
 If you saw the picture below, congratulations! Macaca has been installed successfully!
 
-![](http://ww4.sinaimg.cn/large/6d308bd9gw1faie2w55hnj20rs0ov4fu.jpg)
+![](/assets/6d308bd9gw1faie2w55hnj20rs0ov4fu.jpg)
 
 ### Local Installation
 

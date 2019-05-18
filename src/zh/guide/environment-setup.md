@@ -48,10 +48,10 @@ $ brew install ios-webkit-debug-proxy
 * 导入开发者账号（证书）
 * Run Test 将 `XCTestWDUITest` 装入真机：
 
-![](https://wx3.sinaimg.cn/large/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
+![](/assets/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
 
 * 在安装过程中将 `TEAM_ID` 通过环境变量传入即可支持真机。真机安装 `XCTestWD` 后可以获取 `TEAM_ID` ：
-![](//wx1.sinaimg.cn/large/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
+![](/assets/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 
 ```bash
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
@@ -59,7 +59,7 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 
 * 在测试脚本中配置真机测试参数，比如 `udid`, `bundleId` 和 `app`。参见 [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities)。
 
-![](https://wx1.sinaimg.cn/large/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
+![](/assets/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
 
 ::: tip 更多细节
 参考 [这里](https://github.com/alibaba/macaca/issues/654) 
@@ -129,7 +129,7 @@ $ npm i -g macaca-cli
 
 如果看到如下可爱的🐒，那恭喜你安装成功啦！重新安装则会覆盖更新。
 
-![](http://ww4.sinaimg.cn/large/6d308bd9gw1faie2w55hnj20rs0ov4fu.jpg)
+![](/assets/6d308bd9gw1faie2w55hnj20rs0ov4fu.jpg)
 
 ### 安装驱动（不同驱动适应不同平台的支持）
 
@@ -149,7 +149,7 @@ $ macaca doctor
 
 如下图所示则表示环境均配置正常，如果有标红提示，则需要对应处理。
 
-![macaca-doctor](http://ww1.sinaimg.cn/large/6b65a607jw1fa3cqjexk2j21c20padqa.jpg)
+![macaca-doctor](/assets/6b65a607jw1fa3cqjexk2j21c20padqa.jpg)
 
 ## 一些开源镜像
 

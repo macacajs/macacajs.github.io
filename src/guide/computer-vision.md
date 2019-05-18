@@ -98,7 +98,7 @@ You can then start OpenCV's HTTP service in any server environment, or even on a
 
 After starting the server, please visit `http://localhost:9900/opencv/demo`
 
-![](//wx3.sinaimg.cn/large/6d308bd9gy1fek6oa9i3vj21kw0zrn4y.jpg)
+![](/assets/6d308bd9gy1fek6oa9i3vj21kw0zrn4y.jpg)
 
 ## API
 
@@ -155,6 +155,6 @@ For image diff based on pixel contrast, the following can be used:
 
 Example usage with Macaca [macaca-sample/react-native-sample](//github.com/macaca-sample/react-native-sample). Effect is as follows
 
-![](http://ww3.sinaimg.cn/large/6d308bd9gw1f3ymytc3mzj21kw0xpjx1.jpg)
+![](/assets/6d308bd9gw1f3ymytc3mzj21kw0xpjx1.jpg)
 
 The game framework Hilo is also based on pixel comparison. See the example of combining with Macaca. See the [hiloteam/Hilo](//github.com/hiloteam/Hilo).
