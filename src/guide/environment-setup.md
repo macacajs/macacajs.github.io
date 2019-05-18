@@ -56,7 +56,7 @@ $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 
 * If you need to run iOS tests, also remember to pass in relevant parameters for real device in [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities), such as `udid`, `bundleId` and `app`.
 
-![](https://wx1.sinaimg.cn/large/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
+![](/assets/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
 
 ::: tip More details
 Refer to [this issue](https://github.com/alibaba/macaca/issues/654) for more details
