@@ -3,6 +3,7 @@
   "devDependencies": {
     "git-contributor": "^1.0.7",
     "macaca-ecosystem": "*",
+    "request": "^2.88.0",
     "vuepress": "^0.14.8"
   },
   "repository": {

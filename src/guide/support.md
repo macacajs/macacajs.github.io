@@ -13,7 +13,7 @@ Source code for the docs can be found in [macacajs.github.io](//github.com/macac
 
 ## DingTalk
 
-<img src="//wx3.sinaimg.cn/large/6d308bd9ly1fzol6szylcj20ku0ri0vx.jpg" width="280" />
+<img src="/assets/6d308bd9ly1fzol6szylcj20ku0ri0vx.jpg" width="280" />
 
 ## Team Members
 
@@ -37,43 +37,43 @@ Use Stack Overflow to ask questions. Read through the [existing questions](http:
 <ul id="who-use-list" class="clearfix">
   <li>
     <a href="https://www.alipay.com" target="_blank">
-      <img src="//wx1.sinaimg.cn/large/6d308bd9gy1fd4tr0jhxej203c03ct8o.jpg" />
+      <img src="/assets/6d308bd9gy1fd4tr0jhxej203c03ct8o.jpg" />
     </a>
     <p>Alipay</p>
   </li>
   <li>
     <a href="https://www.aliyun.com" target="_blank">
-      <img src="//wx1.sinaimg.cn/square/6d308bd9gy1fd4w3yh89hj203c03c744.jpg" />
+      <img src="/assets/6d308bd9gy1fd4w3yh89hj203c03c744.jpg" />
     </a>
     <p>Aliyun</p>
   </li>
   <li>
     <a href="https://www.taobao.com" target="_blank">
-      <img src="//wx1.sinaimg.cn/square/6d308bd9gy1fd4w3zvgewj2020020mx1.jpg" />
+      <img src="/assets/6d308bd9gy1fd4w3zvgewj2020020mx1.jpg" />
     </a>
     <p>Taobao</p>
   </li>
   <li>
     <a href="https://www.dingtalk.com" target="_blank">
-      <img src="//wx2.sinaimg.cn/square/6d308bd9gy1fd4w3z89xbj203c03czk6.jpg" />
+      <img src="/assets/6d308bd9gy1fd4w3z89xbj203c03czk6.jpg" />
     </a>
     <p>DingTalk</p>
   </li>
   <li>
     <a href="https://www.alibaba.com" target="_blank">
-      <img src="//wx4.sinaimg.cn/square/6d308bd9gy1fd4w3xrucxj2020020mx0.jpg" />
+      <img src="/assets/6d308bd9gy1fd4w3xrucxj2020020mx0.jpg" />
     </a>
     <p>Alibaba</p>
   </li>
   <li>
     <a href="https://www.youku.com" target="_blank">
-      <img src="//wx4.sinaimg.cn/square/6d308bd9gy1fd4w414i38j20200200sk.jpg" />
+      <img src="/assets/6d308bd9gy1fd4w414i38j20200200sk.jpg" />
     </a>
     <p>Youku</p>
   </li>
   <li>
     <a href="https://www.tmall.com" target="_blank">
-      <img src="//wx2.sinaimg.cn/square/6d308bd9gy1fd4w40on0qj203c03caa2.jpg" />
+      <img src="/assets/6d308bd9gy1fd4w40on0qj203c03caa2.jpg" />
     </a>
     <p>Tmall</p>
   </li>
@@ -83,7 +83,7 @@ Use Stack Overflow to ask questions. Read through the [existing questions](http:
 
 Macaca T-shirt's design is free of charge to any person. Just enjoy it.
 
-<img src="//wx4.sinaimg.cn/large/6d308bd9gy1ffrrpxt3sbj20i20i23ym.jpg" width="300"/>
+<img src="/assets/6d308bd9gy1ffrrpxt3sbj20i20i23ym.jpg" width="300"/>
 
 More about:
 

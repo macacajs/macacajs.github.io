@@ -44,7 +44,7 @@ Macaca consists of multiple modules. Please refer to `CONTRIBUTING.md` to unders
 We will list our contributors on our project page.
 We follows the git-contributor [spec](//github.com/xudafeng/git-contributor), like this:
 
-[![](//wx4.sinaimg.cn/large/6d308bd9gy1fqda9m7kktj21es0n0ttg.jpg)](//github.com/macacajs/macacajs.github.io#contributors)
+[![](/assets/6d308bd9gy1fqda9m7kktj21es0n0ttg.jpg)](//github.com/macacajs/macacajs.github.io#contributors)
 
 ## Join Us
 

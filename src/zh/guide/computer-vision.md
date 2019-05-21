@@ -99,7 +99,7 @@ $ docker build . -t="node-server"
 
 服务启动成功后可访问 demo 页面： `http://localhost:9900/opencv/demo`
 
-![](//wx3.sinaimg.cn/large/6d308bd9gy1fek6oa9i3vj21kw0zrn4y.jpg)
+![](/assets/6d308bd9gy1fek6oa9i3vj21kw0zrn4y.jpg)
 
 ## API
 
@@ -156,6 +156,6 @@ Sikuli 是一种图形脚本语言，与 Macaca 配合使用可适应特定的�
 
 与 Macaca 结合使用的[示例地址：macaca-sample/react-native-sample](//github.com/macaca-sample/react-native-sample)，效果如下：
 
-![](http://ww3.sinaimg.cn/large/6d308bd9gw1f3ymytc3mzj21kw0xpjx1.jpg)
+![](/assets/6d308bd9gw1f3ymytc3mzj21kw0xpjx1.jpg)
 
 游戏框架 Hilo 也是基于像素点对比的，与 Macaca 结合使用示例见 [hiloteam/Hilo 官网](//github.com/hiloteam/Hilo)。

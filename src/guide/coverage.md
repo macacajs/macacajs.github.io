@@ -52,9 +52,9 @@ afterEach(function () {
 });
 ```
 
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forkepibstj21kw0r6gta.jpg)
+![](/assets/6d308bd9gy1forkepibstj21kw0r6gta.jpg)
 
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forl1pd99pj211x0rtgrt.jpg)
+![](/assets/6d308bd9gy1forl1pd99pj211x0rtgrt.jpg)
 
 React, Vue, Angular, and common front-end projects are supportd. [More examples](//github.com/macacajs/awesome-macaca#coverage).
 
@@ -128,9 +128,9 @@ Generate report with Macaca coverage tool:
 ```bash
 $ macaca coverage -r java -f ./coverage.exec -c ./android_app_bootstrap/build/intermediates/classes/debug -s ./android_app_bootstrap/src/main/java --html ./reporter
 ```
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forl1qm602j21kw0sn15x.jpg)
+![](/assets/6d308bd9gy1forl1qm602j21kw0sn15x.jpg)
 
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forl1qxn7ij21kw16zkam.jpg)
+![](/assets/6d308bd9gy1forl1qxn7ij21kw16zkam.jpg)
 
 **Note**：Java code coverage is done using the popular [Jacoco]((//github.com/jacoco/jacoco)) package. Please refer to the [sample](//github.com/macacajs/awesome-macaca#coverage).
 
@@ -142,7 +142,7 @@ The current implementation for iOS requires Xcode's coverage collection switch t
 
 Enable test coverage by ticking the `Gather coverage data` checkbox when editing a scheme:
 
-![](https://wx2.sinaimg.cn/large/6d308bd9gy1forlbdrx66j20ow0e0q55.jpg)
+![](/assets/6d308bd9gy1forlbdrx66j20ow0e0q55.jpg)
 
 **Note**: The next release will provide an intrusive integration package that integrates directly with the application without relying on launching Xcode. The current version does not yet support this feature.
 
@@ -152,9 +152,9 @@ After completion of test, generate report with Macaca coverage tool:
 $ macaca coverage -r ios -n ios-app-bootstrap -p ./ios-app-bootstrap.xcodeproj --html ./reporter
 ```
 
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forlgyhm6tj21030ok78y.jpg)
+![](/assets/6d308bd9gy1forlgyhm6tj21030ok78y.jpg)
 
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forlgyonr0j21030ok79b.jpg)
+![](/assets/6d308bd9gy1forlgyonr0j21030ok79b.jpg)
 
 **Note**：iOS coverage report requires [slather](//github.com/SlatherOrg/slather) to be installed in your system. [Sample](//github.com/macacajs/awesome-macaca#coverage).
 

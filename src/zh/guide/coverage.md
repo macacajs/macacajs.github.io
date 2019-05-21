@@ -52,9 +52,9 @@ afterEach(function () {
 });
 ```
 
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forkepibstj21kw0r6gta.jpg)
+![](/assets/6d308bd9gy1forkepibstj21kw0r6gta.jpg)
 
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forl1pd99pj211x0rtgrt.jpg)
+![](/assets/6d308bd9gy1forl1pd99pj211x0rtgrt.jpg)
 
 通过 Macaca Coverage 实现 React, Vue, Angular, 常规前端工程的覆盖率请看[更多示例项目](//github.com/macacajs/awesome-macaca#coverage)。
 
@@ -128,9 +128,9 @@ $ adb pull /storage/emulated/0/coverage.exec .
 ```bash
 $ macaca coverage -r java -f ./coverage.exec -c ./android_app_bootstrap/build/intermediates/classes/debug -s ./android_app_bootstrap/src/main/java --html ./reporter
 ```
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forl1qm602j21kw0sn15x.jpg)
+![](/assets/6d308bd9gy1forl1qm602j21kw0sn15x.jpg)
 
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forl1qxn7ij21kw16zkam.jpg)
+![](/assets/6d308bd9gy1forl1qxn7ij21kw16zkam.jpg)
 
 **注意**：Java 语言的覆盖率是使用流行的 [jacoco](//github.com/jacoco/jacoco) 包完成的，请参考[示例项目](//github.com/macacajs/awesome-macaca#coverage)。
 
@@ -140,7 +140,7 @@ $ macaca coverage -r java -f ./coverage.exec -c ./android_app_bootstrap/build/in
 
 iOS 目前的实现需要开启 Xcode IDE 的覆盖率收集开关。然后引入 Macaca 提供的 iOS 端驱动包 `xctestwd` 进行测试。
 
-![](https://wx2.sinaimg.cn/large/6d308bd9gy1forlbdrx66j20ow0e0q55.jpg)
+![](/assets/6d308bd9gy1forlbdrx66j20ow0e0q55.jpg)
 
 **注意**：下一版本会提供侵入式集成包，直接与应用集成而不依赖 Xcode
 启动，当前版本还不支持。
@@ -150,9 +150,9 @@ iOS 目前的实现需要开启 Xcode IDE 的覆盖率收集开关。然后引�
 ```bash
 $ macaca coverage -r ios -n ios-app-bootstrap -p ./ios-app-bootstrap.xcodeproj --html ./reporter
 ```
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forlgyhm6tj21030ok78y.jpg)
+![](/assets/6d308bd9gy1forlgyhm6tj21030ok78y.jpg)
 
-![](https://wx3.sinaimg.cn/large/6d308bd9gy1forlgyonr0j21030ok79b.jpg)
+![](/assets/6d308bd9gy1forlgyonr0j21030ok79b.jpg)
 
 **注意**：iOS 平台的覆盖率请参考[示例项目](//github.com/macacajs/awesome-macaca#coverage)。
 
