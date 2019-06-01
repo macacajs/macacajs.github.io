@@ -34,10 +34,9 @@ $ brew install ios-webkit-debug-proxy
 - 请安装 [macaca-ios](https://github.com/macacajs/macaca-ios) 驱动
 
 ```bash
-# local installation
+# 本地安装
 $ npm i macaca-ios --save-dev
-
-# global installation
+# 全局安装
 $ npm i macaca-ios -g
 ```
 
@@ -113,10 +112,9 @@ $ MAVEN_MIRROR_URL=http://maven.aliyun.com/nexus/content/groups/public/ npm i ma
 - 请安装 [macaca-android](https://github.com/macacajs/macaca-android) 驱动
 
 ```bash
-# local installation
+# 本地安装
 npm i macaca-android --save-dev
-
-# global installation
+# 全局安装
 npm i macaca-android -g
 ```
 
@@ -132,20 +130,18 @@ $ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 - 如需要测试 Electron 环境，请安装 [macaca-electron](https://github.com/macacajs/macaca-electron) 驱动
 
 ```bash
-# local installation
+# 本地安装
 npm i macaca-electron --save-dev
-
-# global installation
+# 全局安装
 npm i macaca-electron -g
 ```
 
 - 如需要测试 Chrome 环境，请安装 [macaca-chrome](https://github.com/macacajs/macaca-chrome) 驱动
 
 ```bash
-# local installation
+# 本地安装
 npm i macaca-chrome --save-dev
-
-# global installation
+# 全局安装
 npm i macaca-chrome -g
 ```
 

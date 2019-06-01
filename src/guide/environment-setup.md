@@ -35,7 +35,6 @@ $ brew install ios-webkit-debug-proxy
 ```bash
 # local installation
 $ npm i macaca-ios --save-dev
-
 # global installation
 $ npm i macaca-ios -g
 ```
@@ -104,7 +103,6 @@ $ brew install gradle
 ```bash
 # local installation
 npm i macaca-android --save-dev
-
 # global installation
 npm i macaca-android -g
 ```
@@ -122,7 +120,6 @@ $ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 ```bash
 # local installation
 npm i macaca-electron --save-dev
-
 # global installation
 npm i macaca-electron -g
 ```
@@ -132,7 +129,6 @@ npm i macaca-electron -g
 ```bash
 # local installation
 npm i macaca-chrome --save-dev
-
 # global installation
 npm i macaca-chrome -g
 ```
