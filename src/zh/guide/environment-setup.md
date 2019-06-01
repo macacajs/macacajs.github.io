@@ -31,6 +31,16 @@ $ brew install ideviceinstaller
 $ brew install ios-webkit-debug-proxy
 ```
 
+- 请安装 [macaca-ios](https://github.com/macacajs/macaca-ios) 驱动
+
+```bash
+# local installation
+$ npm i macaca-ios --save-dev
+
+# global installation
+$ npm i macaca-ios -g
+```
+
 - 在运行的过程中，如果发现问题， 可以在macaca 启动时设置 --verbose 参数， 运行的日志中会显示XCTestWD的[诊断日志信息](//github.com/macacajs/XCTestWD/blob/master/README.md#43-debug-info).
 
 备注：使用brew命令需要安装[Homebrew](http://brew.sh/index_zh-cn.html)（一款常用的 MacOS 的包管理器），请按照官网提示安装。
@@ -50,7 +60,7 @@ $ brew install ios-webkit-debug-proxy
 
 ![](/assets/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
 
-* 在安装过程中将 `TEAM_ID` 通过环境变量传入即可支持真机。真机安装 `XCTestWD` 后可以获取 `TEAM_ID` ：
+* 在安装 `macaca-ios` 过程中将 `TEAM_ID` 通过环境变量传入即可支持真机。真机安装 `XCTestWD` 后可以获取 `TEAM_ID` ：
 ![](/assets/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 
 ```bash
@@ -88,7 +98,7 @@ export ANDROID_HOME = /usr/local/opt/android-sdk
 export ANDROID_HOME="/Users/<UserName>/Library/Android/sdk"
 ```
 
-请安装 [gradle](https://gradle.org) 来构建 [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) 和其它依赖包。 ( Windows 用户请安装 [gradle 安装包](https://gradle.org/releases/) 并且设置对应的环境变量。)
+- 请安装 [gradle](https://gradle.org) 来构建 [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) 和其它依赖包。 ( Windows 用户请安装 [gradle 安装包](https://gradle.org/releases/) 并且设置对应的环境变量。)
 
 ```bash
 $ brew install gradle
@@ -100,24 +110,46 @@ $ brew install gradle
 $ MAVEN_MIRROR_URL=http://maven.aliyun.com/nexus/content/groups/public/ npm i macaca-android -g
 ```
 
+- 请安装 [macaca-android](https://github.com/macacajs/macaca-android) 驱动
+
+```bash
+# local installation
+npm i macaca-android --save-dev
+
+# global installation
+npm i macaca-android -g
+```
+
 * 准备 App 包：如需要测试 Android 应用，请使用 `.apk` 格式的包。
-* 如果在运行 npm i macaca-android -g 的过程中出现 [You have not accepted the license agreements of the following SDK components]，请执行如下命令(该命令将同意所有的AndroidSDK 协议)后再次执行安装。
+* 如果在运行 `npm i macaca-android -g` 的过程中出现 [You have not accepted the license agreements of the following SDK components]，请执行如下命令(该命令将同意所有的AndroidSDK 协议)后再次执行安装。
 
 ```bash
 $ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 ```
 
-## ChromeDriver
+## Desktop
 
-[默认版本请到这里看](//github.com/macacajs/macaca-chromedriver/blob/master/README.md#default-version)
+- 请安装 [macaca-electron](https://github.com/macacajs/macaca-electron) 驱动
 
-## 准备移动端App
+```bash
+# local installation
+npm i macaca-electron --save-dev
 
-iOS: 支持 `.app` 格式的包。
+# global installation
+npm i macaca-electron -g
+```
 
-Android: 支持 `.apk` 格式的包。
+- 请安装 [macaca-chrome](https://github.com/macacajs/macaca-chrome) 驱动
 
-Desktop: 支持任意浏览器网页。
+```bash
+# local installation
+npm i macaca-chrome --save-dev
+
+# global installation
+npm i macaca-chrome -g
+```
+
+[Chrome driver 默认版本请到这里看](https://github.com/macacajs/macaca-chromedriver/blob/master/package.json#L43)
 
 ## 命令行工具
 
@@ -150,6 +182,14 @@ $ macaca doctor
 如下图所示则表示环境均配置正常，如果有标红提示，则需要对应处理。
 
 ![macaca-doctor](/assets/6b65a607jw1fa3cqjexk2j21c20padqa.jpg)
+
+## 准备移动端App
+
+iOS: 支持 `.app` 格式的包。
+
+Android: 支持 `.apk` 格式的包。
+
+Desktop: 支持任意浏览器网页。
 
 ## 一些开源镜像
 
