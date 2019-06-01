@@ -127,9 +127,9 @@ npm i macaca-android -g
 $ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 ```
 
-## Desktop
+## Desktop 环境
 
-- 请安装 [macaca-electron](https://github.com/macacajs/macaca-electron) 驱动
+- 如需要测试 Electron 环境，请安装 [macaca-electron](https://github.com/macacajs/macaca-electron) 驱动
 
 ```bash
 # local installation
@@ -139,7 +139,7 @@ npm i macaca-electron --save-dev
 npm i macaca-electron -g
 ```
 
-- 请安装 [macaca-chrome](https://github.com/macacajs/macaca-chrome) 驱动
+- 如需要测试 Chrome 环境，请安装 [macaca-chrome](https://github.com/macacajs/macaca-chrome) 驱动
 
 ```bash
 # local installation
@@ -162,14 +162,6 @@ $ npm i -g macaca-cli
 如果看到如下可爱的🐒，那恭喜你安装成功啦！重新安装则会覆盖更新。
 
 ![](/assets/6d308bd9gw1faie2w55hnj20rs0ov4fu.jpg)
-
-### 安装驱动（不同驱动适应不同平台的支持）
-
-上述驱动可以按照自身需要选择性的安装，比如只需要测试 iOS平台用例，就执行iOS的安装命令：
-
-```bash
-$ npm i macaca-ios -g
-```
 
 ### 环境检查
 

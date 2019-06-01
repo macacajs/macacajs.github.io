@@ -117,7 +117,7 @@ $ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 
 ## Desktop
 
-- Install [macaca-electron](https://github.com/macacajs/macaca-electron) driver
+- If you want to test in Electron, install [macaca-electron](https://github.com/macacajs/macaca-electron) driver
 
 ```bash
 # local installation
@@ -127,7 +127,7 @@ npm i macaca-electron --save-dev
 npm i macaca-electron -g
 ```
 
-- Install [macaca-chrome](https://github.com/macacajs/macaca-chrome) driver
+- If you want to test in Chrome, install [macaca-chrome](https://github.com/macacajs/macaca-chrome) driver
 
 ```bash
 # local installation
