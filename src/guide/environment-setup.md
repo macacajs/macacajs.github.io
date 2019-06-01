@@ -30,10 +30,18 @@ $ brew install ideviceinstaller
 $ brew install ios-webkit-debug-proxy
 ```
 
+- Install [macaca-ios](https://github.com/macacajs/macaca-ios) driver
+
+```bash
+# local installation
+$ npm i macaca-ios --save-dev
+# global installation
+$ npm i macaca-ios -g
+```
+
 - [debug log](//github.com/macacajs/XCTestWD/blob/master/README.md#43-debug-info) will be displayed when '--verbose' is set as an argument when initiating macaca.
 
 ## iOS Real Device
-
 
 * Download [XCTestWD](https://github.com/macacajs/XCTestWD)
   * If `XCTestWD` is a dependency of another package, use environmental variable to pass in the location of `XCTestWD`, refer to the [XCTestWD doc](https://github.com/macacajs/XCTestWD#44)
@@ -46,7 +54,7 @@ $ brew install ios-webkit-debug-proxy
 
 ![](/assets/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
 
-* Install macaca-ios with `TEAM_ID`, find `TEAM_ID` in XCode after importing `XCTestWDUITest` into the real device:
+* Install `macaca-ios` with `TEAM_ID`, find `TEAM_ID` in XCode after importing `XCTestWDUITest` into the real device:
 
 ![](/assets/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 
@@ -84,21 +92,48 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 export ANDROID_HOME="/Users/<UserName>/Library/Android/sdk"
 ```
 
-[gradle](https://gradle.org) is needed in order to build [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) and other package.(For Windows Users plz download [gradle installer](https://gradle.org/releases/) and set PATH environment variable.)
+- [gradle](https://gradle.org) is needed in order to build [UIAutomatorWD](//github.com/macacajs/UIAutomatorWD) and other package.(For Windows Users plz download [gradle installer](https://gradle.org/releases/) and set PATH environment variable.)
 
 ```bash
 $ brew install gradle
 ```
 
-* If you got a error like [You have not accepted the license agreements of the following SDK components] on your install command [npm i macaca-android -g]，plz accept all Android SDK licenses uses command below, and retry install.
+- Install [macaca-android](https://github.com/macacajs/macaca-android) driver
+
+```bash
+# local installation
+npm i macaca-android --save-dev
+# global installation
+npm i macaca-android -g
+```
+
+* If you got a error like [You have not accepted the license agreements of the following SDK components] on your install command `npm i macaca-android -g`, please accept all Android SDK licenses uses command below, and retry install.
 
 ```bash
 $ yes | $ANDROID_HOME/tools/bin/sdkmanager --licenses
 ```
 
-## ChromeDriver
+## Desktop
 
-[Default Version](//github.com/macacajs/macaca-chromedriver/blob/master/README.md#default-version)
+- If you want to test in Electron, install [macaca-electron](https://github.com/macacajs/macaca-electron) driver
+
+```bash
+# local installation
+npm i macaca-electron --save-dev
+# global installation
+npm i macaca-electron -g
+```
+
+- If you want to test in Chrome, install [macaca-chrome](https://github.com/macacajs/macaca-chrome) driver
+
+```bash
+# local installation
+npm i macaca-chrome --save-dev
+# global installation
+npm i macaca-chrome -g
+```
+
+[Chrome driver default version](https://github.com/macacajs/macaca-chromedriver/blob/master/package.json#L43)
 
 ## Macaca Cli
 
@@ -121,14 +156,7 @@ $ npm i macaca-cli --save-dev
 $ ./node_modules/.bin/macaca run --verbose
 ```
 
-### Driver Installation
-
-```bash
-# please run below for newer npm
-$ npm i macaca-ios -g
-```
-
-### Environment
+### Environment Check
 
 Let's check the version and verify the environment.
 
