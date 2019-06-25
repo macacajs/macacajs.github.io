@@ -1,3 +1,4 @@
+// node ./scripts/replace-image.js ./src/
 var fs = require('fs');
 var path = require('path');
 var request = require('request');
@@ -59,11 +60,11 @@ mdList.forEach(file => {
     // console.log(data);
     console.log(file);
     const matchRes = data.match(
-      /(http(s?):)*\/\/([/.\w\s-])*(sinaimg\.cn\/)(large|square)\/([\w]*)\.(jpg|gif|png)/g
+      /(http(s?):)*\/\/([/.\w\s-])*(sinaimg\.cn\/)(large|square|mw1024)\/([\w]*)\.(jpg|gif|png)/g
     );
     // console.log(matchRes);
     var result = data.replace(
-      /(http(s?):)*\/\/([/.\w\s-])*(sinaimg\.cn\/)(large|square)\/([\w]*)\.(jpg|gif|png)/g,
+      /(http(s?):)*\/\/([/.\w\s-])*(sinaimg\.cn\/)(large|square|mw1024)\/([\w]*)\.(jpg|gif|png)/g,
       replacer
     );
     console.log(result);

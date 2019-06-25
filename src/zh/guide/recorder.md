@@ -4,11 +4,11 @@
 
 ## PC端
 
-![](//wx1.sinaimg.cn/mw1024/7f3afc78gy1fdf5gass5rg20sg0g0kjo.gif)
+![](/assets/7f3afc78gy1fdf5gass5rg20sg0g0kjo.gif)
 
 ## 移动端
 
-![](//wx2.sinaimg.cn/mw1024/7f3afc78gy1fdf5hb8anig20sg0g0u12.gif)
+![](/assets/7f3afc78gy1fdf5hb8anig20sg0g0u12.gif)
 
 ## 安装
 
