@@ -55,7 +55,7 @@ $ git config --global user.email "awesome@macacajs.com"
 
 ## 如何调试
 
-Macaca 是很多模块是集成在一起才能运行的，环境较单一功能的开源库要复杂很多。请参考具体`核心模块`仓库下的 `CONTRIBUTING.md` 了解如何调试，比如 [UIAutomatorWD/CONTRIBUTING.md](//github.com/macacajs/UIAutomatorWD/blob/master/CONTRIBUTING.md)。
+Macaca 是很多模块是集成在一起才能运行的，环境较单一功能的开源库要复杂很多。请参考具体`核心模块`仓库下的 `CONTRIBUTING.md` 了解如何调试，比如 [UIAutomatorWD/CONTRIBUTING.md](https://github.com/macacajs/UIAutomatorWD/blob/master/CONTRIBUTING.md)。
 
 ## 贡献者公示
 

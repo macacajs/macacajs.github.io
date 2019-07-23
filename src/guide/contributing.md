@@ -37,7 +37,7 @@ Submit a pull request (PR) to the macacajs repo. We will review it shortly.
 
 ## Additional Notes
 
-Macaca consists of multiple modules. Please refer to `CONTRIBUTING.md` to understand how to build and run. You can use [UIAutomatorWD/CONTRIBUTING.md](//github.com/macacajs/UIAutomatorWD/blob/master/CONTRIBUTING.md) for your reference.
+Macaca consists of multiple modules. Please refer to `CONTRIBUTING.md` to understand how to build and run. You can use [UIAutomatorWD/CONTRIBUTING.md](https://github.com/macacajs/UIAutomatorWD/blob/master/CONTRIBUTING.md) for your reference.
 
 ## Contributor
 
