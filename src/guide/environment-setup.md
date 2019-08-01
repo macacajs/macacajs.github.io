@@ -43,32 +43,41 @@ $ npm i macaca-ios -g
 
 ## iOS Real Device
 
-* Download [XCTestWD](https://github.com/macacajs/XCTestWD)
-  * If `XCTestWD` is a dependency of another package, use environmental variable to pass in the location of `XCTestWD`, refer to the [XCTestWD doc](https://github.com/macacajs/XCTestWD#44)
-    * For example, `MACACA_XCTESTWD_ROOT_PATH=/path/to/macaca_xctest app-inspector -u xxx --verbose`
-  * Alternatively, find it in the relevant `node_modules`
-  * For example, in the case of globally installed `app-inspector`, it is at `/usr/local/lib/node_modules/app-inspector/node_modules/xctestwd`
-* Open `/XCTestWD/XCTestWD.xcodeproj` with XCode
-* Import developer certificate
-* Execute `Run Test` to import `XCTestWDUITest` into the real device
+First, there are two concepts that we need to clarify:
+* Macaca depends on `macaca-ios`, and `macaca-ios` depends on `XCTestWD` which is installed on real device. Hence we need to ensure that the `XCTestWD` we are using is the `XCTestWD` installed on the real device.
+* The `XCTestWD` installed on real device needs the same signature (`TEAM_ID`) as the app that we are testing against.
 
-![](/assets/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
-
-* Install `macaca-ios` with `TEAM_ID`, find `TEAM_ID` in XCode after importing `XCTestWDUITest` into the real device:
-
-![](/assets/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
+### Install macaca-ios and configure XCTestWD automatically (recommended)
+Set `TEAM_ID` as an environmental variable when installing `macaca-ios`. `XCTestWD` will automatically use that `TEAM_ID`。
 
 ```bash
+# 卸载之前安装的 macaca-ios
+$ npm uninstall -g macaca-ios
+
+# 安装有 TEAM_ID 的 macaca-ios
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 ```
 
-* If you need to run iOS tests, also remember to pass in relevant parameters for real device in [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities), such as `udid`, `bundleId` and `app`.
-
-![](/assets/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
-
-::: tip More details
-Refer to [this issue](https://github.com/alibaba/macaca/issues/654) for more details
+::: tip About TEAM_ID
+If you don't know your `TEAM_ID`, you can find it or configure it inside your project in `XCode` (requires Apple account login) Click on "Other" when selecting Development Team to view the current `TEAM_ID`.
+![](/assets/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 :::
+
+Configure `udid`, `bundleId` and `app` inside the testing script. Refer to [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities)。
+![](/assets/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
+* Leave out the `app` config if the app is already installed on the device.
+
+### Configure XCTestWD manually (not recommended)
+If you manually installed or downloaded `XCTestWD`, or the project already comes with `XCTestWD`:
+* Open `/XCTestWD/XCTestWD.xcodeproj` with XCode
+* Configure `TEAM_ID`  (Refer to steps above)
+* Run Test to install `XCTestWDUITest` into the real device:
+![](/assets/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
+* Make sure that the correct `XCTestWD` is used by Macaca:
+  * Use environmental variable `MACACA_XCTESTWD_ROOT_PATH` to set the location of `XCTestWD`, refer to [XCTestWD docs](https://github.com/macacajs/XCTestWD#44).
+    * The location should contain `XCTestWD` folder outside `XCTestWD.xcodeproj`, instead of `XCTestWD.xcodeproj` directly.
+    * For example, `MACACA_XCTESTWD_ROOT_PATH=/path/to/macaca_xctest app-inspector -u xxx --verbose`
+  * `XCTestWD` location could be inside `node_modules` of another package, or globally installed at `/usr/local/lib/node_modules/xctestwd`
 
 ## Android
 
