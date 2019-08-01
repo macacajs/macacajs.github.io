@@ -51,10 +51,10 @@ First, there are two concepts that we need to clarify:
 Set `TEAM_ID` as an environmental variable when installing `macaca-ios`. `XCTestWD` will automatically use that `TEAM_ID`。
 
 ```bash
-# 卸载之前安装的 macaca-ios
+# Uninstall previously installed macaca-ios
 $ npm uninstall -g macaca-ios
 
-# 安装有 TEAM_ID 的 macaca-ios
+# Install macaca-ios with TEAM_ID
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 ```
 
