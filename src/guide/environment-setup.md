@@ -48,7 +48,7 @@ First, there are two concepts that we need to clarify:
 * The `XCTestWD` installed on real device needs the same signature (`TEAM_ID`) as the app that we are testing against.
 
 ### Install macaca-ios and configure XCTestWD automatically (recommended)
-Set `TEAM_ID` as an environmental variable when installing `macaca-ios`. `XCTestWD` will automatically use that `TEAM_ID`。
+Set `TEAM_ID` as an environmental variable when installing `macaca-ios`. `XCTestWD` will automatically use that `TEAM_ID`.
 
 ```bash
 # Uninstall previously installed macaca-ios
@@ -63,7 +63,7 @@ If you don't know your `TEAM_ID`, you can find it or configure it inside your pr
 ![](/assets/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 :::
 
-Configure `udid`, `bundleId` and `app` inside the testing script. Refer to [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities)。
+Configure `udid`, `bundleId` and `app` inside the testing script. Refer to [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities).
 ![](/assets/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
 * Leave out the `app` config if the app is already installed on the device.
 
