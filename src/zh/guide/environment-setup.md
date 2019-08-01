@@ -48,31 +48,41 @@ $ npm i macaca-ios -g
 
 ## iOS 真机环境
 
-* 下载 [XCTestWD](https://github.com/macacajs/XCTestWD)
-  * 如果 `XCTestWD` 是另一个包的依赖，可以用环境变量传入 `XCTestWD` 位置，参见[XCTestWD 文档](https://github.com/macacajs/XCTestWD#44)。
-    * 比如 `MACACA_XCTESTWD_ROOT_PATH=/path/to/macaca_xctest app-inspector -u xxx --verbose`
-  * 也可以从另一个包的里 `node_modules` 找到 `XCTestWD`
-  * 比如全局安装的 `app-inspector`，在 `/usr/local/lib/node_modules/app-inspector/node_modules/xctestwd`
-* 用 XCode 打开 `/XCTestWD/XCTestWD.xcodeproj`
-* 导入开发者账号（证书）
-* Run Test 将 `XCTestWDUITest` 装入真机：
+首先要明白两个概念：
+* Macaca 依赖 `macaca-ios`，而 `macaca-ios` 依赖安装到真机的 `XCTestWD`，所以要确保 Macaca 最终调用的 `XCTestWD` 是安装到真机上的 `XCTestWD`。
+* iOS 真机上的 `XCTestWD` 需要签名(`TEAM_ID`)，且和被测试的app一样。
 
-![](/assets/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
-
-* 在安装 `macaca-ios` 过程中将 `TEAM_ID` 通过环境变量传入即可支持真机。真机安装 `XCTestWD` 后可以获取 `TEAM_ID` ：
-![](/assets/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
+### 通过安装 macaca-ios 自动配置 XCTestWD（推荐）
+如果你已经知道了你的 `TEAM_ID`， 在安装 `macaca-ios` 过程中将 `TEAM_ID` 通过环境变量传入即可，`XCTestWD` 会自动使用该 `TEAM_ID`。
 
 ```bash
+# 卸载之前安装的 macaca-ios
+$ npm uninstall -g macaca-ios
+
+# 安装有 TEAM_ID 的 macaca-ios
 $ DEVELOPMENT_TEAM_ID=TEAM_ID npm i macaca-ios -g
 ```
 
-* 在测试脚本中配置真机测试参数，比如 `udid`, `bundleId` 和 `app`。参见 [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities)。
-
+然后在测试脚本中配置真机测试参数，比如 `udid`, `bundleId` 和 `app`。参见 [desiredCaps](https://macacajs.github.io/guide/helpful-settings.html#desired-capabilities)。
 ![](/assets/88fe9010ly1g1cro765ovj20va0mgtc3.jpg)
+* 如果真机中有相应的测试app，参数中app 可不填
 
-::: tip 更多细节
-参考 [这里](https://github.com/alibaba/macaca/issues/654) 
+::: tip 关于 TEAM_ID
+如果你不知道你的 `TEAM_ID`，可以在 `XCode` 你的项目里设置或找到 `TEAM_ID`（需要登录Apple账号）。在设置 Development Team 下拉列表里点击Other即可查看当前 `TEAM_ID`。
+![](/assets/6d308bd9gy1fg7cnt9hf6j20t70h7782.jpg)
 :::
+
+### 手动配置 XCTestWD（不推荐）
+如果你是手动下载或者安装了 `XCTestWD`，或项目已有 `XCTestWD`：
+* 用 XCode 打开 `/XCTestWD/XCTestWD.xcodeproj`
+* 手动配置 `TEAM_ID` (参考上面步骤)。
+* Run Test 将 `XCTestWDUITest` 装入真机：
+![](/assets/88fe9010ly1g1cro3j4ugj20ya0jc78m.jpg)
+* 确定正确的 `XCTestWD` 被 Macaca 使用：
+  * 用环境变量 `MACACA_XCTESTWD_ROOT_PATH` 传入 `XCTestWD` 位置，参见[XCTestWD 文档](https://github.com/macacajs/XCTestWD#44)。
+    * 这个位置应该包含 `XCTestWD.xcodeproj` 的上级目录 `XCTestWD`，而不是直接包含 `XCTestWD.xcodeproj`
+    * 比如 `MACACA_XCTESTWD_ROOT_PATH=/path/to/macaca_xctest app-inspector -u xxx --verbose`
+  * `XCTestWD` 位置可以是另一个包的里 `node_modules` 里，或者全局安装在 `/usr/local/lib/node_modules/xctestwd`
 
 ## Android 环境
 
