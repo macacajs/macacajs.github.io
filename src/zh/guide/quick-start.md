@@ -14,7 +14,6 @@ $ npm i
 $ npm run doctor
 $ npm run test:ios
 ```
-
 ### 执行测试用例
 
 ```bash
@@ -37,6 +36,24 @@ $ CUSTOM_DIR=path/to/screenshot macaca run -d ./test --reporter macaca-simple-re
 
 `macaca-simple-reportor` 是自定义报告器的一个示例，可以作为参考。
 
+将官方示例([macaca-electron-app-sample](//github.com/macaca-sample/macaca-electron-app-sample))克隆到本地，然后按照如下命令即可下载已提供好的`Eelectron.App`，并运行自动化测试。
+
+```bash
+# 安装项目依赖
+$ npm i
+$ npm run build
+$ npm run dist
+```
+### 执行测试用例
+```bash
+# Mac
+$ npm run mac-start
+$ npm run test
+# Windows
+$ npm run win-start
+$ npm run win-server
+$ npm run test
+```
 ### 只启动服务器
 
 ```bash
