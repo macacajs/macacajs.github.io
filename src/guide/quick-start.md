@@ -42,6 +42,26 @@ $ macaca run --no-window
 $ CUSTOM_DIR=path/to/screenshot macaca run -d ./test --reporter macaca-simple-reportor
 ```
 
+Check out the sample located in this repo([macaca-electron-app-sample](//github.com/macaca-sample/macaca-electron-app-sample)).
+
+```bash
+# Install dependencies
+$ npm i
+$ npm run build
+$ npm run dist
+```
+### Run test tasks
+```bash
+# Mac
+$ npm run mac-start
+$ npm run test
+
+# Windows
+$ npm run win-start
+$ npm run win-server
+$ npm run test
+```
+
 ### Start webdriver server only
 
 ```bash

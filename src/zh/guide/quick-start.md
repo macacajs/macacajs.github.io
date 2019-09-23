@@ -49,10 +49,55 @@ $ npm run dist
 # Mac
 $ npm run mac-start
 $ npm run test
+
 # Windows
 $ npm run win-start
 $ npm run win-server
 $ npm run test
+```
+## 用法示例
+
+```javascript
+
+// 引入官方webdriver client 包
+const wd = require('macaca-wd');
+
+describe('test electron.app', function() {
+  this.timeout(5 * 60 * 1000);                     // 设置超时时间
+  const driver = wd.promiseChainRemote({           // 后面 driver 直接使用链式调用即可
+    host: 'localhost',                             // 定义 webdriver client 要链接的服务端 host 和 port
+    port: process.env.MACACA_SERVER_PORT || 3456   // Macaca server 默认使用 3456 端口
+  });
+
+  before(function () {
+    return driver.init({
+      platformName: 'desktop',    //设置支持 Desktop 参数
+      browserName: 'chrome',      //设置支持 Eletron 参数
+      chromeOptions: {            //设置chromeDriver chromeOptions object 参数
+        "binary": "/Applications/macaca-electron-builder.app/Contents/MacOS/macaca-electron-builder" // 填写自己的执行文件路劲或者安装之后的文件路劲
+      }
+    }).sleep(2 * 1000)
+  });
+
+  after(function () {
+    return driver
+      .sleep(1000)
+      .close()
+  })
+
+  it('click link', function () {
+    return driver
+      .waitForElementById('macacaId', 5000, 100)
+      .click()
+  })
+
+  it('click button', function () {
+    return driver
+      .elementByCss('#app > div > header > div.sidebar-button')
+      .click()
+  })
+  ...
+})
 ```
 ### 只启动服务器
 
