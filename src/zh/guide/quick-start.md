@@ -56,7 +56,6 @@ $ npm run win-server
 $ npm run test
 ```
 ## 用法示例
-
 ```javascript
 
 // 引入官方webdriver client 包

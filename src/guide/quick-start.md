@@ -61,6 +61,50 @@ $ npm run win-start
 $ npm run win-server
 $ npm run test
 ```
+## Usage
+```javascript
+
+// Import official webdriver client package
+
+const wd = require('macaca-wd');
+
+describe('test electron.app', function() {
+  this.timeout(5 * 60 * 1000);                     // Set timeout
+  const driver = wd.promiseChainRemote({           // After this, the driver can directly use method chaining
+    host: 'localhost',                             // Configure the host and port of the Macaca server that the webdriver client will connec to
+    port: process.env.MACACA_SERVER_PORT || 3456   // MMacaca server defaults to using port 3456
+  });
+
+  before(function () {
+    return driver.init({
+      platformName: 'desktop',    //Set support Desktop parameters
+      browserName: 'chrome',      //Set support Eletron parameters
+      chromeOptions: {            //Set chromeDriver chromeOptions object parameters
+        "binary": "/Applications/macaca-electron-builder.app/Contents/MacOS/macaca-electron-builder" // Electron path
+      }
+    }).sleep(2 * 1000)
+  });
+
+  after(function () {
+    return driver
+      .sleep(1000)
+      .close()
+  })
+
+  it('click link', function () {
+    return driver
+      .waitForElementById('macacaId', 5000, 100)
+      .click()
+  })
+
+  it('click button', function () {
+    return driver
+      .elementByCss('#app > div > header > div.sidebar-button')
+      .click()
+  })
+  ...
+})
+```
 
 ### Start webdriver server only
 
