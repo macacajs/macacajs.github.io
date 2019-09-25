@@ -1,7 +1,7 @@
 {
   "name": "macacajs.github.io",
   "devDependencies": {
-    "git-contributor": "^1.0.7",
+    "git-contributor": "1",
     "macaca-ecosystem": "*",
     "request": "^2.88.0",
     "vuepress": "^0.14.8"

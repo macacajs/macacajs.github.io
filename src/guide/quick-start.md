@@ -42,7 +42,9 @@ $ macaca run --no-window
 $ CUSTOM_DIR=path/to/screenshot macaca run -d ./test --reporter macaca-simple-reportor
 ```
 
-Check out the sample located in this repo([macaca-electron-app-sample](//github.com/macaca-sample/macaca-electron-app-sample)).
+### Electron Desktop App Testing
+
+If you wanna the Electron App testing, please check out the sample located in this repo([macaca-electron-app-sample](//github.com/macaca-sample/macaca-electron-app-sample)).
 
 ```bash
 # Install dependencies
@@ -50,7 +52,9 @@ $ npm i
 $ npm run build
 $ npm run dist
 ```
+
 ### Run test tasks
+
 ```bash
 # Mac
 $ npm run mac-start
@@ -61,49 +65,33 @@ $ npm run win-start
 $ npm run win-server
 $ npm run test
 ```
-## Usage
+
+### Configuration
+
 ```javascript
-
-// Import official webdriver client package
-
-const wd = require('macaca-wd');
-
 describe('test electron.app', function() {
-  this.timeout(5 * 60 * 1000);                     // Set timeout
-  const driver = wd.promiseChainRemote({           // After this, the driver can directly use method chaining
-    host: 'localhost',                             // Configure the host and port of the Macaca server that the webdriver client will connec to
-    port: process.env.MACACA_SERVER_PORT || 3456   // MMacaca server defaults to using port 3456
-  });
+  ...
 
   before(function () {
-    return driver.init({
-      platformName: 'desktop',    //Set support Desktop parameters
-      browserName: 'chrome',      //Set support Eletron parameters
-      chromeOptions: {            //Set chromeDriver chromeOptions object parameters
-        "binary": "/Applications/macaca-electron-builder.app/Contents/MacOS/macaca-electron-builder" // Electron path
-      }
-    }).sleep(2 * 1000)
+    return driver
+      .init({
+        platformName: 'desktop',    //Set support Desktop parameters
+        browserName: 'chrome',      //Set support Eletron parameters
+        chromeOptions: {            //Set chromeDriver chromeOptions object parameters
+          binary: '/Applications/macaca-electron-builder.app/Contents/MacOS/macaca-electron-builder'  // Electron path
+        }
+      })
+      .sleep(2 * 1000);
   });
 
-  after(function () {
-    return driver
-      .sleep(1000)
-      .close()
-  })
-
-  it('click link', function () {
+  it('click link', function() {
     return driver
       .waitForElementById('macacaId', 5000, 100)
-      .click()
-  })
+      .click();
+  });
 
-  it('click button', function () {
-    return driver
-      .elementByCss('#app > div > header > div.sidebar-button')
-      .click()
-  })
   ...
-})
+});
 ```
 
 ### Start webdriver server only
