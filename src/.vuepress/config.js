@@ -1,6 +1,7 @@
 'use strict';
 
 const macacaEcosystem = require('macaca-ecosystem');
+const traceFragment = require('macaca-ecosystem/lib/trace-fragment');
 
 module.exports = {
   dest: 'docs',
@@ -64,7 +65,8 @@ module.exports = {
         font-size: 14px;
         line-height: 1.5;
       }
-    `]
+    `],
+    ['script', {}, traceFragment],
   ],
   serviceWorker: false,
   themeConfig: {
