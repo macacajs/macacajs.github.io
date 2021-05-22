@@ -4,7 +4,7 @@
 - [Android: Webview and its version](//github.com/alibaba/macaca/issues/361)
 - [Use Promise to Write Async Test Case](//github.com/alibaba/macaca/issues/26)
 - [Export Report Failure](//github.com/alibaba/macaca/issues/13)
-- [Don't Have Enought Right](//github.com/alibaba/macaca/issues/8)
+- [Don't have permissions to access folder when installing](//github.com/alibaba/macaca/issues/8)
 - [Run under Linux](//github.com/alibaba/macaca/issues/6)
 - [Run under Windows](//github.com/alibaba/macaca/issues/92)
 - [How to search and locate UI Element](//github.com/alibaba/macaca/issues/65)
