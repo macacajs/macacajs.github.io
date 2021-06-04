@@ -70,7 +70,7 @@ describe('test electron.app', function() {
         platformName: 'desktop',    //设置支持 Desktop 参数
         browserName: 'chrome',      //设置支持 Eletron 参数
         chromeOptions: {            //设置chromeDriver chromeOptions object 参数
-          binary: '/Applications/macaca-electron-builder.app/Contents/MacOS/macaca-electron-builder'  // 填写自己的执行文件路劲或者安装之后的文件路劲
+          binary: '/Applications/macaca-electron-builder.app/Contents/MacOS/macaca-electron-builder'  // 填写自己的执行文件路径或者安装之后的文件路径
         }
       })
       .sleep(2 * 1000);
