@@ -1,10 +1,11 @@
 {
   "name": "macacajs.github.io",
+  "private": true,
   "devDependencies": {
     "git-contributor": "1",
     "macaca-ecosystem": "*",
     "request": "^2.88.0",
-    "vuepress": "^0.14.8"
+    "vuepress": "^1.5.2"
   },
   "repository": {
     "type": "git",

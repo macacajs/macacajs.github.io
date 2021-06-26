@@ -2,8 +2,8 @@
 
 [![build status][travis-image]][travis-url]
 
-[travis-image]: https://img.shields.io/travis/macacajs/macacajs.github.io.svg?style=flat-square
-[travis-url]: https://travis-ci.org/macacajs/macacajs.github.io
+[travis-image]: https://travis-ci.com/macacajs/macacajs.github.io.svg?branch=develop
+[travis-url]: https://travis-ci.com/macacajs/macacajs.github.io
 
 ---
 
