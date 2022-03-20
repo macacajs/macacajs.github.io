@@ -83,6 +83,5 @@ Macaca T-shirt 采用的设计及 Logo 在保留原设计不修改的前提下�
 
 更多请见:
 
-- [macaca-products-design](//github.com/macacajs/macaca-products-design)
-- [photos](//github.com/macacajs/macaca-products-design/issues/1)
-- [macaca-logo](//github.com/macacajs/macaca-logo)
+- [macaca-products-design](//github.com/macacajs/macaca-ecosystem/tree/master/macaca-t-shirt-design)
+- [macaca-logo](//github.com/macacajs/macaca-ecosystem/tree/master/macaca-logo)

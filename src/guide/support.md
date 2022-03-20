@@ -87,6 +87,5 @@ Macaca T-shirt's design is free of charge to any person. Just enjoy it.
 
 More about:
 
-- [macaca-products-design](//github.com/macacajs/macaca-products-design)
-- [photos](//github.com/macacajs/macaca-products-design/issues/1)
-- [macaca-logo](//github.com/macacajs/macaca-logo)
+- [macaca-products-design](//github.com/macacajs/macaca-ecosystem/tree/master/macaca-t-shirt-design)
+- [macaca-logo](//github.com/macacajs/macaca-ecosystem/tree/master/macaca-logo)
