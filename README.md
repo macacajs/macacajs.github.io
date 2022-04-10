@@ -1,10 +1,5 @@
 # Official Site of Macaca
 
-[![build status][travis-image]][travis-url]
-
-[travis-image]: https://travis-ci.com/macacajs/macacajs.github.io.svg?branch=develop
-[travis-url]: https://travis-ci.com/macacajs/macacajs.github.io
-
 ---
 
 <!-- GITCONTRIBUTOR_START -->
