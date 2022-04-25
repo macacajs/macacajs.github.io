@@ -4,7 +4,6 @@
   "devDependencies": {
     "git-contributor": "1",
     "macaca-ecosystem": "*",
-    "request": "^2.88.0",
     "vuepress": "^1.5.2"
   },
   "repository": {
