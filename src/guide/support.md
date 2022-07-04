@@ -11,10 +11,6 @@ Source code for the packages can be found in [Macaca Org](//github.com/macacajs)
 
 Source code for the docs can be found in [macacajs.github.io](//github.com/macacajs/macacajs.github.io).
 
-## DingTalk
-
-<img src="/assets/6d308bd9ly1fzol6szylcj20ku0ri0vx.jpg" width="280" />
-
 ## Team Members
 
 [Members list](//github.com/orgs/macacajs/people)
