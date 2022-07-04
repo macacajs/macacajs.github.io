@@ -11,10 +11,6 @@ Macaca 依赖的功能模块非常多，所以我们使用主仓库 ([Macaca](//
 
 本文档源码在 [macacajs.github.io](//github.com/macacajs/macacajs.github.io)。
 
-## 钉钉群
-
-<img src="/assets/6d308bd9ly1fzol6szylcj20ku0ri0vx.jpg" width="280" />
-
 ## 团队成员
 
 [成员列表](//github.com/orgs/macacajs/people)
